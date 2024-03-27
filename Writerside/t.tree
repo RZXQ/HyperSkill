@@ -8,7 +8,11 @@
 
     <toc-element topic="Computer-science.md">
         <toc-element topic="Fundamentals.md">
-            <toc-element topic="JVM.md"/>
+            <toc-element topic="JVM.md">
+                <toc-element topic="JVM-basics.md">
+                    <toc-element topic="Basic-terms-JVM-JRE-JDK.md"/>
+                </toc-element>
+            </toc-element>
             <toc-element topic="Dev-tools.md">
                 <toc-element topic="IntelliJ-IDEA series.md">
                     <toc-element topic="IntelliJ-IDEA.md"/>
