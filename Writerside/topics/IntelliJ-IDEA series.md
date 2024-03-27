@@ -1,0 +1,3 @@
+# IntelliJ IDEA series
+
+Start typing here...

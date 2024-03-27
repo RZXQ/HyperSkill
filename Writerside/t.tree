@@ -10,7 +10,7 @@
         <toc-element topic="Fundamentals.md">
             <toc-element topic="JVM.md"/>
             <toc-element topic="Dev-tools.md">
-                <toc-element topic="IntelliJ-IDEA Series.md">
+                <toc-element topic="IntelliJ-IDEA series.md">
                     <toc-element topic="IntelliJ-IDEA.md"/>
                     <toc-element topic="IntelliJ-IDEA-basics.md"/>
                     <toc-element topic="JetBrains-Academy-plugin.md"/>
