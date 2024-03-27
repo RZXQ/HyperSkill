@@ -1,0 +1,16 @@
+# Blur
+
+Utilities for applying blur filters to an element.
+
+## [Quick reference](https://tailwindcss.com/docs/blur#class-reference)
+
+| Class     | Properties          |
+|-----------|---------------------|
+| blur-none | filter: blur(0);    |
+| blur-sm   | filter: blur(4px);  |
+| blur      | filter: blur(8px);  |
+| blur-md   | filter: blur(12px); |
+| blur-lg   | filter: blur(16px); |
+| blur-xl   | filter: blur(24px); |
+| blur-2xl  | filter: blur(40px); |
+| blur-3xl  | filter: blur(64px); |

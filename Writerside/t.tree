@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="t"
+                 name="theory"
+                  start-page="Tailwind-CSS.md">
+
+    <toc-element topic="Tailwind-CSS.md">
+        <toc-element topic="Typography.md">
+            <toc-element topic="Font-Family.md"/>
+            <toc-element topic="Font-Size.md"/>
+            <toc-element topic="Font-Smoothing.md">
+            </toc-element>
+            <toc-element topic="Font-Style.md"/>
+            <toc-element topic="Font-Weight.md"/>
+            <toc-element topic="Letter-Spacing.md"/>
+            <toc-element topic="Line-Clamp.md"/>
+            <toc-element topic="List-Style-Position.md"/>
+            <toc-element topic="List-Style-Type.md"/>
+            <toc-element topic="Text-Align.md"/>
+            <toc-element topic="Text-Decoration-Style.md"/>
+            <toc-element topic="Text-Decoration.md"/>
+            <toc-element topic="Text-Transform.md"/>
+        </toc-element>
+        <toc-element topic="Filters.md"/>
+        <toc-element topic="Blur.md"/>
+        <toc-element topic="Transitions-Animation.md">
+            <toc-element topic="Animation.md"/>
+        </toc-element>
+    </toc-element>
+</instance-profile>
