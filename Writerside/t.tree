@@ -13,8 +13,10 @@
                 <toc-element topic="IntelliJ-IDEAs.md">
                     <toc-element topic="IntelliJ-IDEA.md"/>
                     <toc-element topic="IntelliJ-IDEA-basics.md"/>
+                    <toc-element topic="JetBrains-Academy-plugin.md"/>
                 </toc-element>
             </toc-element>
         </toc-element>
+        <toc-element topic="Programmimg-languages.md"/>
     </toc-element>
 </instance-profile>
