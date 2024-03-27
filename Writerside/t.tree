@@ -20,7 +20,9 @@
         <toc-element topic="Programmimg-languages.md">
             <toc-element topic="Java.md">
                 <toc-element topic="Basics.md">
-                    <toc-element topic="Introduction-to-Java-series.md"/>
+                    <toc-element topic="Introduction-to-Java-series.md">
+                        <toc-element topic="Introduction-to-Java.md"/>
+                    </toc-element>
                 </toc-element>
             </toc-element>
         </toc-element>
