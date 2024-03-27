@@ -1,3 +1,3 @@
-# Tailwind CSS
+# Computer science
 
 Start typing here...

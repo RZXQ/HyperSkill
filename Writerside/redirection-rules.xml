@@ -10,4 +10,80 @@
         <description>Created after removal of "About theory" from theory</description>
         <accepts>starter-topic.html</accepts>
     </rule>
+    <rule id="3f721d76">
+        <description>Created after removal of "Font Family" from theory</description>
+        <accepts>Typography.html</accepts>
+    </rule>
+    <rule id="11a4345e">
+        <description>Created after removal of "Font Family" from theory</description>
+        <accepts>Font-Family.html</accepts>
+    </rule>
+    <rule id="5987a207">
+        <description>Created after removal of "Font Size" from theory</description>
+        <accepts>Font-Size.html</accepts>
+    </rule>
+    <rule id="4112fc8c">
+        <description>Created after removal of "Font Smoothing" from theory</description>
+        <accepts>Font-Smoothing.html</accepts>
+    </rule>
+    <rule id="38358625">
+        <description>Created after removal of "Font Style" from theory</description>
+        <accepts>Font-Style.html</accepts>
+    </rule>
+    <rule id="788d05d4">
+        <description>Created after removal of "Font Weight" from theory</description>
+        <accepts>Font-Weight.html</accepts>
+    </rule>
+    <rule id="1c1d7057">
+        <description>Created after removal of "Letter Spacing" from theory</description>
+        <accepts>Letter-Spacing.html</accepts>
+    </rule>
+    <rule id="6d32e0e">
+        <description>Created after removal of "Line Clamp" from theory</description>
+        <accepts>Line-Clamp.html</accepts>
+    </rule>
+    <rule id="399f7069">
+        <description>Created after removal of "List Style Position" from theory</description>
+        <accepts>List-Style-Position.html</accepts>
+    </rule>
+    <rule id="50d8d125">
+        <description>Created after removal of "List Style Type" from theory</description>
+        <accepts>List-Style-Type.html</accepts>
+    </rule>
+    <rule id="39ed3c07">
+        <description>Created after removal of "Text Align" from theory</description>
+        <accepts>Text-Align.html</accepts>
+    </rule>
+    <rule id="50f03cae">
+        <description>Created after removal of "Text Decoration Style" from theory</description>
+        <accepts>Text-Decoration-Style.html</accepts>
+    </rule>
+    <rule id="6be1d011">
+        <description>Created after removal of "Text Decoration" from theory</description>
+        <accepts>Text-Decoration.html</accepts>
+    </rule>
+    <rule id="4794cc51">
+        <description>Created after removal of "Text Transform" from theory</description>
+        <accepts>Text-Transform.html</accepts>
+    </rule>
+    <rule id="487a2f3d">
+        <description>Created after removal of "Filters" from theory</description>
+        <accepts>Filters.html</accepts>
+    </rule>
+    <rule id="8b5fa89">
+        <description>Created after removal of "Blur" from theory</description>
+        <accepts>Blur.html</accepts>
+    </rule>
+    <rule id="5c99e9d5">
+        <description><![CDATA[Created after removal of "Transitions & Animation" from theory]]></description>
+        <accepts>Transitions-Animation.html</accepts>
+    </rule>
+    <rule id="e56ca15">
+        <description>Created after removal of "Animation" from theory</description>
+        <accepts>Animation.html</accepts>
+    </rule>
+    <rule id="e64285b">
+        <description>Created after removal of "Tailwind CSS" from theory</description>
+        <accepts>Tailwind-CSS.html</accepts>
+    </rule>
 </rules>

@@ -1,3 +1,0 @@
-# Transitions &amp; Animation
-
-Start typing here...
