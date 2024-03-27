@@ -1,3 +1,3 @@
-# IntelliJ IDEAs
+# Basics
 
 Start typing here...
