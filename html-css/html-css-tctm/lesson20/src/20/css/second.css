@@ -1,0 +1,61 @@
+@keyframes perFn {
+    form {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+
+}
+
+@keyframes per {
+    form {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+
+}
+
+section {
+    height: 1000px;
+    background: url(../imgs/imgd/bg2.jpg) no-repeat center top;
+}
+
+#circle {
+    position: absolute;
+    left: -50px;
+    top: 0px;
+}
+
+#circle div {
+    position: absolute;
+    background-size: 100% 100%;
+}
+
+#circle-outer {
+    animation: perFn 10s linear infinite;
+}
+
+#circle-inner {
+    animation: perFn 10s linear infinite;
+    top: 35px;
+    left: 35px;
+}
+
+#circle-center {
+    animation: per 10s linear infinite;
+    top: 25px;
+    left: 25px;
+}
+
+#tit {
+    left: 75px;
+    top: 75px;
+}
+
+
+/* 在下方写你的代码：设置样式*/
+
+

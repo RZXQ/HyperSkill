@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>码到成功</title>
+  <style>
+      ul {
+          list-style: square;
+          background: plum;
+          filter: opacity(80%);
+          width: 80px;
+      }
+  </style>
+</head>
+<body>
+<ul id="tools">
+  <li>
+    铅笔
+  </li>
+  <li>
+    橡皮
+  </li>
+  <li>
+    彩笔
+  </li>
+  <li>
+    画纸
+  </li>
+</ul>
+<script>
+  //在ul标记的子节点的第一位插入一个包含内容"蜡笔"，文字颜色为绿色的li节点
+  var tools = document.getElementById('tools');
+  var newTool = document.createElement('li');
+  newTool.innerHTML = '蜡笔';
+  newTool.style.color = 'green';
+  tools.insertBefore(newTool, tools.firstChild);
+</script>
+</body>
+</html>

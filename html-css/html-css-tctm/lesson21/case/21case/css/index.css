@@ -1,0 +1,70 @@
+.container {
+    width: 200px;
+    height: 250px;
+    border: 2px solid lightgray;
+    padding: 80px 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+    border: 2px solid lightgray;
+}
+
+.name {
+    font-size: 12px;
+    color: lightgray;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/*设置样式*/
+.login {
+    width: 200px;
+    height: 40px;
+    background-color: green;
+    line-height: 40px;
+}
+
+#login {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.free {
+    width: 120px;
+    height: 25px;
+    line-height: 25px;
+    border: 2px solid lightgray;
+    margin: 50px auto;
+}
+
+#free {
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+}
+
+#find {
+    color: gray;
+    text-decoration: none;
+}
+
+#select {
+    color: gray;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+

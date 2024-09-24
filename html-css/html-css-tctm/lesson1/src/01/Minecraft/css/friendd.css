@@ -1,0 +1,173 @@
+﻿#friendd6 {
+    width: 60%;
+    height: 85%;
+    /*border:1px solid red;*/
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 9%;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    overflow-x: visible;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    background-image: url(../imgs/goodfri.png);
+    background-repeat: no-repeat;
+    background-position: 5% 3%;
+    background-size: 60% 8%;
+
+
+}
+
+/*右侧白三角*/
+#friendd6 .classmask {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 50px solid rgba(255, 255, 255, 0.7);
+    border-bottom: 50px solid transparent;
+    position: absolute;
+    right: -50px;
+    top: 30%;
+}
+
+/*背景角色人物*/
+#friendd6 .friendbgdecoration {
+    width: 40%;
+    height: 55%;
+    /*border:1px solid red;*/
+    position: absolute;
+    right: -35%;
+    bottom: -3.5%;
+    background: url(../imgs/frienddbg.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+/*朋友列表主体*/
+#friendd6 .friendcontent {
+    width: 90%;
+    height: 90%;
+    /*border:1px solid red;*/
+    margin: 7% auto;
+    overflow: auto;
+
+
+}
+
+#friendd6 .friendcontent > div {
+    /*border:1px solid red;*/
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+/*每个好友通用设置*/
+#friendd6 .friendcontent .friendee {
+    width: 30%;
+    height: 40%;
+
+}
+
+#friendd6 .friendcontent .friendee div {
+    /*border:1px solid red;*/
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+
+#friendd6 .friendcontent .friendee .gfriendphoto {
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+}
+
+#friendd6 .friendcontent .friendee .gfriendname {
+    width: 55%;
+    height: 15%;
+    font-family: "microSoft YaHei";
+    color: #e96e7b;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#friendd6 .friendcontent .friendee .gfriendchat {
+    width: 55%;
+    height: 15%;
+
+    text-align: center;
+    color: #52514f;
+    background: url(../imgs/tou1.png) no-repeat;
+    background-size: 100% 100%;
+    margin-top: 6%;
+    line-height: 150%;
+    font-size: 1vw;
+}
+
+/*每个好友的特殊设置*/
+#friendd6 .friendcontent #friendd1 .gfriendphoto {
+    background: url(../imgs/f1.gif) no-repeat;
+    background-size: 100% 100%;
+}
+
+#friendd6 .friendcontent #friendd2 .gfriendphoto {
+    background: url(../imgs/f2.gif) no-repeat;
+    background-size: 100% 100%;
+}
+
+#friendd6 .friendcontent #friendd3 .gfriendphoto {
+    background: url(../imgs/f3.gif) no-repeat;
+    background-size: 100% 100%;
+}
+
+#friendd6 .friendcontent #friendd4 .gfriendphoto {
+    background: url(../imgs/f4.gif) no-repeat;
+    background-size: 100% 100%;
+}
+
+#friendd6 .friendcontent #friendd5 .gfriendphoto {
+    background: url(../imgs/f5.gif) no-repeat;
+    background-size: 100% 100%;
+}
+
+#friendd6 .friendcontent #frienddd6 .gfriendphoto {
+    background: url(../imgs/addfri.png) no-repeat;
+    background-size: 100% 100%;
+    border-radius: 10%;
+}
+
+#friendd6 .friendcontent #frienddd6 .gfriendchat {
+    background: none;
+}
+
+#friendd6 .friendcontent #friendd2 .gfriendname {
+    color: #00a0e9;
+}
+
+#friendd6 .friendcontent #friendd4 .gfriendname {
+    color: #00a0e9;
+}
+
+/*发起多人聊天*/
+#friendd6 .friendcontent .multichat {
+    width: 20%;
+    height: 7%;
+    /*border:1px solid red;*/
+    position: absolute;
+    bottom: 3%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    background: url(../imgs/multchat.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#friendd6 .friendcontent .multichat:hover, #friendd6 .friendcontent #frienddd6 .gfriendphoto:hover {
+    cursor: pointer;
+}
+
+
+

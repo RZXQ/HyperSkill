@@ -1,0 +1,80 @@
+<!-- 按要求设置网页样式。
+要求：当鼠标放到图片(li下的img)上时，为图片添加相对定位，设置left为2px，top为2px)
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>一码当先</title>
+  <style>
+      body {
+          background-color: #088;
+      }
+
+      ul {
+          width: 780px;
+          margin: 50px auto;
+          list-style-type: none;
+      }
+
+      li {
+          border: 1px solid #ccc;
+          padding: 10px;
+          margin: 10px;
+          width: 218px;
+          float: left;
+          background-color: #fff;
+          font-family: "AR PL UKai CN";
+          text-align: center;
+      }
+
+      /* 在下方书写代码：鼠标悬停时为图片添加相对定位设置  left:2px;top:2px */
+      li img:hover {
+          position: relative;
+          left: 2px;
+          top: 2px;
+      }
+  </style>
+</head>
+<body>
+<ul>
+  <li>
+    <a href="#"><img src="images/01.jpg" /></a>
+    <p>
+      秋
+    </p>
+  </li>
+  <li>
+    <a href="#"><img src="images/02.jpg" /></a>
+    <p>
+      你在何方？
+    </p>
+  </li>
+  <li>
+    <a href="#"><img src="images/03.jpg" /></a>
+    <p>
+      有你的时光
+    </p>
+  </li>
+  <li>
+    <a href="#"><img src="images/04.jpg" /></a>
+    <p>
+      诗和远方
+    </p>
+  </li>
+  <li>
+    <a href="#"><img src="images/05.jpg" /></a>
+    <p>
+      漂洋过海来看你
+    </p>
+  </li>
+  <li>
+    <a href="#"><img src="images/06.jpg" /></a>
+    <p>
+      余晖
+    </p>
+  </li>
+</ul>
+</body>
+</html>

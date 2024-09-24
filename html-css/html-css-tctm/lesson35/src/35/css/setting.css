@@ -1,0 +1,55 @@
+/*这里需要在结构代码里添加一个id=settingContent*/
+#settingContent {
+    overflow: visible;
+}
+
+.settingWrap {
+    padding: 40px;
+    position: absolute;
+}
+
+.settingWrap .userInfo {
+    position: relative;
+    top: -70px;
+}
+
+.settingWrap .profile {
+    width: 80px;
+    border-radius: 10px;
+}
+
+.settingWrap .name {
+    font-size: 20px;
+    color: skyblue;
+    font-weight: bold;
+}
+
+.settingWrap .flower {
+    width: 150px;
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+}
+
+/* 设置无序列表样式 */
+
+/* 设置无序列表的列表项样式 */
+
+/* 设置左侧列表项内容 */
+
+/* 设置右侧列表项内容 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

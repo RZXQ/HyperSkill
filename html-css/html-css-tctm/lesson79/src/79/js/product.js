@@ -1,0 +1,16 @@
+var sidebar = document.getElementsByClassName('sidebar')[0];
+var back = document.getElementsByClassName('back')[0];
+window.onscroll = function() {
+  scroll_top = document.documentElement.scrollTop;
+  if (scroll_top > 650) {
+    sidebar.style.position = 'fixed';
+    sidebar.style.top = '50%';
+    sidebar.style.marginTop = '-265px';
+  } else {
+    sidebar.style.position = 'relative';
+    sidebar.style.top = '';
+    sidebar.style.marginTop = '';
+  }
+};
+
+

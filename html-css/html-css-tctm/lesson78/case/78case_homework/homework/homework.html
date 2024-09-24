@@ -1,0 +1,49 @@
+<!-- 请通过JS实现插入古诗中的最后两句：“人生自古谁无死？留取丹心照汗青。”。-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>一码当先</title>
+  <style>
+      div {
+          width: 300px;
+          height: 350px;
+          border: 2px solid pink;
+          padding-left: 30px;
+          background: pink;
+      }
+
+      h4 {
+          padding-left: 90px;
+      }
+
+  </style>
+</head>
+<body>
+<div id="poem">
+  <h4>过零丁洋</h4>
+  <p>
+    辛苦遭逢起一经，干戈寥落四周星。
+  </p>
+  <br />
+  <p>
+    山河破碎风飘絮，身世浮沉雨打萍。
+  </p>
+  <br />
+  <p>
+    惶恐滩头说惶恐，零丁洋里叹零丁。
+  </p>
+  <br />
+</div>
+<script>
+  // 请在下方写你的代码：在结尾插入这首诗的最后两句
+  var poem = document.getElementById('poem');
+  var newPoem = document.createElement('p');
+  newPoem.innerHTML = '人生自古谁无死？留取丹心照汗青。';
+  poem.insertBefore(newPoem, null);
+
+
+</script>
+</body>
+</html>

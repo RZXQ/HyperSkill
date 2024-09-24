@@ -1,0 +1,37 @@
+<!--请实现当鼠标移动到菜单按钮上方时，
+	菜单按钮的边框圆角发生如图中所示的变化(边框圆角为30px)。
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>一码当先</title>
+</head>
+<style>
+    #box {
+        width: 100px;
+        height: 60px;
+        background-color: brown;
+        text-align: center;
+        line-height: 60px;
+        font-size: 20px;
+        border-radius: 20px;
+        color: white;
+    }
+</style>
+<body>
+<div id="box">
+  菜单
+</div>
+<script>
+  //请在下方写你的代码：实现当鼠标移入到按钮上时，改变按钮边框圆角的效果。
+  var div = document.getElementById('box');
+  div.onmousemove = function() {
+    div.style.borderRadius = 30 + 'px';
+  };
+
+
+</script>
+</body>
+</html>

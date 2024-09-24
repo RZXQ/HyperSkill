@@ -1,0 +1,275 @@
+/*朋友圈大白框*/
+#friendzonec1 {
+    width: 85%;
+    height: 85%;
+    /*border:1px solid red;*/
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    overflow-y: auto;
+    padding-top: 3%;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+
+
+}
+
+/*点击才出现的留言框*/
+#commentArea {
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    top: 20%;
+    background: black;
+    margin: auto;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+
+}
+
+#commentArea textarea {
+    width: 100%;
+    height: 80%;
+
+
+}
+
+/*每一个新的状态框*/
+#friendzonec1 .condition {
+    width: 95%;
+    height: 70%;
+    /*border: 1px solid red;*/
+    margin: 0 auto;
+
+
+}
+
+/*发布状态人信息*/
+#friendzonec1 .condition header {
+    width: 40%;
+    height: 25%;
+    /*border:1px solid red;*/
+}
+
+#friendzonec1 .condition header div {
+    width: 10%;
+    height: 80%;
+    /*border:1px solid red;*/
+    float: left;
+    margin-right: 15px;
+}
+
+#friendzonec1 .condition header div.headphoto {
+    width: 20%;
+    background-image: url(../imgs/head1.png);
+    background-size: 100% 100%;
+}
+
+#friendzonec1 .condition header div.headphoto2 {
+    background-image: url(../imgs/head2.png);
+}
+
+#friendzonec1 .condition header div.headname {
+    height: 30%;
+    min-width: 28%;
+    margin-top: 8%;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    text-align: center;
+    font-family: "microSoft YaHei";
+    font-size: 14px;
+    line-height: 150%;
+    color: #efa9c8;
+
+}
+
+#friendzonec1 .condition header div.headname2 {
+    color: #6ba2ce;
+}
+
+#friendzonec1 .condition header div.headclass {
+    height: 40%;
+    min-width: 33%;
+    margin-top: 6%;
+    background-image: url(../imgs/star.png);
+    background-repeat: no-repeat;
+
+}
+
+#friendzonec1 .condition header div.headclass2 {
+    background-position: -30px 0;
+
+}
+
+/*发布状态的具体内容*/
+#friendzonec1 .condition .conditioncontent {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin-top: -2%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: "microSoft YaHei";
+    font-size: 14px;
+    overflow: auto;
+
+}
+
+/*状态的文字部分*/
+#friendzonec1 .condition .conditioncontent .conditiontext {
+    width: 100%;
+    position: relative;
+    font-weight: 500;
+    padding-right: 75px;
+    box-sizing: border-box;
+    padding-top: 1px;
+
+
+}
+
+#friendzonec1 .condition .conditioncontent .conditiontext .textime {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    font-weight: 300;
+    font-size: 12.5px;
+    color: #959899;
+}
+
+/*状态的图片部分*/
+#friendzonec1 .condition .conditioncontent .conditionphoto {
+    margin-top: 15px;
+}
+
+#friendzonec1 .condition .conditioncontent .conditionphoto:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#friendzonec1 .condition .conditioncontent .conditionphoto div {
+    width: 180px;
+    height: 115px;
+    /*border:1px solid red;*/
+    float: left;
+    margin-right: 20px;
+}
+
+#friendzonec1 .condition .conditioncontent .conditionphoto div.conditionphoto1 {
+    background-image: url(../imgs/show1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+/*状态的点赞部分*/
+#friendzonec1 .condition .conditioncontent .conditionzan {
+    margin-top: 5px;
+    padding-left: 25px;
+    background-image: url(../imgs/zan.jpg);
+    background-repeat: no-repeat;
+    background-size: 40px 50px;
+    background-position: -10px -10px;
+    /*border:1px solid red;*/
+}
+
+#friendzonec1 .condition .conditioncontent .conditionzan:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#friendzonec1 .condition .conditioncontent .conditionzan div {
+    width: 25px;
+    height: 25px;
+    /*border:1px solid red;*/
+    float: left;
+
+
+}
+
+#friendzonec1 .condition .conditioncontent .conditionzan div.zan1 {
+    background-image: url(../imgs/zan1.png);
+    background-size: 100% 100%;
+}
+
+#friendzonec1 .condition .conditioncontent .conditionzan div.zan2 {
+    background-image: url(../imgs/zan2.png);
+    background-size: 100% 100%;
+}
+
+#friendzonec1 .condition .conditioncontent .conditionzan div.zan3 {
+    background-image: url(../imgs/zan3.png);
+    background-size: 100% 100%;
+}
+
+#friendzonec1 .condition .conditioncontent .conditionzan div.zan4 {
+    background-image: url(../imgs/zan4.png);
+    background-size: 100% 100%;
+}
+
+#friendzonec1 .condition .conditioncontent .conditionzan div.zan5 {
+    background-image: url(../imgs/zan5.png);
+    background-size: 100% 100%;
+}
+
+#friendzonec1 .condition .conditioncontent .conditionzan div.zan6 {
+    background-image: url(../imgs/zan6.png);
+    background-size: 100% 100%;
+}
+
+#friendzonec1 .condition .conditioncontent .conditionzan div.zan7 {
+    background-image: url(../imgs/zan7.png);
+    background-size: 100% 100%;
+}
+
+#friendzonec1 .condition .conditioncontent .conditionzan div.zan8 {
+    background-image: url(../imgs/zan8.jpg);
+    background-size: 100% 100%;
+}
+
+#friendzonec1 .condition .conditioncontent .conditionzan div.zan9 {
+    background-image: url(../imgs/zan9.png);
+    background-size: 100% 100%;
+}
+
+#friendzonec1 .condition .conditioncontent .conditionzan div.zan10 {
+    background-image: url(../imgs/zan10.png);
+    background-size: 100% 100%;
+}
+
+#friendzonec1 .condition .conditioncontent .conditioncomment {
+    padding-left: 25px;
+    min-height: 25px;
+    /*border:1px solid red;*/
+    background: url(../imgs/comment.jpg) no-repeat;
+    background-size: 35px 35px;
+    background-position: -8px -4px;
+    margin-top: 6px;
+    /*border:1px solid red;*/
+    position: relative;
+}
+
+#friendzonec1 .condition .conditioncontent .conditioncomment .combutton {
+    position: absolute;
+    width: 55px;
+    height: 45px;
+    background-image: url(../imgs/combutton.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    right: 10px;
+    top: -50px;
+
+}
+
+
+

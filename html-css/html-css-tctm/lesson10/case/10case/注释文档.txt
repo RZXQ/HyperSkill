@@ -1,0 +1,33 @@
+一、在<body>中添加id名为content的<div>，其中包含：
+                           上方英雄栏（id名为hero_top的<div>）
+                           下方英雄栏（id名为hero_bottom的<div>） 	
+                           左侧技能栏（id名为title_left的<div>）
+                           右侧分类栏（id名为classify_right的<div>）
+                           
+二、在上方英雄栏(id名为hero_top的<div>)中添加五个<div>，
+        每个<div>中需要添加一个<img>和<span> 
+    (曹操 孟德、孙权 仲谋、刘备 玄德、诸葛亮 孔明、孙尚香) 
+      
+三、找到外部样式表：style.css,在其中添加样式代码，
+        把<span>标记字体颜色设置为白色
+         
+四、在下方英雄栏(id名为hero_bottom的<div>)中添加五个<div>，
+        每个<div>中需要添加一个<img>和<span> 
+    (关羽 云长、张飞 翼德、黄月英、张辽 文远、周瑜 公瑾) 
+      
+五、在左侧标题栏(id名为title_left的<div>)中添加一个标题(<h1>)
+
+六、在右侧分类栏(id名为classify_right的<div>)中添加六个<div>,并包含文本内容
+	(英雄职业、将领、军师、武将、谋士、文臣)
+	
+七、找到外部样式表 style.css,在其中添加样式代码：
+     1、把id名为classify_right的<div>行高设为五倍;
+     2、字体颜色设置为白色;
+     
+八、找到外部样式表 style.css,在其中将id为
+     content、
+     hero_top(上方英雄栏)、
+     hero_bottom(下方英雄栏)、
+     title_left(左侧标题栏)、
+     classify_right(右侧分类栏)的div中的边框注释掉
+

@@ -1,0 +1,11 @@
+p {
+  /* 1. Padding order: top, right, bottom, left */
+  padding: 10px 20px 10px 20px;
+
+  /* 2. Changing CSS directly in the browser adds an inline style to the DOM */
+
+  /* 3. Margins combine when they touch, reducing overall space (margin collapsing) */
+  margin: 20px;
+
+  /* 4. Use margin to separate elements; use padding for space between the border and content */
+}

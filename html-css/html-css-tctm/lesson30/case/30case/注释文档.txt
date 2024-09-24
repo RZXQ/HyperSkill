@@ -1,0 +1,18 @@
+一、1、为class为list的<div>里的<p>设置样式：
+             上下外边距为15px，左右外边距为10px；左内边距为40px；
+    2、为class为list的<div>里的<a>标签设置样式：
+               字体大小为14px；字体颜色为 #333；    
+    3、为class为list的<div>里的<span>标签设置样式：
+               字体大小为14px；字体颜色为 #333，右浮动；
+         
+二、添加图片，图片路径为imgs/man.gif，class为man 
+       添加图片，图片路径为imgs/entrust.png，class为entrust
+       添加图片，图片路径为imgs/role.png，class为role
+       添加图片，图片路径为imgs/report.png，class为report
+       添加图片，图片路径为imgs/site.png，class为site
+       添加图片，图片路径为imgs/means.png，class为means
+       添加图片，图片路径为imgs/pill.png，class为pill    
+       添加图片，图片路径为imgs/red_line.png，class为red_line
+       
+三、  为class为list的<img>设置样式：
+          绝对定位；top为110px；left为150px；堆叠顺序为9；

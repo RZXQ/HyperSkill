@@ -1,0 +1,53 @@
+<!-- 按要求设置网页样式:
+1、将class为big的图片设置宽度为289px、高度为 500px、左浮动；
+2、将class为wrap的div设置宽度为444px、左浮动；
+3、将class为small的图片设置宽度444px、高度250px；
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>照片拼图</title>
+  <meta charset="UTF-8" />
+  <style>
+      body {
+          background: skyblue;
+      }
+
+      .wrap {
+          font-size: 0;
+      }
+
+      .container {
+          width: 780px;
+          margin: 50px auto;
+      }
+
+      /* 在下方写你的代码：为元素设置样式 */
+      .big {
+          width: 289px;
+          height: 500px;
+          float: left;
+      }
+
+      .wrap {
+          width: 444px;
+          float: left;
+      }
+
+      .small {
+          width: 444px;
+          height: 250px;
+      }
+  </style>
+</head>
+<body>
+<div class="container">
+  <img class="big" src="images/img1.jpg" />
+  <div class="wrap">
+    <img class="small" src="images/img2.jpg" />
+    <img class="small" src="images/img3.jpg" />
+  </div>
+</div>
+</body>
+</html>

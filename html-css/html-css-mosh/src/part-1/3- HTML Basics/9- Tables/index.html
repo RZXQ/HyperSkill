@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+      name="viewport" />
+    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+    <title>Document</title>
+    <style>
+      /* 2. DRY principle */
+      td,
+      th {
+        border: 1px solid grey;
+        padding: 5px;
+      }
+
+      /* 3. border-collapse */
+      table {
+        border-collapse: collapse;
+      }
+
+      tfoot {
+        /* 6. text-align */
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <!-- 4. semantic HTML: <thead>, <tbody>, <tfoot> -->
+      <thead>
+        <tr>
+          <!-- 5. colspan -->
+          <th colspan="2">Expenses</th>
+        </tr>
+
+        <!-- 1. <tr>, <th>, <td> -->
+        <tr>
+          <th>Category</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Marketing</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>Accounting</td>
+          <td>$200</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Total</th>
+          <th>$300</th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

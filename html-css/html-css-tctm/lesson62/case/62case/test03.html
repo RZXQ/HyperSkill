@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>码到成功</title>
+</head>
+<body>
+输入您的昵称：
+<input id="fname" type="text" />
+<script>
+  /*完成效果*/
+  var x = document.getElementById('fname');
+  x.onblur = function() {
+    x.style.color = 'red';
+  };
+</script>
+</body>
+</html>

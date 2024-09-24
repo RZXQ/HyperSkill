@@ -1,0 +1,9 @@
+package part1._01_Getting_Started._03_Your_First_Java_Program;
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	}
+
+}

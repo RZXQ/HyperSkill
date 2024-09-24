@@ -1,0 +1,21 @@
+#photosWrap {
+    width: 700px;
+    height: 400px;
+    margin: 40px auto;
+    box-shadow: 0 0 5px lightgray;
+    overflow: hidden;
+    position: relative;
+}
+
+#middle {
+    width: 99999px;
+    height: 400px;
+    position: absolute;
+    left: 0;
+}
+
+#photosWrap img {
+    width: 700px;
+    height: 400px;
+    float: left;
+}

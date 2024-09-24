@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>码到成功</title>
+  <style>
+      div {
+          width: 200px;
+          height: 200px;
+          border: 1px dashed green;
+      }
+
+      div span {
+          display: inline-block;
+          width: 30px;
+          height: 30px;
+          border-radius: 100%;
+          background-color: red;
+          animation-name: around;
+          animation-duration: 10s;
+          animation-timing-function: ease-in-out;
+          animation-delay: 1s;
+          animation-iteration-count: infinite;
+      }
+
+      @keyframes around {
+          0% {
+              transform: translateX(0);
+          }
+          25% {
+              transform: translateX(180px);
+          }
+      }
+  </style>
+</head>
+<body>
+<div id="ball">
+  <span></span>
+</div>
+<script>
+  window.onload = function() {
+    //计算小球从左到右的移动时间，将结果利用alert弹框弹出
+
+  };
+</script>
+</body>
+</html>
+
+
+
+
+
+
+

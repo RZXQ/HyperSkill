@@ -1,0 +1,26 @@
+.container {
+    width: 300px;
+    height: 400px;
+    background-color: gray;
+    margin: auto;
+    position: relative;
+}
+
+img {
+    width: 130px;
+    position: absolute;
+    right: 10px;
+    top: 130px;
+}
+
+.wrap {
+    position: absolute;
+    top: 170px;
+    transform: scaleX(.7);
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+span {
+    box-sizing: 0 0 5px white;
+}

@@ -1,0 +1,53 @@
+<!-- 在id为"middle"的div中有六张图片，
+    其中第一张和最后一张相同(为实现轮播图效果)，
+    每张图片宽度为250px，请完成题目所示轮播图效果。
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+      #photosWrap {
+          width: 250px;
+          height: 200px;
+          margin: 40px auto;
+          box-shadow: 0 0 5px lightgray;
+          overflow: hidden;
+          position: relative;
+      }
+
+      #middle {
+          width: 9999px;
+          height: 200px;
+          position: absolute;
+          left: 0;
+      }
+
+      #photosWrap img {
+          width: 250px;
+          height: 200px;
+          float: left;
+      }
+  </style>
+</head>
+<body>
+<div id="photosWrap">
+  <div id="middle">
+    <img src="image/image1_57.jpg">
+    <img src="image/image2_57.jpg">
+    <img src="image/image3_57.jpg">
+    <img src="image/image4_57.jpg">
+    <img src="image/image5_57.jpg">
+    <img src="image/image1_57.jpg">
+  </div>
+</div>
+<script>
+  // 在下方写你的代码：完成轮播图效果
+
+
+</script>
+</body>
+</html>
+

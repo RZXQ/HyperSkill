@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>亲自出码</title>
+  <style>
+      #img {
+          width: 200px;
+          height: 100px;
+          position: absolute;
+      }
+  </style>
+</head>
+<body>
+<img id="img" src="images/1.jpg" />
+<script>
+  /*完成拖拽效果*/
+  var img = document.getElementById('img');
+  img.onmousedown = function(event) {
+    var disX = event.clientX - this.offsetLeft;
+    var disY = event.clientY - this.offsetTop;
+    img.onmousemove = function(event) {
+      var l = event.clientX - disX;
+      var t = event.clientY - disY;
+
+      this.style.left = l + 'px';
+      this.style.top = t + 'px';
+    };
+    img.onmouseup = function() {
+      img.onmouseup = img.onmousemove = null;
+    };
+  };
+</script>
+</body>
+</html>

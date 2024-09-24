@@ -1,0 +1,13 @@
+img {
+    width: 80px
+}
+
+div {
+    width: 400px;
+    height: 100px;
+    background-color: gray;
+}
+
+#pink {
+    background-color: blue
+}

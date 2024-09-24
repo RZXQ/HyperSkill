@@ -1,0 +1,34 @@
+<!--请实现点击删除按钮时，依次删除列表中元素的效果。-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>一码当先</title>
+  <link href="css/homework.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="wrap">
+  <ul id="list">
+
+  </ul>
+  <button id="btn">
+    删除
+  </button>
+</div>
+<script>
+  var list = document.getElementById('list');
+  var word = document.getElementById('word');
+  var btn = document.getElementById('btn');
+  var arr = ['我的国', '挪威的森林', '被窝是青春的坟墓'];
+  for (var i = 0; i < arr.length; i++) {
+    var temp = document.createElement('li');
+    temp.innerHTML = arr[i];
+    list.append(temp);
+  }
+  //在下方写你的代码：为按钮绑定点击事件 ，依次删除所有列表中的元素
+
+
+</script>
+</body>
+</html>

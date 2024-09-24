@@ -1,0 +1,43 @@
+<!-- 在id为"album"的div里，有5张图片(img)，
+    请实现五张图片向上自动滚动的效果。
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>一码当先</title>
+  <style>
+      #album {
+          width: 250px;
+          height: 200px;
+          overflow: scroll;
+      }
+
+      img {
+          width: 250px;
+          height: 200px;
+          vertical-align: top;
+      }
+  </style>
+</head>
+<body>
+<div id="album">
+  <img src="images/image1.jpg" />
+  <img src="images/image2.jpg" />
+  <img src="images/image3.jpg" />
+  <img src="images/image4.jpg" />
+  <img src="images/image5.jpg" />
+</div>
+<script>
+  // 在下方写你的代码：完成图片自动滚动的效果
+  var pw = document.getElementById('album');
+  setInterval(function() {
+    pw.scrollTop = pw.scrollTop + 1;
+  }, 10);
+
+
+</script>
+</body>
+</html>
+

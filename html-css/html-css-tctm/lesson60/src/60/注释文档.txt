@@ -1,0 +1,22 @@
+一、通过类名分别获取到class名为swiper-wrapper、next、prev的<div>、，
+       分别用变量wrap、next、prev保存，并在控制台输出 ；
+       提示：  document.getElementsByClassName( )[0]
+       
+二、定义函数next_pic :
+               如果图片容器左偏移量为 -3倍图片宽度(每张图片宽度为886px)：
+	               容器的left值为0px；
+               否则：
+	               容器的left值不断减少886px；
+	               
+     为next(向右的箭头)绑定单击事件，实现函数next_pic 的功能；
+     
+三、定义函数prev_pic :
+              如果图片容器左偏移量为0时：：
+	             容器的left值为 -3倍图片宽度(每张图片宽度为886px)；
+              否则：
+	             容器的left值不断增加886px；
+	             
+    为prev(向左的箭头)绑定单击事件，实现函数prev_pic的功能； 
+    
+四、设置一个定时器，时间间隔为 2000毫秒；
+        在定时器中实现函数 next_pic 的功能；

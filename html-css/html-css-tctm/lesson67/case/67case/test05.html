@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>亲自出码</title>
+  <style>
+      #box {
+          width: 50px;
+          height: 50px;
+          background-color: red;
+          border-radius: 25px;
+          position: absolute;
+      }
+  </style>
+</head>
+<body>
+<div id="box"></div>
+<script>
+  /*完成如图所示效果*/
+  var box = document.getElementById('box');
+  document.onclick = function(event) {
+    x = event.clientX;
+    y = event.clientY;
+    box.style.left = x + 'px';
+    box.style.top = y + 'px';
+  };
+</script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>码到成功</title>
+  <meta charset="utf-8" />
+  <style>
+      .parent {
+          width: 300px;
+          height: 50px;
+          display: block;
+          border: 1px solid black;
+          font-size: 30px;
+          margin: auto;
+          text-align: center;
+          background-color: pink;
+      }
+
+      .active {
+          border-radius: 40px;
+          background-color: purple;
+      }
+  </style>
+</head>
+<body>
+<span class="parent"> span1 </span>
+<span class="parent"> span2 </span>
+<span class="parent"> span3 </span>
+<script>
+  /*实现如图所示效果*/
+  var oSpan = document.getElementsByClassName('parent');
+  for (var i = 0; i < oSpan.length; i++) {
+    oSpan[i].index = i;
+    oSpan[i].onclick = function() {
+      for (var j = 0; j < oSpan.length; j++) {
+        oSpan[j].className = 'parent';
+      }
+      oSpan[this.index].className = 'parent active';
+    };
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,629 @@
+<!-- 请完成网页效果：当点击"一键换肤"按钮时，网页(body元素)的背景颜色发生变化。
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>一码当先</title>
+  <meta charset="utf-8" />
+  <link href="css/index.css" rel="stylesheet" type="text/css" />
+  <link href="css/slider.css" rel="stylesheet" type="text/css" />
+  <style>
+      .pf_one {
+          background-color: lightyellow;
+      }
+
+      .pf_two {
+          background-color: lightgreen;
+      }
+  </style>
+
+</head>
+<body class="pf_one">
+<input id="d1" type="button" value="一键换肤" />
+<div id="top-wrapper">
+  <div id="top-bar">
+    <div id="top-info">
+      <div class="opr-info">
+        <a href="#">我的淘宝</a>
+        <span class="down-icon"> </span>
+        <!--预留-->
+        <ul>
+          <li>
+            已买到的宝贝
+          </li>
+          <li>
+            新欢
+          </li>
+          <li>
+            我的足迹
+          </li>
+          <li>
+            我的上新
+          </li>
+          <li>
+            我的优惠
+          </li>
+        </ul>
+      </div>
+      <div class="opr-info">
+        <a href="#">购物车</a>
+        <span class="down-icon"> </span>
+      </div>
+      <div class="opr-info">
+        <a href="#">收藏夹</a>
+        <span class="down-icon"> </span>
+        <!--预留-->
+        <ul>
+          <li>
+            收藏的宝贝
+          </li>
+          <li>
+            收藏的店铺
+          </li>
+        </ul>
+      </div>
+      <div class="opr-info">
+        <a href="#">商品分类</a>
+      </div>
+      <span id="vertical-line"> </span>
+      <div class="opr-info">
+        <a href="#">卖家中心</a>
+        <span class="down-icon"> </span>
+        <!--预留-->
+        <ul>
+          <li>
+            免费开店
+          </li>
+          <li>
+            已卖出的宝贝
+          </li>
+          <li>
+            出售中的宝贝
+          </li>
+          <li>
+            卖家服务市场
+          </li>
+          <li>
+            卖家培训中心
+          </li>
+          <li>
+            体检中心
+          </li>
+          <li>
+            问商友
+          </li>
+        </ul>
+      </div>
+      <div class="opr-info">
+        <a href="#">联系客服</a>
+      </div>
+      <div class="opr-info">
+        <a href="#">网站导航</a>
+        <span class="down-icon"> </span>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="base">
+  <div id="head">
+    <img src="imgs/logo.gif" />
+    <div id="search-wrapper">
+
+      <div id="search-toggle">
+        宝贝<span class="down-icon"> </span>
+      </div>
+      <input id="search-in" placeholder="请输入宝贝名称" type="text" />
+      <input id="search-but" type="button" value="搜索" />
+
+    </div>
+  </div>
+  <div id="aside">
+    <h3>商品服务分类</h3>
+    <div id="sidebar-info">
+      <ul id="side-list">
+        <li class="s_1">
+          <h3>服装内衣</h3>
+        </li>
+        <li class="s_2">
+          <h3>鞋包配饰</h3>
+        </li>
+        <li class="s_3">
+          <h3>运动户外</h3>
+        </li>
+        <li class="s_4">
+          <h3>珠宝手表</h3>
+        </li>
+        <li class="s_5">
+          <h3>手机数码</h3>
+        </li>
+        <li class="s_6">
+          <h3>家电办公</h3>
+        </li>
+        <li class="s_7">
+          <h3>护肤彩妆</h3>
+        </li>
+        <li class="s_8">
+          <h3>母婴用品</h3>
+        </li>
+        <li class="s_9">
+          <h3>家纺居家</h3>
+        </li>
+        <li class="s_10">
+          <h3>家居建材</h3>
+        </li>
+        <li class="s_11">
+          <h3>美食特产</h3>
+        </li>
+        <li class="s_12">
+          <h3>日用百货</h3>
+        </li>
+        <li class="s_13">
+          <h3>汽车摩托</h3>
+        </li>
+        <li class="s_14">
+          <h3>文化娱乐</h3>
+        </li>
+        <li class="s_15">
+          <h3>本地生活</h3>
+        </li>
+        <li class="s_16">
+          <h3>虚拟服务</h3>
+        </li>
+      </ul>
+      <!-- 预留部分 -->
+      <ul class="hidden-box" style="display:none">
+        <li>
+          <div class="hidden-title">
+            <a href="#">淘宝女人</a><span class="right-box">></span>
+            <a href="#">最in女装</a><span class="right-box">></span>
+            <a href="#">淘宝男人</a><span class="right-box">></span>
+            <a href="#">女人搭配</a><span class="right-box">></span>
+          </div>
+          <div class="sub-nav-right">
+            <div class="cell-box">
+              <h1>印记女装</h1>
+              <div class="a-box">
+                <a href="#">连衣裙</a><span>|</span>
+                <a href="#">裤子</a><span>|</span>
+                <a href="#">小西装</a><span>|</span>
+                <a href="#">长袖村上</a><span>|</span>
+                <a class="orange" href="#">春季外套</a>
+                <a href="#">郑志山</a><span>|</span>
+                <a href="#">毛衣</a><span>|</span>
+                <a href="#">长袖T恤</a><span>|</span>
+                <a href="#">唯一</a><span>|</span>
+                <a href="#">雪绒钱</a><span>|</span>
+                <a href="#">大地亏</a>
+                <a href="#">半身全</a><span>|</span>
+                <a href="#">风衣</a><span>|</span>
+                <a href="#">类似雪纺</a><span>|</span>
+                <a href="#">毛衣外套</a><span>|</span>
+                <a href="#">棒球服</a>
+                <a href="#">牛仔装</a><span>|</span>
+                <a href="#">礼服</a><span>|</span>
+                <a href="#">婚纱</a><span>|</span>
+                <a href="#">大妈</a><span>|</span>
+                <a href="#">Zara</a><span>|</span>
+                <a href="#">挨个</a>
+              </div>
+            </div>
+            <div class="cell-box">
+              <h1>印记女装</h1>
+              <div class="a-box">
+                <a href="#">连衣裙</a><span>|</span>
+                <a href="#">裤子</a><span>|</span>
+                <a href="#">小西装</a><span>|</span>
+                <a href="#">长袖村上</a><span>|</span>
+                <a class="orange" href="#">春季外套</a>
+                <a href="#">郑志山</a><span>|</span>
+                <a href="#">毛衣</a><span>|</span>
+                <a href="#">长袖T恤</a><span>|</span>
+                <a href="#">唯一</a><span>|</span>
+                <a href="#">雪绒钱</a><span>|</span>
+                <a href="#">大地亏</a>
+                <a href="#">半身全</a><span>|</span>
+                <a href="#">风衣</a><span>|</span>
+                <a href="#">类似雪纺</a><span>|</span>
+                <a href="#">毛衣外套</a><span>|</span>
+                <a href="#">棒球服</a>
+                <a href="#">牛仔装</a><span>|</span>
+                <a href="#">礼服</a><span>|</span>
+                <a href="#">婚纱</a><span>|</span>
+                <a href="#">大妈</a><span>|</span>
+                <a href="#">Zara</a><span>|</span>
+                <a href="#">挨个</a>
+              </div>
+            </div>
+            <div class="cell-box">
+              <h1>印记女装</h1>
+              <div class="a-box">
+                <a href="#">连衣裙</a><span>|</span>
+                <a href="#">裤子</a><span>|</span>
+                <a href="#">小西装</a><span>|</span>
+                <a href="#">长袖村上</a><span>|</span>
+                <a class="orange" href="#">春季外套</a>
+                <a href="#">郑志山</a><span>|</span>
+                <a href="#">毛衣</a><span>|</span>
+                <a href="#">长袖T恤</a><span>|</span>
+                <a href="#">唯一</a><span>|</span>
+                <a href="#">雪绒钱</a><span>|</span>
+                <a href="#">大地亏</a>
+                <a href="#">半身全</a><span>|</span>
+                <a href="#">风衣</a><span>|</span>
+                <a href="#">类似雪纺</a><span>|</span>
+                <a href="#">毛衣外套</a><span>|</span>
+                <a href="#">棒球服</a>
+                <a href="#">牛仔装</a><span>|</span>
+                <a href="#">礼服</a><span>|</span>
+                <a href="#">婚纱</a><span>|</span>
+                <a href="#">大妈</a><span>|</span>
+                <a href="#">Zara</a><span>|</span>
+                <a href="#">挨个</a>
+              </div>
+            </div>
+          </div>
+          <div class="sub-nav-left">
+            <div class="cell-box">
+              <h1>印记女装</h1>
+              <div class="a-box">
+                <a href="#">连衣裙</a><span>|</span>
+                <a href="#">裤子</a><span>|</span>
+                <a href="#">小西装</a><span>|</span>
+                <a href="#">长袖村上</a><span>|</span>
+                <a class="orange" href="#">春季外套</a>
+                <a href="#">郑志山</a><span>|</span>
+                <a href="#">毛衣</a><span>|</span>
+                <a href="#">长袖T恤</a><span>|</span>
+                <a href="#">唯一</a><span>|</span>
+                <a href="#">雪绒钱</a><span>|</span>
+                <a href="#">大地亏</a>
+                <a href="#">半身全</a><span>|</span>
+                <a href="#">风衣</a><span>|</span>
+                <a href="#">类似雪纺</a><span>|</span>
+                <a href="#">毛衣外套</a><span>|</span>
+                <a href="#">棒球服</a>
+                <a href="#">牛仔装</a><span>|</span>
+                <a href="#">礼服</a><span>|</span>
+                <a href="#">婚纱</a><span>|</span>
+                <a href="#">大妈</a><span>|</span>
+                <a href="#">Zara</a><span>|</span>
+                <a href="#">挨个</a>
+              </div>
+            </div>
+            <div class="cell-box">
+              <h1>印记女装</h1>
+              <div class="a-box">
+                <a href="#">连衣裙</a><span>|</span>
+                <a href="#">裤子</a><span>|</span>
+                <a href="#">小西装</a><span>|</span>
+                <a href="#">长袖村上</a><span>|</span>
+                <a class="orange" href="#">春季外套</a>
+                <a href="#">郑志山</a><span>|</span>
+                <a href="#">毛衣</a><span>|</span>
+                <a href="#">长袖T恤</a><span>|</span>
+                <a href="#">唯一</a><span>|</span>
+                <a href="#">雪绒钱</a><span>|</span>
+                <a href="#">大地亏</a>
+                <a href="#">半身全</a><span>|</span>
+                <a href="#">风衣</a><span>|</span>
+                <a href="#">类似雪纺</a><span>|</span>
+                <a href="#">毛衣外套</a><span>|</span>
+                <a href="#">棒球服</a>
+                <a href="#">牛仔装</a><span>|</span>
+                <a href="#">礼服</a><span>|</span>
+                <a href="#">婚纱</a><span>|</span>
+                <a href="#">大妈</a><span>|</span>
+                <a href="#">Zara</a><span>|</span>
+                <a href="#">挨个</a>
+              </div>
+            </div>
+            <div class="cell-box">
+              <h1>印记女装</h1>
+              <div class="a-box">
+                <a href="#">连衣裙</a><span>|</span>
+                <a href="#">裤子</a><span>|</span>
+                <a href="#">小西装</a><span>|</span>
+                <a href="#">长袖村上</a><span>|</span>
+                <a class="orange" href="#">春季外套</a>
+                <a href="#">郑志山</a><span>|</span>
+                <a href="#">毛衣</a><span>|</span>
+                <a href="#">长袖T恤</a><span>|</span>
+                <a href="#">唯一</a><span>|</span>
+                <a href="#">雪绒钱</a><span>|</span>
+                <a href="#">大地亏</a>
+                <a href="#">半身全</a><span>|</span>
+                <a href="#">风衣</a><span>|</span>
+                <a href="#">类似雪纺</a><span>|</span>
+                <a href="#">毛衣外套</a><span>|</span>
+                <a href="#">棒球服</a>
+                <a href="#">牛仔装</a><span>|</span>
+                <a href="#">礼服</a><span>|</span>
+                <a href="#">婚纱</a><span>|</span>
+                <a href="#">大妈</a><span>|</span>
+                <a href="#">Zara</a><span>|</span>
+                <a href="#">挨个</a>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <ul class="hidden-box" style="display: none">
+        <li>
+          <div class="hidden-title">
+            <a href="#">女鞋</a><span class="right-box">></span>
+            <a href="#">秋冬新款</a><span class="right-box">></span>
+            <a href="#">短靴</a><span class="right-box">></span>
+            <a href="#">小白鞋</a><span class="right-box">></span>
+          </div>
+          <div class="sub-nav-right">
+            <div class="cell-box">
+              <h1>鞋靴</h1>
+              <div class="a-box">
+                <a href="#">女鞋</a><span>|</span>
+                <a href="#">秋冬短裤</a><span>|</span>
+                <a href="#">短靴</a><span>|</span>
+                <a href="#">玛丽珍靴</a><span>|</span>
+                <a class="orange" href="#">小白鞋</a>
+                <a href="#">抢新品</a><span>|</span>
+                <a href="#">运动鞋女</a><span>|</span>
+                <a href="#">帆布鞋</a><span>|</span>
+                <a href="#">松糕厚底</a><span>|</span>
+                <a href="#">乐福鞋</a><span>|</span>
+                <a href="#">低跟</a>
+                <a href="#">中跟</a><span>|</span>
+                <a href="#">高跟</a><span>|</span>
+                <a href="#">妈妈鞋</a><span>|</span>
+                <a href="#">男鞋</a><span>|</span>
+                <a href="#">秋冬新款</a>
+                <a href="#">靴子</a><span>|</span>
+                <a href="#">休闲鞋</a><span>|</span>
+                <a href="#">板鞋</a><span>|</span>
+                <a href="#">帆布鞋</a><span>|</span>
+                <a href="#">运动风</a><span>|</span>
+                <a href="#">豆豆鞋</a>
+              </div>
+            </div>
+            <div class="cell-box">
+              <h1>箱包</h1>
+              <div class="a-box">
+                <a href="#">早秋上新</a><span>|</span>
+                <a href="#">女包</a><span>|</span>
+                <a href="#">男包</a><span>|</span>
+                <a href="#">双肩包</a><span>|</span>
+                <a class="orange" href="#">旅行箱</a>
+                <a href="#">钱包</a><span>|</span>
+                <a href="#">真皮包</a><span>|</span>
+                <a href="#">大牌</a><span>|</span>
+                <a href="#">宽肩包</a><span>|</span>
+                <a href="#">小方包</a><span>|</span>
+                <a href="#">水桶包</a>
+                <a href="#">迷你包</a><span>|</span>
+                <a href="#">链条包</a><span>|</span>
+                <a href="#">贝壳包</a><span>|</span>
+                <a href="#">波士顿包</a><span>|</span>
+                <a href="#">手拿包</a>
+                <a href="#">单肩包</a><span>|</span>
+                <a href="#">手提包</a><span>|</span>
+                <a href="#">斜挎包</a><span>|</span>
+                <a href="#">零钱包</a><span>|</span>
+                <a href="#">妈妈包</a><span>|</span>
+                <a href="#">欧美潮搭</a>
+              </div>
+            </div>
+            <div class="cell-box">
+              <h1>配件配饰</h1>
+              <div class="a-box">
+                <a href="#">帽子</a><span>|</span>
+                <a href="#">针织帽</a><span>|</span>
+                <a href="#">贝雷帽</a><span>|</span>
+                <a href="#">渔夫帽</a><span>|</span>
+                <a class="orange" href="#">鸭舌帽</a>
+                <a href="#">礼帽</a><span>|</span>
+                <a href="#">毛线帽</a><span>|</span>
+                <a href="#">套头帽</a><span>|</span>
+                <a href="#">爵士帽</a><span>|</span>
+                <a href="#">盆帽</a><span>|</span>
+                <a href="#">八角帽</a>
+                <a href="#">围巾</a><span>|</span>
+                <a href="#">羊绒围巾</a><span>|</span>
+                <a href="#">真丝围巾</a><span>|</span>
+                <a href="#">棉麻围巾</a><span>|</span>
+                <a href="#">方巾</a>
+                <a href="#">皮草围巾</a><span>|</span>
+                <a href="#">手套</a><span>|</span>
+                <a href="#">真皮手套</a><span>|</span>
+                <a href="#">触屏手套</a><span>|</span>
+                <a href="#">半指手套</a><span>|</span>
+                <a href="#">全指手套</a>
+              </div>
+            </div>
+          </div>
+          <div class="sub-nav-left">
+            <div class="cell-box">
+              <h1>鞋靴</h1>
+              <div class="a-box">
+                <a href="#">女鞋</a><span>|</span>
+                <a href="#">秋冬短裤</a><span>|</span>
+                <a href="#">短靴</a><span>|</span>
+                <a href="#">玛丽珍靴</a><span>|</span>
+                <a class="orange" href="#">小白鞋</a>
+                <a href="#">抢新品</a><span>|</span>
+                <a href="#">运动鞋女</a><span>|</span>
+                <a href="#">帆布鞋</a><span>|</span>
+                <a href="#">松糕厚底</a><span>|</span>
+                <a href="#">乐福鞋</a><span>|</span>
+                <a href="#">低跟</a>
+                <a href="#">中跟</a><span>|</span>
+                <a href="#">高跟</a><span>|</span>
+                <a href="#">妈妈鞋</a><span>|</span>
+                <a href="#">男鞋</a><span>|</span>
+                <a href="#">秋冬新款</a>
+                <a href="#">靴子</a><span>|</span>
+                <a href="#">休闲鞋</a><span>|</span>
+                <a href="#">板鞋</a><span>|</span>
+                <a href="#">帆布鞋</a><span>|</span>
+                <a href="#">运动风</a><span>|</span>
+                <a href="#">豆豆鞋</a>
+              </div>
+            </div>
+            <div class="cell-box">
+              <h1>箱包</h1>
+              <div class="a-box">
+                <a href="#">早秋上新</a><span>|</span>
+                <a href="#">女包</a><span>|</span>
+                <a href="#">男包</a><span>|</span>
+                <a href="#">双肩包</a><span>|</span>
+                <a class="orange" href="#">旅行箱</a>
+                <a href="#">钱包</a><span>|</span>
+                <a href="#">真皮包</a><span>|</span>
+                <a href="#">大牌</a><span>|</span>
+                <a href="#">宽肩包</a><span>|</span>
+                <a href="#">小方包</a><span>|</span>
+                <a href="#">水桶包</a>
+                <a href="#">迷你包</a><span>|</span>
+                <a href="#">链条包</a><span>|</span>
+                <a href="#">贝壳包</a><span>|</span>
+                <a href="#">波士顿包</a><span>|</span>
+                <a href="#">手拿包</a>
+                <a href="#">单肩包</a><span>|</span>
+                <a href="#">手提包</a><span>|</span>
+                <a href="#">斜挎包</a><span>|</span>
+                <a href="#">零钱包</a><span>|</span>
+                <a href="#">妈妈包</a>
+              </div>
+            </div>
+            <div class="cell-box">
+              <h1>配件配饰</h1>
+              <div class="a-box">
+                <a href="#">帽子</a><span>|</span>
+                <a href="#">针织帽</a><span>|</span>
+                <a href="#">贝雷帽</a><span>|</span>
+                <a href="#">渔夫帽</a><span>|</span>
+                <a class="orange" href="#">鸭舌帽</a>
+                <a href="#">礼帽</a><span>|</span>
+                <a href="#">毛线帽</a><span>|</span>
+                <a href="#">套头帽</a><span>|</span>
+                <a href="#">爵士帽</a><span>|</span>
+                <a href="#">盆帽</a><span>|</span>
+                <a href="#">八角帽</a>
+                <a href="#">围巾</a><span>|</span>
+                <a href="#">羊绒围巾</a><span>|</span>
+                <a href="#">真丝围巾</a><span>|</span>
+                <a href="#">棉麻围巾</a><span>|</span>
+                <a href="#">方巾</a>
+                <a href="#">皮草围巾</a><span>|</span>
+                <a href="#">手套</a><span>|</span>
+                <a href="#">真皮手套</a><span>|</span>
+                <a href="#">触屏手套</a><span>|</span>
+                <a href="#">半指手套</a><span>|</span>
+                <a href="#">全指手套</a>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+  <div id="content">
+
+    <div id="nav">
+      <a class="special" href="#">天猫</a>
+      <a class="special" href="#">聚划算</a>
+      <a class="special" href="#">二手</a>
+      <span class="line-a"></span>
+      <a href="#">拍卖</a>
+      <a href="#">一淘</a>
+      <a href="#">电器城</a>
+      <a href="#">Hitao粉妆</a>
+      <a href="#">旅行</a>
+      <a href="#">云手机</a>
+      <a href="#">特色中国</a>
+    </div>
+
+    <div id="show-box">
+      <!--图片轮播-->
+      <div id="slider">
+        <ul id="images"></ul>
+        <ul id="index"></ul>
+      </div>
+      <!---->
+    </div>
+    <div id="right-sidebar">
+      <div id="user-login">
+        <div id="user-info">
+          <img src="imgs/user-head.jpg" width="62px" />
+          <div id="inner-user">
+            <h3>hello,童小程</h3>
+          </div>
+        </div>
+        <div id="user-button">
+          <a class="login-btn" href="#">登录</a>
+          <a class="login-btn free" href="#">免费注册</a>
+          <a class="login-btn free" href="#">免费开店</a>
+        </div>
+      </div>
+      <div id="info-box">
+        <ul class="tab-nav">
+          <li class="li-nav li-nav-hover">
+            公告
+          </li>
+          <li class="li-nav">
+            规则
+          </li>
+          <li class="li-nav">
+            论坛
+          </li>
+          <li class="li-nav">
+            安全
+          </li>
+          <li class="li-nav">
+            公益
+          </li>
+        </ul>
+        <div class="hiddenBox" style="display: block">
+          <a href="#">淘宝2014:开放多样性</a>
+          <a href="#">舌尖中国二季 天猫首尝</a>
+          <a href="#">阿里通信自建计费系统</a>
+          <a href="#">来往首届419宇宙节</a>
+        </div>
+        <div class="hiddenBox">
+          <a href="#">[重要] 淘点点规范</a>
+          <a href="#">[重要] 虚假交易新规</a>
+          <a href="#">[重要] 新增认证规则</a>
+          <a href="#">[重要] 购买刀具实名</a>
+        </div>
+        <div class="hiddenBox">
+          <a href="#">[优化] 称谓滥用将整改</a>
+          <a href="#">[热点] 如何赢取新商机</a>
+          <a href="#">[话题] 同城交易避处罚</a>
+          <a href="#">[聚焦] 新消保法全解析</a>
+        </div>
+        <div class="hiddenBox">
+          <a href="#">个人重要信息要管牢！</a>
+          <a href="#">卖家防范红包欺诈提醒</a>
+          <a href="#">更换收货地址的陷阱！</a>
+          <a href="#">注意骗子的技术升级了</a>
+        </div>
+        <div class="hiddenBox">
+          <a href="#">[优化] 称谓滥用将整改</a>
+          <a href="#">[热点] 如何赢取新商机</a>
+          <a href="#">[话题] 同城交易避处罚</a>
+          <a href="#">[聚焦] 新消保法全解析</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</body>
+
+<script src="js/index.js" type="text/javascript"></script>
+<script src="js/slider.js" type="text/javascript"></script>
+<script>
+  // 在下方写你的代码：完成“一键换肤效果”
+
+
+</script>
+</html>

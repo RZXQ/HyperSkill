@@ -1,0 +1,52 @@
+<!--要求：当鼠标移到图片(img)上方时，使图片放大 1.1 倍的效果。 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>一码当先</title>
+  <style>
+      .container {
+          width: 600px;
+          height: 400px;
+          background: url(images/bg9.jpg);
+          margin: 100px auto;
+          position: relative;
+      }
+
+      .wrap {
+          width: 270px;
+          height: 180px;
+          position: absolute;
+          overflow: hidden;
+      }
+
+      img {
+          width: 270px;
+      }
+
+      .wrap:nth-child(1) {
+          left: 50px;
+          top: 50px;
+      }
+
+      .wrap:nth-child(2) {
+          right: 50px;
+          bottom: 50px;
+      }
+
+      /* 在下方书写你的代码：添加鼠标移入图片，使图片放大1.1倍效果*/
+
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="wrap">
+    <img src="images/img9.png" />
+  </div>
+  <div class="wrap">
+    <img src="images/img10.png" />
+  </div>
+</div>
+</body>
+</html>

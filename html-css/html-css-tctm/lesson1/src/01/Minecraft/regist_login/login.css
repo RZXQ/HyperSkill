@@ -1,0 +1,306 @@
+* {
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    height: 96%;
+}
+
+body {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+header {
+    width: 90%;
+    margin: 0 auto;
+    height: 12%;
+    padding-top: 16px;
+    box-sizing: border-box;
+}
+
+header:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.left {
+    float: left;
+}
+
+.logo {
+    width: 260px;
+    height: 45px;
+}
+
+.logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.welcome {
+    width: 200px;
+    height: 47px;
+    /*border-left:1px solid #ccc;*/
+    margin-top: 10px;
+    margin-left: 8px;
+    line-height: 27px;
+    font-size: 23px;
+    padding-left: 15px;
+    color: #333;
+    font-family: microsoft YaHei;
+}
+
+section {
+    height: 80%;
+    width: 100%;
+    background-image: url(../imgs/bglogin.jpg);
+    position: relative;
+    background-size: 100% 100%;
+
+}
+
+.mid {
+    position: absolute;
+    right: 16%;
+    top: -10%;
+    width: 400px;
+    height: 105%;
+    min-height: 500px;
+    /*border:1px solid red;*/
+    background-image: url(../imgs/logintable.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.mid .saoma {
+    position: absolute;
+    top: 110px;
+    left: 110px;
+    width: 160px;
+    height: 40px;
+    background: url(../imgs/sd.jpg) no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.mid .loginbiao {
+    position: absolute;
+    top: 162px;
+    left: 43px;
+    font-size: 25px;
+    font-family: "microSoft YaHei";
+    font-weight: bold;
+    color: #7d7d7d;
+
+}
+
+.tb {
+    position: absolute;
+    width: 70%;
+    height: 40%;
+    top: 190px;
+    right: 52px;
+    /*border:1px solid red;*/
+    font-size: 14px;
+    color: #999;
+    margin-right: 20px;
+    background-color: #fff;
+    border-spacing: 0px 20px;
+}
+
+.t1 {
+    vertical-align: top;
+    height: 10px;
+    /*border:1px solid red;*/
+    width: 95%;
+    height: 46px;
+
+}
+
+.t1 input {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.t1.user input {
+    background: url(../imgs/user.jpg) no-repeat, url(../imgs/deleat.jpg) no-repeat;
+    padding-left: 44px;
+    padding-right: 18px;
+    box-sizing: border-box;
+    background-position: -5px 0, right center;
+    font-size: 15px;
+
+}
+
+.t1.user span {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 20px;
+    height: 40px;
+    /*border:1px solid red;*/
+}
+
+.t1.passw input {
+    background: url(../imgs/passw.jpg) no-repeat;
+    padding-left: 44px;
+    box-sizing: border-box;
+    background-position: -5px 0;
+    font-size: 15px;
+
+}
+
+a:hover, a:link, a:visited {
+    color: #999;
+}
+
+.t2 a:first-child {
+    float: left;
+}
+
+.t2 a:last-child {
+    float: right;
+}
+
+.t3 {
+    text-align: center;
+}
+
+.t3 button {
+    width: 150px;
+    height: 40px;
+    background: url(../imgs/logins.jpg) no-repeat;
+    background-size: 100% 100%;
+    outline: none;
+    border: none;
+}
+
+.t3 button:hover {
+    cursor: pointer;
+}
+
+.t4 a {
+    display: block;
+    width: 100px;
+    height: 20px;
+    background: url(../imgs/dq.jpg) no-repeat;
+    float: left;
+    margin-left: 32px;
+}
+
+.t4 a:first-child {
+    background-image: url(../imgs/dw.jpg);
+}
+
+footer {
+    padding-top: 10px;
+}
+
+footer div:first-child {
+    width: 53%;
+    /*border:1px solid red;*/
+    margin: 0 auto;
+}
+
+footer div:first-child a {
+    padding: 0 8px;
+    border-right: 1px solid #999;
+}
+
+footer div:first-child a:last-child {
+    border-right: none;
+}
+
+footer div:last-child {
+    width: 40%;
+    margin: 5px auto;
+    color: #999;
+    margin-top: 10px;
+}
+
+/*.t1 input{*/
+/*height:35px;*/
+/*width:300px;*/
+/*}*/
+
+/*.t2{*/
+/*height:90px;*/
+/*color:black;*/
+/*}*/
+/*.t2 span,.t2 span a{*/
+/*font-size:2px;*/
+/*}*/
+/*.t2 span a{*/
+/*text-decoration:underline;*/
+/*}*/
+/*.login{*/
+/*width:100%;*/
+/*height:36px;*/
+/*background:#e2393c;*/
+/*border-radius:5px;*/
+/*border:none;*/
+
+/*}*/
+/*.login:hover{*/
+/*background:#f86467;*/
+/*}*/
+/*.login span{*/
+/*color:#fff;*/
+/*font-family:microsoft YaHei;*/
+/*!* font-weight:bold; *!*/
+/*font-size:16px;*/
+/*position:relative;*/
+/*top:-2px;*/
+/*font-weight:bolder;*/
+/*}*/
+/*.t3{*/
+/*height:50px;*/
+/*vertical-align:top;*/
+/*}*/
+/*.t4{*/
+/*height:20px;*/
+/*vertical-align:top;*/
+
+/*}*/
+/*.t4 span{*/
+/*font-size:12px;*/
+/*}*/
+/*.t5{*/
+/*height:30px;*/
+/*vertical-align:top;*/
+/*}*/
+/*.t5 a{*/
+/*font-size:12px;*/
+/*text-decoration:underline;*/
+/*}*/
+/*.t6{*/
+/*}*/
+
+/*.t6 button{*/
+/*width: 120px;*/
+/*height:30px;*/
+/*font-size:14px;*/
+/*color:#fff;*/
+/*background:#7cbe56;*/
+/*border:none;*/
+/*}*/

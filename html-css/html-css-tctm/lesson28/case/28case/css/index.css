@@ -1,0 +1,52 @@
+body {
+    background: url(../images/bg.jpeg);
+    background-size: contain;
+    height: 2000px;
+}
+
+.nav {
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+img {
+    position: fixed;
+    left: 10px;
+    top: 90px;
+}
+
+.top {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 70px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

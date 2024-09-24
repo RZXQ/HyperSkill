@@ -1,0 +1,130 @@
+<!-- 在提示位置添加单选框和提交按钮(样式已预留)。 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>一码当先</title>
+  <style>
+      * {
+          margin: 0px;
+          padding: 0px;
+          box-sizing: border-box;
+      }
+
+      #big {
+          width: 402px;
+          height: 362px;
+          border: 1px solid purple;
+          margin: auto;
+
+      }
+
+      header {
+          width: 400px;
+          height: 40px;
+          font-size: 22px;
+          padding-left: 15px;
+          padding-top: 5px;
+          background: purple;
+          color: white;
+      }
+
+      section {
+          width: 400px;
+          height: 240px;
+          background: #eef1f8;
+      }
+
+      span {
+          font-size: 16px;
+          font-family: "微软雅黑";
+      }
+
+      #way {
+          width: 360px;
+          height: 40px;
+          margin-left: 20px;
+          padding: 10px;
+          border-bottom: 1px solid purple;
+      }
+
+      #city {
+          width: 400px;
+          height: 280px;
+          padding: 20px 40px;
+      }
+
+      #city input {
+          width: 250px;
+          height: 35px;
+          margin-bottom: 10px;
+          margin-left: 10px;
+          font-size: 14px;
+          font-family: "微软雅黑";
+          padding: 5px;
+      }
+
+      footer {
+          width: 400px;
+          height: 80px;
+          padding: 5px;
+          padding-left: 60px;
+          background: #eef1f8;
+      }
+
+      input[type="radio"] {
+          width: 16px;
+          height: 16px;
+      }
+
+      footer input {
+          margin-left: 50px;
+      }
+
+      input[type="submit"] {
+          width: 200px;
+          height: 30px;
+          margin-top: 10px;
+          margin-left: 40px;
+          border-radius: 5px;
+          outline: none;
+          background: purple;
+          color: white;
+          font-size: 20px;
+      }
+  </style>
+</head>
+<body>
+<div id="big">
+  <header>
+    数据查询
+  </header>
+  <section>
+    <div id="way">
+      <!-- 在下方书写你的代码：添加单选按钮 -->
+      <input name="gender" type="radio" />
+      <span>男</span>
+      <!-- 在下方书写你的代码：添加单选按钮 -->
+      <input name="gender" type="radio" />
+      <span>女</span>
+    </div>
+    <div id="city">
+      <span>姓名</span>
+      <input name="direction" placeholder="简拼/全拼/汉字" type="text" />
+      <br />
+      <span>住所</span>
+      <input name="direction" placeholder="简拼/全拼/汉字" type="text" />
+      <br />
+      <span>日期</span>
+      <input name="direction" type="date" />
+      <br />
+    </div>
+  </section>
+  <footer>
+    <!-- 在下方书写你的代码：添加提交按钮，value值为"查 询" -->
+    <input type="submit" value="查询" />
+  </footer>
+</div>
+</body>
+</html>

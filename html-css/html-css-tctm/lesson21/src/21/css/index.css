@@ -1,0 +1,35 @@
+.container {
+    width: 200px;
+    height: 250px;
+    border: 2px solid lightgray;
+    padding: 80px 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+    border: 2px solid lightgray;
+}
+
+.name {
+    font-size: 12px;
+    color: lightgray;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/*设置样式*/
+
+
+
+
+
+
+
+
+
+
+
+

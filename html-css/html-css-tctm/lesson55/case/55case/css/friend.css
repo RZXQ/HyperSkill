@@ -1,0 +1,42 @@
+.wrap {
+    overflow: auto;
+}
+
+.messageWrap {
+    padding: 50px;
+}
+
+.userInfo span {
+    margin: 20px;
+    color: hotpink;
+}
+
+.userInfo .profile {
+    position: relative;
+    top: 20px;
+}
+
+.show {
+    width: 600px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .7);
+}
+
+.show .time {
+    float: right;
+    font-size: 12px;
+    color: gray;
+}
+
+/*设置textarea样式*/
+.show textarea {
+    resize: none;
+    width: 500px;
+    height: 25px;
+    margin-left: 10px;
+    border: none;
+}
+

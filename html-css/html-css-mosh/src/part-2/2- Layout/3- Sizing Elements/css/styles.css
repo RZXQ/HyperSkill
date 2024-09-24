@@ -1,0 +1,28 @@
+/* 1. Universal selector: Applies styles to all elements and their pseudo-elements */
+*,
+*::before,
+*::after {
+  /* 2. Use box-sizing: border-box to include padding and border in the element's total width and height */
+  box-sizing: border-box;
+}
+
+.box::before {
+  content: "Hello";
+  display: block;
+}
+
+.box {
+  /* 3. Width and height only apply to block-level and inline-block elements, not to inline elements */
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+  padding: 20px;
+  border: 10px solid orange;
+
+  /* 4. Display types: block, inline, and inline-block
+        4.1 block: Full width, new line.
+        4.2 inline: Fits content, no new line, width/height ignored.
+        4.3 inline-block: Fits content, no new line, width/height applied.
+  */
+  display: inline-block;
+}

@@ -1,0 +1,89 @@
+<!-- 在提示位置为网页添加一个多行文本域 。
+要求：文本域宽度为560px，高度为200px，左外边距为20px，文本域大小不允许调节 
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>一码当先</title>
+  <style>
+      * {
+          box-sizing: border-box;
+      }
+
+      #mine {
+          width: 600px;
+          height: 600px;
+          border: 1px solid gray;
+          position: relative;
+          margin: auto;
+      }
+
+      header {
+          width: 598px;
+          height: 100px;
+          background: url(imgs/mine.gif);
+          background-size: 100% 100%;
+          position: relative;
+      }
+
+      h2 {
+          position: absolute;
+          top: 10px;
+          left: 20px;
+          font-family: "微软雅黑";
+      }
+
+      section {
+          width: 600px;
+          height: 400px;
+          position: relative;
+      }
+
+      section #list {
+          width: 600px;
+          height: 50px;
+          position: absolute;
+          top: 115px;
+          font-size: 14px;
+          font-family: "微软雅黑";
+      }
+
+      span {
+          padding-left: 20px;
+      }
+
+      p {
+          width: 600px;
+          height: 20px;
+          margin-top: 20px;
+      }
+
+      /*在下方写你的代码：设置文本域样式*/
+      textarea {
+          width: 560px;
+          height: 200px;
+          margin-left: 20px;
+          resize: none;
+      }
+  </style>
+</head>
+<body>
+<div id="mine">
+  <header></header>
+  <section>
+    <h2>用户反馈</h2>
+    <div id="list">
+
+      <p>
+        <span>反馈内容 :</span>
+      </p>
+
+      <!-- 在下方写你的代码：添加多行文本域 -->
+      <textarea>请记录反馈问题</textarea>
+    </div>
+  </section>
+</div>
+</body>
+</html>

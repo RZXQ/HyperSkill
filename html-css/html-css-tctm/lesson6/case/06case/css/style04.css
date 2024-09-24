@@ -1,0 +1,33 @@
+#red {
+    top: -50px;
+    left: 0;
+}
+
+#green {
+    top: 0;
+    left: -30px;
+}
+
+#blue {
+    top: 0;
+    left: 30px;
+}
+
+.wrap {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 100px auto;
+}
+
+.wrap div {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    opacity: .8;
+}
+
+.wrap div {
+    background-color: #0088CC;
+}

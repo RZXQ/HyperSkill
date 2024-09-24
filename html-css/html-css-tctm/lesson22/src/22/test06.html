@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>亲自出码</title>
+  <style>
+      body {
+          margin: 0;
+          padding: 0;
+          background: #2f2f2f;
+      }
+
+      .header {
+          width: 650px;
+          height: 65px;
+          background: url(images/head.png) no-repeat top center;
+          margin: 100px auto 0 auto;
+      }
+
+      .nav {
+          width: 650px;
+          height: 25px;
+          margin: 0 auto;
+      }
+
+      .content {
+          width: 650px;
+          height: 240px;
+          background: url(images/content.png) no-repeat top center;
+          margin: 0 auto;
+      }
+
+      a {
+          color: #808080;
+          border: solid 1px #424242;
+          font-size: 12px;
+          float: left;
+          text-decoration: none;
+          margin-left: 10px;
+          box-sizing: border-box;
+          padding: 0 10px;
+      }
+
+      a:hover {
+          background: #ffce31;
+          color: #2f2f2f;
+      }
+
+      a.checked {
+          background: #ffce31;
+          border: none;
+          color: #2f2f2f;
+      }
+
+      /* 把<a>由行内标记变块元素，设置文本居中、25px高度、25px行高 */
+
+  </style>
+</head>
+<body>
+<div class="header"></div>
+<div class="nav">
+  <a class="checked" href="#">全部</a>
+  <a href="#">斧头技能</a>
+  <a href="#">链刃技能</a>
+  <a href="#">阿特柔丝</a>
+  <a href="#">附身符技能</a>
+</div>
+<div class="content"></div>
+</body>
+</html>

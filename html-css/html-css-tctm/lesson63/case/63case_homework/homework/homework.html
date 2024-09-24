@@ -1,0 +1,29 @@
+<!-- /^[a-zA-Z]([-_a-zA-Z0-9]{5,19})+$/
+          请写出两个符合上述正则表达式的内容
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>一码当先</title>
+</head>
+<body>
+<script>
+  /*
+   * 在下方书写你的代码：请把符合正则表达式的字符串写在注释里
+   * 1：A-dfvr4
+   * 2：a12345
+  */
+
+  //验证代码(预留)：
+  var str = prompt('请输入格式正确的内容');
+  var reg = /^[a-zA-Z]([-_a-zA-Z0-9]{5,19})+$/;
+  if (reg.test(str)) {
+    alert('格式正确');
+  } else {
+    alert('格式错误');
+  }
+</script>
+</body>
+</html>

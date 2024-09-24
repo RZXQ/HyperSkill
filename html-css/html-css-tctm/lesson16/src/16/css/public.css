@@ -1,0 +1,60 @@
+html {
+    background: url(../images/bg.png);
+    height: 1000px;
+}
+
+div {
+    background-color: skyblue;
+}
+
+.big {
+    width: 800px;
+}
+
+.middle {
+    width: 400px;
+}
+
+.small {
+    width: 200px;
+}
+
+#game {
+    background-color: lightgreen;
+}
+
+h1 {
+    color: green;
+}
+
+p {
+    line-height: 2;
+}
+
+.role {
+    font-weight: bold;
+    color: green;
+}
+
+a:hover {
+    font-weight: bold;
+    color: gray;
+}
+
+h3 {
+    color: red;
+}
+
+/*为<a>设置上下外边距为0，左右外边距为50px；
+ 为class为big的<img>设置上下左右外边距为20px；
+ 为<p>设置下外边距为50px*/
+
+
+
+
+
+
+
+
+
+

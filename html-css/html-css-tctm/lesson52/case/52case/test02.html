@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <style>
+      #box {
+          width: 200px;
+          height: 200px;
+          background-color: skyblue;
+          position: relative;
+      }
+  </style>
+</head>
+<body>
+<div id="box"></div>
+<script>
+  var box = document.getElementById('box');
+  var speed = 5;
+  var timer = setInterval(function() {
+    var l = box.offsetTop;
+    box.style.top = l + speed + 'px';
+  }, 100);
+</script>
+</body>
+</html>

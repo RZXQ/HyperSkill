@@ -1,0 +1,23 @@
+.wrap {
+    width: 260px;
+    background-color: #0783c6;
+    margin: 100px auto;
+    text-align: center;
+    padding: 30px 10px;
+    border-radius: 10px;
+}
+
+input {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 0;
+    margin: auto;
+    width: 200px;
+}
+
+/* 设置列表项样式 */

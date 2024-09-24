@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #62a1c9;
+    font-family: "Microsoft Yahei";
+}
+
+.selling-point {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 960px;
+    height: 651px;
+    overflow: hidden;
+    background: url(images/selling-point.png) no-repeat center  /100% 100%;
+}
+
+.swiper {
+    width: 886px;
+    height: 498px;
+    margin: 42px 0 0 40px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.swiper-wrapper {
+    position: absolute;
+    width: 3544px;
+    height: 498px;
+    z-index: 1;
+}
+
+.swiper-wrapper img {
+    display: inline-block;
+    float: left;
+    width: 886px;
+    height: 498px;
+}
+
+/* 在下方写你的代码：设置样式 */
+
+

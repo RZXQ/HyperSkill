@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>码上回顾</title>
+  <style>
+      #photosWrap {
+          width: 250px;
+          height: 200px;
+          overflow: scroll;
+      }
+
+      img {
+          width: 250px;
+          height: 200px;
+      }
+  </style>
+</head>
+<body>
+<div id="photosWrap">
+  <img src="images/image2.jpg">
+  <img src="images/image4.jpg">
+  <img src="images/image6.jpg">
+  <img src="images/image7.jpg">
+</div>
+<script>
+  var pw = document.getElementById('photosWrap');
+  setInterval(function() {
+    pw.scrollTop = pw.scrollTop + 1;
+  }, 10);
+</script>
+</body>
+</html>
+

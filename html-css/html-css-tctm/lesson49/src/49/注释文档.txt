@@ -1,0 +1,25 @@
+一、在<body>中添加id名为structure的<div>，其中包含：
+             头部<header>
+             中部<section>	
+             底部<footer> 
+   
+二、在<header>中：
+	1、添加一个id名为title的<div>，在这个<div>中添加两张图片;
+	2、第一张图片路径为imgs/plane.png ，class名为plane；
+               第二张图片路径为imgs/light.png ，class名为light；
+               
+三、1、style.css文件中为id名为title的<div>设置样式：
+         宽度1280px；高度587px；添加背景图片(../imgs/title.png)；
+         背景不平铺；外边距为auto；相对定位；
+    2、为class为plane的<img>设置样式：
+         绝对定位；right值为-120px；top值为-100px；    
+    3、为class为light的<img>设置样式：
+         绝对定位；left值为300px；top值为220px；逆时针旋转2度；
+         
+四、在<section>中：
+	1、添加一个id名为game_info的<div>，在这个<div>中添加五张图片和一个无序列表;
+	2、五张图片的路径分别为 imgs/tanke.png、 imgs/fire.png、
+	   imgs/battle.png、imgs/hero.png、imgs/board.png；
+	      类名分别为"tank"、"fire"、"battle"、"hero"、"board"；
+	3、无序列表有五个列表项，内容分别为：预赛-决赛-荣耀皇冠、
+	      刺激战场 · 等你到来、勇敢与创造力的展现、童程童美特此举办、快来报名吧！      

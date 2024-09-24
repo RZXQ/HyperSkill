@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>码到成功</title>
+  <style>
+      p {
+          font-family: Arial, Helvetica, sans-serif;
+          color: blueviolet;
+      }
+
+      div {
+          width: 210px;
+          height: 50px;
+          background-color: rgb(247, 174, 216);
+          font-style: italic
+      }
+  </style>
+</head>
+<body>
+<p>
+  当前时间是：
+</p>
+<div id="date"></div>
+<script>
+  //获取当前时间，将获取结果按照“月-日/时-分”的格式写入div中
+  var myNewDate = document.getElementById('date');
+  var myDate = new Date();
+  myNewDate.innerHTML = myDate.getMonth() + '-' + myDate.getDate() + '/' + myDate.getHours() + '-' + myDate.getMinutes();
+</script>
+</body>
+</html>

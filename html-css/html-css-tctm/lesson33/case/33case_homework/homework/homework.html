@@ -1,0 +1,31 @@
+<!-- 当鼠标移到蓝色的 div 元素上时，产生过渡动画效果;
+  div宽度变为300px;动画完成时间为2秒;
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>一码当先</title>
+  <style>
+      div {
+          width: 100px;
+          height: 100px;
+          background: blue;
+          /* 在下方书写你的代码：添加过渡动画 */
+          transition: width 2s;
+      }
+
+      /* 在下方书写你的代码：当鼠标悬停时,width变为300px */
+      div:hover {
+          width: 300px;
+      }
+  </style>
+</head>
+<body>
+<div></div>
+<p>
+  请把鼠标指针移动到蓝色的 div 元素上，就可以看到过渡效果。
+</p>
+</body>
+</html>

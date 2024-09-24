@@ -1,0 +1,46 @@
+#photosWrap {
+    width: 700px;
+    height: 450px;
+    margin: 40px auto;
+    box-shadow: 0 0 5px lightgray;
+    overflow: hidden;
+    position: relative;
+}
+
+#middle {
+    width: 99999px;
+    height: 450px;
+    position: absolute;
+    left: 0;
+}
+
+#photosWrap img {
+    width: 700px;
+    height: 450px;
+    float: left;
+}
+
+.dotWrap {
+    width: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 10px;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: orange;
+    display: inline-block;
+}
+
+.dot:hover {
+    background-color: white;
+}
+
+.dotWrap .active {
+    background-color: white;
+}

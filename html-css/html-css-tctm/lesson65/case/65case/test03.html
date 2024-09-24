@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>码到成功</title>
+</head>
+<style>
+    #box {
+        width: 100px;
+        height: 100px;
+        background-color: pink;
+        border-radius: 50%;
+    }
+</style>
+<body>
+<div id="box"></div>
+<script>
+  //完成效果
+  var div = document.getElementById('box');
+  div.onmousemove = function() {
+    div.style.width = 200 + 'px';
+    div.style.height = 200 + 'px';
+  };
+</script>
+</body>
+</html>

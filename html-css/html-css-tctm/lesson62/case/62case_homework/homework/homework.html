@@ -1,0 +1,31 @@
+<!--请完成题目所示效果：
+    a输入框中输入的内容和b输入框中输入的内容，
+         在b输入框失去焦点时，
+         会在 a+b后面的输入框显示。
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>一码当先</title>
+</head>
+<body>
+a=
+<input id="v1" type="text" />
+b=
+<input id="v2" type="text" />
+a+b=
+<input id="v3" type="text" />
+
+<script>
+  // 在下方写你的代码：
+  var inputs = document.getElementsByTagName('input');
+  inputs[1].onblur = function() {
+    inputs[2].value = inputs[0].value + inputs[1].value;
+  };
+
+
+</script>
+</body>
+</html>

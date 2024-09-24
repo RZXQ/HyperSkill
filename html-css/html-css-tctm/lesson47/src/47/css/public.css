@@ -1,0 +1,47 @@
+html {
+    width: 900px;
+    margin: auto;
+    background-color: #dcd8d9;
+}
+
+div span {
+    margin-right: 60px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+p {
+    text-indent: 30px;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+.big {
+    width: 800px;
+    height: 400px;
+}
+
+.middle {
+    width: 253px;
+    height: 320px;
+}
+
+.small {
+    width: 250px;
+    height: 320px;
+}
+
+.small2 {
+    width: 262px;
+    height: 320px;
+}
+
+#game {
+    background-color: red;
+    border-radius: 13px;
+    color: white;
+    display: inline-block;
+    width: 92px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8" />
+  <style>
+      * {
+          margin: 0;
+          padding: 0;
+      }
+
+      .container {
+          width: 800px;
+          height: 100px;
+          background-color: black;
+          padding: 25px;
+          margin: 100px auto;
+          box-shadow: 0 0 10px black;
+      }
+
+      h3 {
+          color: steelblue;
+      }
+
+      p {
+          color: skyblue;
+          font-size: 14px;
+          margin: 15px 0;
+      }
+
+      span {
+          color: gray;
+          font-size: 14px;
+      }
+
+      /*为class为wrap的元素及<img>添加样式，设置左浮动，实现如图所示图文混排效果*/
+      img {
+          height: 100px;
+          float: left;
+          margin-right: 25px;
+      }
+
+      .wrap {
+          float: left;
+          width: 550px;
+      }
+  </style>
+</head>
+<body>
+<div class="container">
+  <img src="images/wow.jpg" />
+  <div class="wrap">
+    <h3>魔兽玩家们！时空之门已经打开！</h3>
+    <p>
+      魔兽玩家们，欢迎回到熟悉的地方，我们的怀旧服已经开启，一起来体验真实宏达的世界吧。
+    </p>
+    <span>2020-04-26</span>
+  </div>
+</div>
+</body>
+</html>

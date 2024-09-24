@@ -1,0 +1,19 @@
+/* 1. Descendant combinator: selects all <p> elements inside #products */
+#products p {
+  color: orange;
+}
+
+/* 2. Child combinator: selects all <p> elements that are direct children of #products */
+#products > p {
+  color: red;
+}
+
+/* 3. Next-sibling combinator: selects the <p> element that is immediately following #products */
+#products + p {
+  color: purple;
+}
+
+/* 4. Subsequent-sibling combinator: selects all <p> elements that are siblings of #products and come after it */
+#products ~ p {
+  color: green;
+}

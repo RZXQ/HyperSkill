@@ -1,0 +1,17 @@
+p {
+  /* 1. Inherited property */
+  color: dodgerblue;
+
+  /* 2. Non-inherited property */
+  border: 1px solid black;
+
+  strong {
+    /* 3. Reset inherited property */
+    color: initial;
+
+    /* 4. Force inheritance of border */
+    border: inherit;
+  }
+
+  /* 5. Typically inherited properties are typography-related */
+}

@@ -1,0 +1,34 @@
+一、1、 在<body>中添加class名为container的<div>，
+             其中包含两个<div>，它们的类名分别为title和selling-point；
+   2、在类名为selling-point的<div>中添加一个类名为swiper的<div>;
+            在这个<div>中添加三个<div>,类名分别为swiper-wrapper、next、prev； 
+            
+二、3、在类名为swiper-wrapper的<div>中添加4张图片，
+             图片的路径分别为 images/tu1.png、images/tu2.png、images/tu3.png、images/tu4.png；
+             
+三、1、为class名为container的<div>设置样式：
+             宽度100%；高度775px；
+             相对定位；
+             溢出内容隐藏；
+             背景图片为(images/bg.jpg)，居中，不平铺；
+             
+四、2、为class名为title的<div>设置样式：
+             宽度442px；高度98px；
+             背景图片为(images/title.png)，居中，不平铺；
+             背景图片尺寸为 100%；
+             外边距上下为0，左右为auto；
+             
+五、3、为class名为next的<div>设置样式：
+             宽度46px；高度85px；
+             背景图片为(images/next.png)，居中，不平铺；
+             背景图片尺寸为 100%；上外边距为-22px；
+             绝对定位；top值为50%；right值为0；
+             堆叠顺序为10；鼠标光标设置为pointer；
+             
+六、4、为class名为prev的<div>设置样式：
+             宽度46px；高度85px；
+             背景图片为(images/prev.png)，居中，不平铺；
+             背景图片尺寸为 100%；上外边距为-22px；
+             绝对定位；top值为50%；left值为0；
+             堆叠顺序为10；鼠标光标设置为pointer；
+

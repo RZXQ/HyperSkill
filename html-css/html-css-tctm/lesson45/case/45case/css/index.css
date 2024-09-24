@@ -1,0 +1,39 @@
+#btn {
+    box-shadow: 0 0 10px gray;
+}
+
+/*设置样式*/
+#btn {
+    width: 200px;
+    height: 80px;
+    border-radius: 20px;
+    margin: 200px auto;
+    text-align: center;
+    line-height: 80px;
+    font-size: 50px;
+    color: olive;
+    margin-bottom: 50px;
+}
+
+#show {
+    font-size: 60px;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

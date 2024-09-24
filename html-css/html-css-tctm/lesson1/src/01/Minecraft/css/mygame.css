@@ -1,0 +1,238 @@
+﻿/*大白框*/
+#gameshow5 {
+    width: 85%;
+    height: 75%;
+    /* border: 1px solid red; */
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    overflow-y: auto;
+    padding-top: 3%;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    overflow: visible;
+    font-family: "microSoft YaHei";
+}
+
+/*用户信息及操作*/
+#gameshow5 header {
+    width: 85%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    height: 22%;
+    /*border:1px solid red;*/
+    position: absolute;
+    top: -7%;
+}
+
+#gameshow5 header div {
+    float: left;
+    /*border:1px solid red;*/
+    width: 15%;
+    height: 100%;
+    margin-right: 2%;
+}
+
+#gameshow5 header div.headphoto {
+    width: 15%;
+    height: 100%;
+    /*background-image:url(../imgs/head1.png);*/
+    background-size: 100% 100%;
+    border-radius: 20%;
+    background-image: url(../imgs/head3.jpg);
+    background-repeat: no-repeat;
+    border: 2px solid #dbdede;
+
+}
+
+#gameshow5 header div.headname {
+    height: 33%;
+    position: relative;
+    top: 50%;
+    font-size: 27px;
+    font-weight: bold;
+    color: #30b0ef;
+}
+
+#gameshow5 header div.headclass {
+    height: 25%;
+    width: 13%;
+    position: relative;
+    top: 54%;
+    background: url(../imgs/star.png) no-repeat;
+    background-position: 0 0;
+    background-size: 100% 100%;
+}
+
+#gameshow5 header div.recentgame {
+    height: 33%;
+    position: relative;
+    top: 50%;
+    float: right;
+}
+
+#gameshow5 header div.gamecenter, #gameshow5 header div.recentgame {
+    height: 33%;
+    position: relative;
+    top: 50%;
+    float: right;
+    text-align: center;
+    line-height: 160%;
+    font-size: 14px;
+    font-weight: bold;
+    color: #a8afb5;
+    background: url(../imgs/tou1.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+/*游戏展示区*/
+#gameshow5 .gamelist {
+    width: 85%;
+    height: 75%;
+    /*border: 1px solid red;*/
+    margin: auto;
+    position: absolute;
+    top: 18%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+#gameshow5 .gamelist div {
+    /*border:1px solid red;*/
+}
+
+#gameshow5 .gamelist .gamelistee {
+    width: 45%;
+    height: 30%;
+    float: left;
+    margin-left: 3%;
+    margin-bottom: 1%;
+}
+
+#gameshow5 .gamelist .gamelistee div {
+    width: 10%;
+    height: 60%;
+    float: left;
+    margin-right: 2.5%;
+}
+
+#gameshow5 .gamelist .gamelistee .gamenum {
+    height: 35%;
+    top: 25%;
+    position: relative;
+}
+
+#gameshow5 .gamelist .gamelistee .gamephoto {
+    height: 80%;
+    width: 25%;
+    border-radius: 10%;
+}
+
+#gameshow5 .gamelist .gamelistee .gamename {
+    height: 40%;
+    width: 50%;
+    position: relative;
+    top: 25%;
+}
+
+/*分别设置6个游戏信息*/
+#gameshow5 .gamelist #gamelist1 .gamename {
+    background: url(../imgs/wodeshijie.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#gameshow5 .gamelist #gamelist2 .gamename {
+    background: url(../imgs/wangzhe.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#gameshow5 .gamelist #gamelist3 .gamename {
+    background: url(../imgs/xiaoxiaole.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#gameshow5 .gamelist #gamelist4 .gamename {
+    background: url(../imgs/buyu.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#gameshow5 .gamelist #gamelist5 .gamename {
+    background: url(../imgs/baowei.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#gameshow5 .gamelist #gamelist6 .gamename {
+    background: url(../imgs/koudai.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#gameshow5 .gamelist #gamelist1 .gamenum {
+    background: url(../imgs/g1.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#gameshow5 .gamelist #gamelist2 .gamenum {
+    background: url(../imgs/g2.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#gameshow5 .gamelist #gamelist3 .gamenum {
+    background: url(../imgs/g3.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#gameshow5 .gamelist #gamelist4 .gamenum {
+    background: url(../imgs/g4.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#gameshow5 .gamelist #gamelist5 .gamenum {
+    background: url(../imgs/g5.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#gameshow5 .gamelist #gamelist6 .gamenum {
+    background: url(../imgs/g6.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#gameshow5 .gamelist #gamelist1 .gamephoto {
+    background: url(../imgs/gn1.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#gameshow5 .gamelist #gamelist2 .gamephoto {
+    background: url(../imgs/gn2.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#gameshow5 .gamelist #gamelist3 .gamephoto {
+    background: url(../imgs/gn3.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#gameshow5 .gamelist #gamelist4 .gamephoto {
+    background: url(../imgs/gn4.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#gameshow5 .gamelist #gamelist5 .gamephoto {
+    background: url(../imgs/gn5.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#gameshow5 .gamelist #gamelist6 .gamephoto {
+    background: url(../imgs/gn6.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+

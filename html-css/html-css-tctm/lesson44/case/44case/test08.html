@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>亲自出码</title>
+  <style>
+      #container {
+          width: 300px;
+          height: 160px;
+          background-color: #63a1bb;
+          border-radius: 10px;
+          box-shadow: 3px 3px 5px gray;
+          margin: 200px auto;
+          padding: 20px;
+          text-align: center;
+          position: relative;
+      }
+
+      #btn {
+          width: 20px;
+          height: 20px;
+          background-color: #df5984;
+          border-radius: 50%;
+          color: white;
+          font-size: 20px;
+          text-align: center;
+          line-height: 20px;
+          padding: 5px;
+          position: absolute;
+          right: 10px;
+          top: 10px;
+      }
+
+      p {
+          color: white;
+          font-size: 28px;
+          margin-top: 60px;
+      }
+  </style>
+</head>
+<body>
+<div id="container">
+  <div id="btn">
+    X
+  </div>
+  <p>
+    点击按钮，关闭弹窗
+  </p>
+</div>
+<script>
+  /*
+   * 获取页面中的弹窗元素
+   * 获取页面的按钮元素
+   * 当按钮被点击，将整个弹窗隐藏
+   */
+  var oContainer = document.getElementById('container');
+  var oBtn = document.getElementById('btn');
+  oBtn.onclick = function() {
+    oContainer.style.display = 'none';
+  };
+</script>
+</body>
+</html>

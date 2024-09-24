@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+      #album {
+          width: 250px;
+          height: 200px;
+          overflow: scroll;
+      }
+
+      img {
+          width: 250px;
+          height: 200px;
+          vertical-align: top;
+      }
+  </style>
+</head>
+<body>
+<div id="album">
+  <img src="images/image4.jpg">
+  <img src="images/image5.jpg">
+  <img src="images/image6.jpg">
+  <img src="images/image7.jpg">
+</div>
+<script>
+  var pw = document.getElementById('album');
+  setInterval(function() {
+    pw.scrollTop = pw.scrollTop + 1;
+  }, 10);
+</script>
+</body>
+</html>
+

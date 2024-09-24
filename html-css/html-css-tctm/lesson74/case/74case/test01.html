@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>码上回顾</title>
+  <style>
+      ul {
+          list-style: square;
+      }
+  </style>
+</head>
+<body>
+<ul id="good">
+  <li>
+    你是胖的
+  </li>
+  <li>
+    你是瘦的
+  </li>
+</ul>
+<script>
+  //利用appendChild方法为列表添加新的列表项，列表项内容“你是最棒的”
+  var element = document.getElementById('good');
+  var newTip = document.createElement('li');
+  newTip.innerHTML = '你是最棒的';
+  element.appendChild(newTip);
+</script>
+</body>
+</html>

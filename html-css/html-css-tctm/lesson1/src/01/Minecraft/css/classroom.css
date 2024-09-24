@@ -1,0 +1,180 @@
+﻿#classrome7 {
+    width: 65%;
+    height: 85%;
+    /*border:1px solid red;*/
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 9%;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    overflow-x: visible;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    background-image: url(../imgs/classroom.png);
+    background-repeat: no-repeat;
+    background-position: 80% top;
+
+
+}
+
+#classrome7 .classmask {
+    width: 0;
+    height: 0;
+    border-width: 55px 55px 55px 0;
+    border-style: solid;
+    border-color: transparent rgba(255, 255, 255, 0.7) transparent transparent; /*透明 灰 透明 透明 */
+    position: absolute;
+    left: -55px;
+    top: 30%;
+}
+
+#classrome7 .classbgdecoration {
+    width: 40%;
+    height: 55%;
+    /*border:1px solid red;*/
+    position: absolute;
+    left: -30%;
+    bottom: -3.5%;
+    background: url(../imgs/classroombg.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.classmate {
+    width: 90%;
+    height: 95%;
+    /*border:1px solid red;*/
+    margin: 15px auto;
+    overflow: auto;
+
+}
+
+.classmate .classmatee {
+    height: 23%;
+    width: 100%;
+    margin-bottom: 2px;
+    /*border:1px solid red;*/
+}
+
+.classmatee > div {
+    float: left;
+    /*border:1px solid red;*/
+    width: 10%;
+    height: 100%;
+    margin-right: 5%;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    color: #eb6877;
+}
+
+.classmate .jiangpai {
+    height: 65%;
+    position: relative;
+    top: 15%;
+}
+
+.classmate .classmatephoto {
+    width: 17%;
+}
+
+.classmate .classmatename {
+    width: 20%;
+    height: 30%;
+    position: relative;
+    top: 30%;
+    line-height: 200%;
+}
+
+.classmate .classmatecaozuo {
+    width: 30%;
+    height: 30%;
+    margin-right: 0;
+    position: relative;
+    top: 30%;
+
+}
+
+#classmate1 .jiangpai {
+    background: url(../imgs/golden.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#classmate1 .classmatephoto {
+    background: url(../imgs/head1.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.classmate .classmatename {
+    background: url(../imgs/tou1.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.classmate .classmatecaozuo a:first-child {
+    background: url(../imgs/jiafriend.png) no-repeat;
+    background-size: 100% 100%;
+    float: left;
+    width: 40%;
+    display: block;
+    height: 100%;
+}
+
+.classmate .classmatecaozuo a:last-child {
+    background: url(../imgs/guanzhu.png) no-repeat;
+    background-size: 100% 100%;
+    float: right;
+    width: 40%;
+    display: block;
+    height: 100%;
+}
+
+#classmate2 .jiangpai {
+    background: url(../imgs/sliver.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#classmate2 .classmatephoto {
+    background: url(../imgs/head2.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#classmate3 .jiangpai {
+    background: url(../imgs/tong.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#classmate3 .classmatephoto {
+    background: url(../imgs/head3.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+#classmate4 .classmatephoto {
+    background: url(../imgs/head4.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+#classmate2 .classmatename, #classmate4 .classmatename {
+    color: #38b1e5;
+}
+
+#classmate5 .classmatephoto {
+    background: url(../imgs/f1.gif) no-repeat;
+    background-size: 100% 100%;
+}
+
+#classmate6 .classmatephoto {
+    background: url(../imgs/f2.gif) no-repeat;
+    background-size: 100% 100%;
+}
+
+#classmate7 .classmatephoto {
+    background: url(../imgs/f3.gif) no-repeat;
+    background-size: 100% 100%;
+}
+
+#classmate8 .classmatephoto {
+    background: url(../imgs/f4.gif) no-repeat;
+    background-size: 100% 100%;
+}

@@ -1,0 +1,43 @@
+<!-- 请利用js实现点击叉号时移除叉号的父元素的效果。叉号元素已预留(叉号元素为"x")。-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>一码当先</title>
+  <style>
+      #box {
+          width: 300px;
+          height: 150px;
+          border: 1px solid black;
+          padding: 20px;
+          font-size: 26px;
+      }
+
+      .x {
+          position: absolute;
+          left: 320px;
+          top: 25px;
+          color: red;
+      }
+  </style>
+</head>
+<body>
+<div id="box">
+  点击右边符号可删除
+</div>
+<script>
+  var box = document.getElementById('box');
+  var x = document.createElement('span');
+  x.className = 'x';
+  x.innerHTML = 'x';
+  box.appendChild(x);
+  //请在下方写你的代码：完成点击叉号移除叉号父元素的效果
+  x.onclick = function() {
+    document.body.removeChild(this.parentNode);
+  };
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+.wrap {
+    width: 450px;
+    height: 480px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    margin: 100px auto;
+    position: relative;
+}
+
+span {
+    display: inline-block;
+    width: 220px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: blue;
+}
+
+img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+
+span:hover {
+    border-bottom: 2px solid blue;
+}
+
+.active {
+    display: block;
+}

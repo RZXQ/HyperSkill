@@ -1,0 +1,76 @@
+<!--按要求设置网页样式:
+1、将类名为top的元素下的图片设置左浮动；
+2、将类名为wrap的元素下的图片设置宽度90px、高度40px、右外边距 20px；
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>一码当先</title>
+  <style>
+      * {
+          margin: 0;
+          padding: 0;
+      }
+
+      #container {
+          width: 480px;
+          height: 257px;
+          margin: 100px auto;
+          padding: 70px;
+          background: url(images/bg2.png);
+          background-size: contain;
+      }
+
+      .top {
+          color: gray;
+          font-size: 16px;
+          line-height: 1.8;
+      }
+
+      .top img {
+          width: 150px;
+          margin: 0 10px 10px 0;
+      }
+
+      a {
+          font-size: 18px;
+          font-weight: bold;
+          color: gold;
+      }
+
+      .wrap {
+          margin-top: 10px;
+      }
+
+      /*为 '.top img';'.wrap img' 设置样式;*/
+      .top img {
+          float: left;
+      }
+
+      .wrap img {
+          width: 90px;
+          height: 40px;
+          margin-right: 20px;
+      }
+  </style>
+</head>
+<body>
+<div id="container">
+  <div class="top">
+    <img src="images/img56.jpg">
+    <a href="#">艾莉卡</a>
+    <br />
+    侍奉亚雷斯达王国公主的家仆。家仆工作不在话下，护卫能力更是优秀，拥有高超的战斗能力。传说中的吸血鬼所沉眠的【封印的古城】中发生了异变，因而离开王城前往调查。
+    侍奉亚雷斯达王国公主的家仆。家仆工作不在话下，护卫能力更是优秀，拥有高超的战斗能力。
+  </div>
+  <div class="wrap">
+    <img src="images/img57.png">
+    <img src="images/img58.png">
+    <img src="images/img59.png">
+    <img src="images/img60.png">
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+div {
+    background-color: skyblue;
+}
+
+.big {
+    width: 800px;
+}
+
+.middle {
+    width: 400px;
+}
+
+.small {
+    width: 200px;
+}
+
+#game {
+    background-color: lightgreen;
+}
+
+/*
+为<body>设置居中，
+为<h1>添加字体颜色为green，
+为<span>添加下划线、字体粗细为bold、字体大小为18px、字体颜色为hotpink
+*/
+
+
+/*
+为 <p>设置行高为2、首行缩进2em，
+为class为role的元素设置字体粗细为bold、字体颜色为green
+*/
+
+
+
+
+
+
+
+
+
+

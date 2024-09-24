@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 590px;
+}
+
+section {
+    width: 1280px;
+    height: 1150px;
+}
+
+#game_info {
+    width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#invite {
+    width: 440px;
+    height: 325px;
+    position: absolute;
+    top: 175px;
+    right: 80px;
+}
+
+.invite-text {
+    color: #FAF2FA;
+    text-align: center;
+    font-family: "华文新魏";
+    list-style: none;
+    font-size: 36px;
+    line-height: 40px;
+    transition: all .6s;
+}
+
+footer {
+    height: 170px;
+}
+
+#last_info {
+    width: 1150px;
+    height: 100px;
+    margin: 15px auto;
+    padding-top: 15px;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#last_info p {
+    color: rgb(175, 49, 26);
+    font-size: 35px;
+    font-family: "华文新魏";
+    text-shadow: 2px 2px 2px #000;
+}
+
+
+#structure {
+    width: 1200px;
+    margin: auto;
+    background: url(../imgs/bg.jpg) no-repeat;
+}
+
+#p2 {
+    width: 800px;
+    position: absolute;
+    right: 260px;
+    top: 500px;
+}
+
+#p1 {
+    width: 600px;
+    position: absolute;
+    top: 5px;
+}
+
+#p3 {
+    width: 530px;
+    height: 325px;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+
+/* 在下方写你的代码：为id为title的div设置样式*/
+#title {
+    width: 300px;
+    height: 300px;
+    background: url(../imgs/title.png) no-repeat;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+

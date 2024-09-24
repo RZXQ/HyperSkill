@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>码到成功</title>
+</head>
+<body>
+<script>
+  /*请把测试的字符串以及结果写在注释里
+   *
+   * */
+  var str = prompt('请输入格式正确的内容');
+  var reg = /^\d{3}-\d{8}|\d{4}-\d{7}$/;
+  if (reg.test(str)) {
+    alert('格式正确');
+  } else {
+    alert('格式错误');
+  }
+</script>
+</body>
+</html>

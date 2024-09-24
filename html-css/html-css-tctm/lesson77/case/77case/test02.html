@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+</head>
+<body>
+请输入小写字母：
+<input id="txt" maxlength="3" type="text" />
+<script>
+  var mytxt = document.getElementById('txt');
+  mytxt.onkeyup = function() {
+    var val = this.value;
+    this.value = val.toUpperCase();
+  };
+
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+一、1、添加一个id为logo的<div>，在其中添加一张图片，
+              路径为"imgs/imga/logo.png" ;
+   2、添加一个id为nav的<div>,
+             在其中添加8个<a>，<a>标签里是文字内容;
+             
+二、找到外部样式表 first.css，在其中添加样式代码 , 
+        设置id为logo下的图片(#logo img) : 
+        宽度为120px，高度为100px，外边距为上下0px，左右40px;
+        
+三、在id为pc的<div>中添加一个id为content的<div>；
+        在这个<div>中添加7个<a>； 
+        每个<a>链接的地址为second.html，并在新窗口中打开；
+        每个<a>中需添加一个<h2>;
+        每个<h2>中添加一个<span>，为<span>添加类名为game，
+    <span>包裹的文字为GAME1~GAME7   
+    
+四、1、为id为content的div设置内边距，
+             上下为50px，左右为70px，宽度为1200px；
+   2、为h2设置宽度为270px，高度为470px，外边距为15px；
+   3、为class为game的元素设置上内边距为10px，
+             外边距上下为140px，左右为0px，文本居中对齐;
+             
+五、为<footer>标签设置高度100px;
+        并添加背景图片(../imgs/imga/footbg.png);

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+      * {
+          padding: 0;
+          margin: 0;
+      }
+
+      .box {
+          width: 500px;
+          height: 400px;
+          margin: 100px auto;
+          overflow: hidden;
+      }
+
+      ul {
+          width: 600px;
+          height: 40px;
+          margin-left: -1px;
+          list-style: none;
+      }
+
+      li {
+          float: left;
+          width: 101px;
+          height: 40px;
+          text-align: center;
+          font-size: 25px;
+          background-color: pink;
+      }
+
+      span {
+          display: none;
+          width: 500px;
+          height: 360px;
+          background-color: skyblue;
+          text-align: center;
+          font-size: 100px;
+          line-height: 340px;
+      }
+
+      .show {
+          display: block;
+      }
+
+      .current {
+          background-color: skyblue;
+      }
+  </style>
+</head>
+<body>
+<div class="box">
+  <ul>
+    <li>
+      太阳
+    </li>
+    <li>
+      月亮
+    </li>
+    <li>
+      星星
+    </li>
+    <li>
+      鲜花
+    </li>
+    <li>
+      河流
+    </li>
+  </ul>
+  <span>太阳</span>
+  <span>月亮</span>
+  <span>星星</span>
+  <span>鲜花</span>
+  <span>河流</span>
+</div>
+<script>
+  var liArr = document.getElementsByTagName('li');
+  var spanArr = document.getElementsByTagName('span');
+  spanArr[0].className = 'show';
+  liArr[0].className = 'current';
+  for (var i = 0; i < liArr.length; i++) {
+    liArr[i].index = i;
+    liArr[i].onclick = function() {
+      for (var j = 0; j < liArr.length; j++) {
+        liArr[j].className = spanArr[j].className = '';
+      }
+      liArr[this.index].className = 'current';
+      spanArr[this.index].className = 'show';
+    };
+  }
+</script>
+</body>
+</html>

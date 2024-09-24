@@ -1,0 +1,32 @@
+table {
+    margin: 50px auto;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 2px solid skyblue;
+    padding: 0;
+    text-align: center;
+}
+
+table th {
+    font-size: 18px;
+    padding: 5px 0;
+    background: #c5cde1;
+}
+
+.small {
+    width: 80px;
+}
+
+.mid {
+    width: 100px;
+}
+
+.big {
+    width: 120px;
+}
+
+img {
+    width: 30px;
+}	

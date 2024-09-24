@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>码上回顾</title>
+</head>
+<body>
+<script>
+  /*请把结果写在注释里*/
+  var str = prompt('请输入格式正确的内容');
+  var reg = /^[^0-9]{2}[x|y]?$/;
+  if (reg.test(str)) {
+    alert('格式正确');
+  } else {
+    alert('格式错误');
+  }
+</script>
+</body>
+</html>

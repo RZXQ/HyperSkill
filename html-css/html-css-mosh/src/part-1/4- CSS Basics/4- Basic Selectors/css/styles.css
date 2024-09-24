@@ -1,0 +1,44 @@
+/* 1. id selector */
+#products {
+}
+
+/* 2. class selector */
+.product {
+}
+
+/* 3. type selector */
+a {
+  color: orange;
+}
+
+/* 4. attribute selector */
+/* 4.1. Selector for all anchor (<a>) tags with a 'target' attribute */
+a[target] {
+  color: orange;
+}
+
+/* 4.2. Selector for anchor (<a>) tags with 'target' attribute value of "_blank" */
+a[target='_blank'] {
+}
+
+/* 4.3. Selector for anchor (<a>) tags with 'href' attribute value of 'https://google.com'
+   Note: This is fragile because if the 'href' attribute is modified, this rule would not apply */
+a[href="https://google.com"]
+{
+}
+
+/* 4.4. Selector for anchor (<a>) tags with 'href' attribute containing the substring 'google' */
+a[href*='google'] {
+}
+
+/* 4.5. Selector for anchor (<a>) tags with 'href' attribute starting with 'https' */
+a[href^='https'] {
+}
+
+/* 4.6. Selector for anchor (<a>) tags with 'href' attribute ending with 'https' */
+a[href$='https'] {
+}
+
+/* 4.7. Selector for anchor (<a>) tags with both 'href' attribute starting with 'http' and ending with 'https' */
+a[href^='http'][href$='https'] {
+}

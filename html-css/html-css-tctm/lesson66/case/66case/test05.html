@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>码到成功</title>
+</head>
+<body>
+<div id="box">
+  点击我
+</div>
+<script>
+  //完成效果
+  var newP = document.createElement('p');
+  newP.innerHTML = '点击鼠标键';
+  var div = document.getElementById('box');
+  div.onclick = function() {
+    div.append(newP);
+  };
+</script>
+</body>
+</html>

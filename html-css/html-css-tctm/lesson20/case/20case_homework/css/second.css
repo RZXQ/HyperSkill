@@ -1,0 +1,89 @@
+@keyframes perFn {
+    form {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+
+}
+
+@keyframes per {
+    form {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+
+}
+
+section {
+    background: url(../imgs/imgd/bg.jpg) no-repeat center top;
+    background-size: 100% 100%;
+}
+
+#circle {
+    position: absolute;
+    left: -50px;
+    top: 0px;
+}
+
+#circle div {
+    position: absolute;
+    background-size: 100% 100%;
+}
+
+#circle1 {
+    animation: per 10s linear infinite;
+    top: 780px;
+    left: 350px;
+}
+
+#circle2 {
+    animation: perFn 10s linear infinite;
+    top: 650px;
+    left: 590px;
+}
+
+#circle3 {
+    animation: per 10s linear infinite;
+    top: 450px;
+    left: 750px;
+}
+
+section {
+    height: 1000px;
+}
+
+#circle1 {
+    background: url(../imgs/imgd/f1.png) no-repeat;
+    width: 200px;
+    height: 200px;
+}
+
+#circle2 {
+    background: url(../imgs/imgd/f2.png) no-repeat;
+    width: 200px;
+    height: 200px;
+}
+
+#circle3 {
+    background: url(../imgs/imgd/f3.png) no-repeat;
+    width: 200px;
+    height: 200px;
+}
+
+/* 在下方书写代码：为<footer>设置高度并添加背景图片 */
+footer {
+    height: 100px;
+    background: url(../imgs/imgd/footbg2.png);
+}
+
+
+
+
+
+
+
+

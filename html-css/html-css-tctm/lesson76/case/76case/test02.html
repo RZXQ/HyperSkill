@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <style>
+      div {
+          width: 250px;
+          height: 150px;
+          background-color: pink;
+      }
+  </style>
+</head>
+<body>
+<div id="dd"></div>
+<script>
+  var newDate = document.getElementById('dd');
+  var myDate = new Date();
+  newDate.innerHTML = myDate.getTime();
+</script>
+</body>
+</html>

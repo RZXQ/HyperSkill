@@ -1,0 +1,36 @@
+<!--请实现画笔的效果并在网页中绘画出自己喜欢的图案。-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>一码当先</title>
+  <style>
+      .dot {
+          width: 5px;
+          height: 5px;
+          background-color: skyblue;
+          position: absolute;
+      }
+  </style>
+</head>
+<body>
+<script>
+  // 请在下方书写你的代码：完成画笔效果
+  document.onmousedown = function() {
+    document.onmousemove = function(event) {
+      var dot = document.createElement('div');
+      dot.className = 'dot';
+      dot.style.left = event.clientX + 'px';
+      dot.style.top = event.clientY + 'px';
+      document.body.append(dot);
+    };
+    document.onmouseup = function() {
+      document.onmousemove = document.onmouseup = null;
+    };
+  };
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <style>
+      li {
+          color: palevioletred;
+          font-size: 26px;
+      }
+  </style>
+</head>
+<body>
+<ul id="water">
+  <li>coffee</li>
+  <li>milk</li>
+  <li>tea</li>
+  <li>commonWater</li>
+</ul>
+<script>
+  var waterList = document.getElementById('water');
+  waterList.removeChild(waterList.childNodes[4]);
+</script>
+</body>
+</html>

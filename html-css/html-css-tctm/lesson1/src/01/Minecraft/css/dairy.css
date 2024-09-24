@@ -1,0 +1,22 @@
+/*大白框*/
+#dairyshow3 {
+    width: 75%;
+    height: 85%;
+    /*border:1px solid red;*/
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 40px;
+    background: url("../imgs/lalala.jpg");
+    background-size: 100% 100%;
+    overflow-y: auto;
+    padding-top: 3%;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    overflow: visible;
+
+}
+

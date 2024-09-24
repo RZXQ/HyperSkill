@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>码到成功</title>
+  <style>
+      #now {
+          width: 200px;
+          height: 150px;
+          background-color: yellow;
+          filter: opacity(80%);
+      }
+  </style>
+</head>
+<body>
+<div id="now">
+  <p>
+    请获取当前毫秒数并将它转换成秒：
+  </p>
+  <br>
+  <div id="nowDate"></div>
+</div>
+<script>
+  var nowDate = document.getElementById('nowDate');
+  var myNowDate = new Date().getTime();
+  var nowMinute = myNowDate / 1000;
+  nowDate.innerHTML = nowMinute + 's';
+</script>
+</body>
+</html>

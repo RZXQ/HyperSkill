@@ -1,0 +1,53 @@
+<!-- 请在对应位置(有提示)添加 class为 wrap 的div，
+    设置它的宽度为1000px，高度为450px；
+    并为其设置5px，灰色的实线边框；
+    此div居中显示。
+ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>一码当先</title>
+  <style>
+      .base {
+          margin: auto;
+          width: 1100px;
+          height: 858px;
+          background: url(images/bg-head-luoli.png) no-repeat center top;
+          box-sizing: border-box;
+          padding-top: 350px;
+      }
+
+      .base > div {
+          width: 1100px;
+          height: 470px;
+          background-color: rgba(255, 255, 255, 0.7);
+          padding-bottom: 5px;
+      }
+
+      .wrap {
+          position: relative;
+          top: 5px;
+          background: url(images/20180428171111.png) no-repeat;
+      }
+
+      /* 在下方书写代码：为class为 wrap的 div设置样式 */
+      .wrap {
+          width: 1000px;
+          height: 450px;
+          border: 5px solid gray;
+          margin: 0 auto;
+      }
+
+  </style>
+</head>
+<body>
+<div class="base">
+  <div>
+    <!-- 在下方书写代码：添加div-->
+    <div class="wrap"></div>
+  </div>
+</div>
+</body>
+</html>

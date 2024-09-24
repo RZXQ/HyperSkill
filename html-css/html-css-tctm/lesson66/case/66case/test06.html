@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>亲自出码</title>
+  <style>
+  </style>
+</head>
+<body>
+<p>
+  This is a paragraph.
+</p>
+<p>
+  This is another paragraph.
+</p>
+<input type="submit" value="在p元素的结尾添加内容" />
+<script>
+  //完成效果
+  var newSpan = document.createElement('span');
+  newSpan.innerHTML = 'hello world';
+  newSpan.style.color = 'red';
+  var ip = document.getElementsByTagName('input');
+  var ps = document.getElementsByTagName('p');
+  ip[0].onmousedown = function() {
+    ps[0].append(newSpan);
+  };
+  ip[0].onmouseup = function() {
+    ps[1].append(newSpan);
+  };
+</script>
+</body>
+</html>

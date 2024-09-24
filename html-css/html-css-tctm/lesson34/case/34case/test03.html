@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>码到成功</title>
+  <style>
+      body {
+          background: url(images/bg10.jpg) no-repeat top center;
+          background-size: 180%;
+      }
+
+      img {
+          margin-left: 100px;
+          margin-top: 200px;
+      }
+
+      /*设置大标题图片自下而上
+       * 起始动画帧 距离顶部600px
+       * 结束动画帧 距离顶部200px
+       * 动画持续时间为2s
+       */
+      img {
+          animation: change 2s;
+      }
+
+      @keyframes change {
+          0% {
+              margin-top: 600px;
+          }
+          100% {
+              margin-top: 200px;
+          }
+      }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <img src="images/img13.png" />
+</div>
+</body>
+</html>
+
+
+

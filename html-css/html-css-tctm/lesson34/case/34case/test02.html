@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+      div {
+          width: 200px;
+          height: 200px;
+          background-color: skyblue;
+          border-radius: 100px;
+          margin: 100px;
+      }
+
+      div:hover {
+          animation-name: change;
+          animation-duration: 2s;
+          animation-iteration-count: infinite;
+      }
+
+      @keyframes change {
+          0% {
+              background-color: skyblue;
+              border-radius: 40px;
+          }
+          50% {
+              background-color: pink;
+              border-radius: 70px;
+          }
+          100% {
+              background-color: purple;
+              border-radius: 100px;
+          }
+      }
+  </style>
+</head>
+<body>
+<div></div>
+</body>
+</html>
+
+
+
+
+

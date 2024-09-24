@@ -1,0 +1,107 @@
+.container {
+    width: 1270px;
+    background-color: lightgray;
+    margin: 30px auto;
+}
+
+.left {
+    width: 185px;
+    height: 760px;
+    background-color: pink;
+    float: left;
+}
+
+.right {
+    width: 185px;
+    height: 760px;
+    background-color: cyan;
+    float: left;
+}
+
+.main {
+    width: 900px;
+    height: 660px;
+    float: left;
+}
+
+.nav {
+    width: 900px;
+    height: 140px; /*background-color: gold;*/
+}
+
+.content {
+    width: 780px;
+    height: 470px; /*background-color: skyblue;*/
+    padding: 60px;
+    padding-bottom: 80px;
+    background-image: url(../images/contbg.png);
+    background-size: contain;
+}
+
+body {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+}
+
+.nav img {
+    display: block;
+    margin: 0 auto;
+}
+
+.content .wrap {
+    width: 780px;
+    height: 480px;
+    background-color: lightgray;
+}
+
+.nav .wrap {
+    position: relative;
+    right: 20px;
+    top: 25px;
+}
+
+.nav .btn {
+    width: 100px;
+    height: 42px;
+    float: right;
+    background-size: contain;
+    position: relative;
+}
+
+.friend {
+    background: url(../images/nav5.png) no-repeat;
+    left: 80px;
+}
+
+.photo {
+    background: url(../images/nav4.png) no-repeat;
+    left: 50px;
+}
+
+.diary {
+    background: url(../images/nav3.png) no-repeat;
+    left: 20px;
+}
+
+.plan {
+    background: url(../images/nav2.png) no-repeat;
+    left: 0;
+}
+
+.game {
+    background: url(../images/nav1.png) no-repeat;
+    left: -20px;
+}
+
+/**/
+
+
+
+
+
+
+
+
+
+
+

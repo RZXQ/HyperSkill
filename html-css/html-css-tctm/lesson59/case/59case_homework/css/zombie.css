@@ -1,0 +1,132 @@
+#background {
+    background: url(../images/bgzombie.jpg) no-repeat;
+    background-size: 100% 100%;
+    width: 1350px;
+    height: 650px;
+    margin: auto;
+    position: relative;
+}
+
+body {
+    margin: 0;
+}
+
+#tallnut1 {
+    background: url("../images/TallNut.gif") no-repeat;
+    background-size: 100% 100%;
+    width: 81px;
+    height: 117px;
+    left: 400px;
+    top: 50px;
+    position: absolute;
+}
+
+#tallnut2 {
+    background: url("../images/TallNut.gif") no-repeat;
+    background-size: 100% 100%;
+    width: 81px;
+    height: 117px;
+    left: 450px;
+    top: 200px;
+    position: absolute;
+}
+
+#tallnut3 {
+    background: url("../images/TallNut.gif") no-repeat;
+    background-size: 100% 100%;
+    width: 81px;
+    height: 117px;
+    left: 430px;
+    top: 450px;
+    position: absolute;
+}
+
+#sunFlower1 {
+    background: url("../images/SunFlower.gif") no-repeat;
+    background-size: 100% 100%;
+    width: 60px;
+    height: 100px;
+    left: 250px;
+    top: 130px;
+    position: absolute;
+}
+
+#sunFlower1 {
+    background: url("../images/SunFlower.gif") no-repeat;
+    background-size: 100% 100%;
+    width: 60px;
+    height: 100px;
+    left: 250px;
+    top: 130px;
+    position: absolute;
+}
+
+#sunFlower2 {
+    background: url("../images/SunFlower.gif") no-repeat;
+    background-size: 100% 100%;
+    width: 60px;
+    height: 100px;
+    left: 250px;
+    top: 220px;
+    position: absolute;
+}
+
+#sunFlower3 {
+    background: url("../images/SunFlower.gif") no-repeat;
+    background-size: 100% 100%;
+    width: 60px;
+    height: 100px;
+    left: 250px;
+    top: 300px;
+    position: absolute;
+}
+
+#squash {
+    background: url("../images/Squash.gif") no-repeat;
+    background-size: 100% 100%;
+    width: 134px;
+    height: 176px;
+    left: 330px;
+    top: 210px;
+    position: absolute;
+}
+
+#photoMine {
+    background: url("../images/PotatoMine.gif") no-repeat;
+    background-size: 100% 100%;
+    width: 106px;
+    height: 148px;
+    left: 330px;
+    top: 130px;
+    position: absolute;
+}
+
+#stand {
+    background: url("../images/011.png") no-repeat;
+    background-size: 100% 100%;
+    width: 200px;
+    height: 200px;
+    left: 930px;
+    top: 10px;
+    position: absolute;
+}
+
+#move {
+    background: url("../images/21.png") no-repeat;
+    background-size: 100% 100%;
+    width: 200px;
+    height: 200px;
+    left: 730px;
+    top: 100px;
+    position: absolute;
+}
+
+#attack {
+    background: url("../images/31.png") no-repeat;
+    background-size: 100% 100%;
+    width: 200px;
+    height: 200px;
+    left: 470px;
+    top: 300px;
+    position: absolute;
+}

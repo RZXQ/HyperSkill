@@ -1,0 +1,35 @@
+.wrap {
+    width: 260px;
+    background-color: rgb(213, 241, 159);
+    margin: 100px auto;
+    text-align: center;
+    padding: 30px 10px;
+    border-radius: 10px;
+}
+
+ul {
+    padding-left: 0;
+    margin: auto;
+    width: 200px;
+}
+
+li {
+    background-color: #4dbcd8;
+    margin: 5px 0;
+    border-radius: 5px;
+    list-style: none;
+    height: 40px;
+    width: 200px;
+    line-height: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+button {
+    width: 140px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(116, 235, 165);
+}

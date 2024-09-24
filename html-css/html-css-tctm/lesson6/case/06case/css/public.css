@@ -1,0 +1,23 @@
+div {
+    background-color: skyblue;
+}
+
+span {
+    background-color: pink;
+}
+
+.big {
+    width: 800px;
+}
+
+.middle {
+    width: 400px;
+}
+
+.small {
+    width: 200px;
+}
+
+#game {
+    background-color: lightgreen;
+}

@@ -1,0 +1,37 @@
+.content {
+    width: 1000px;
+    margin: 100px auto;
+}
+
+.pic {
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+.pic img {
+    display: block;
+    width: 278px;
+    height: 173px;
+    margin: 0 auto;
+}
+
+.pic input {
+    display: block;
+    width: 100px;
+    border: none;
+    background: -webkit-linear-gradient(left, #f39810, #f85103); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #f39810, #f85103); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #f39810, #f85103); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #f39810, #f85103); /* 标准的语法 */
+    font-size: 16px;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 30px auto 0;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+}	

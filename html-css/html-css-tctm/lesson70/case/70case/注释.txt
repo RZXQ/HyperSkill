@@ -1,0 +1,34 @@
+一、
+通过id获取id名为heroHead的元素，并赋值给变量ulHead;
+声明数组arrHead，初始值为空 ;
+for(声明变量i为1;i<=26;i每次自增1){
+      arrHead[i-1]=创建li元素;
+      如果(i<10){
+			arrHead[i-1].style.背景图属性="url(images/yx0"+i+".jpg)";
+      }否则{
+			arrHead[i-1].style.背景图属性="url(images/yx"+i+".jpg)";
+      }
+      ulHead.append(arrHead[i-1]);
+
+二、
+创建数组free存储本周免费
+创建数组introduction存储新手推荐
+创建数组tank存储坦克
+创建数组soldiers存储战士
+创建数组assassins存储刺客
+创建数组mages存储法师
+创建数组archers存储射手
+创建数组AUXs存储辅助
+调用add()方法  
+
+三、
+通过标记名获取所有input元素，存储在inputs中;
+for(var j=0;j<inputs.length;j++){
+      inputs[j].触发点击事件=function(){
+			for(var k=0;k<inputs.length;k++){
+	      		if(inputs[k].checked){
+					check(k);
+	      		}
+			}
+      }
+}                

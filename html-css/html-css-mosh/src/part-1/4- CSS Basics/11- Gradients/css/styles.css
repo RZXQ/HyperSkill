@@ -1,0 +1,27 @@
+.box {
+  width: 600px;
+  height: 200px;
+  /* 1. Linear gradient */
+  background: linear-gradient(dodgerblue, yellow);
+
+  /* 2. Linear gradient with specified direction */
+  background: linear-gradient(to right, dodgerblue, yellow);
+  background: linear-gradient(to bottom right, dodgerblue, yellow);
+
+  /* 3. Linear gradient with color stop */
+  background: linear-gradient(45deg, dodgerblue, yellow 30%);
+
+  /* 4. Linear gradient with multiple colors */
+  background: linear-gradient(45deg, dodgerblue, yellow, tomato);
+
+  /* 5. Radial gradient */
+  background: radial-gradient(white, yellow);
+
+  /* 6. Radial gradient with circle shape */
+  background: radial-gradient(circle, white, yellow);
+
+  /* 7. Radial gradient with specified position */
+  background: radial-gradient(circle at top left, white, yellow);
+
+  /* 8. Online gradient generator: cssgradient.io */
+}

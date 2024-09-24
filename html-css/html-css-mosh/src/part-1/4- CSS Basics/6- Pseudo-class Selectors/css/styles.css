@@ -1,0 +1,90 @@
+/*
+1. article:first-child:
+Read: article is first-child of its parent
+Target: Styles the <article> if it’s the very first child of its parent.
+Use Case: Less common, used in very specific structural cases.
+
+2. article :first-child:
+Read: anything that is first-child of article
+Target: Styles the first child within an <article>, no matter what type that child is (e.g., <h2>, <p>, etc.).
+Use Case: More common and versatile for styling the first child element within an <article>.
+
+3. article :first-of-type:
+Read: anything that is first-of-its-type within an article
+Target: Styles the first element of its type within an <article>, no matter what type it is (e.g., <h2>, <p>, etc.).
+Use Case: Useful for styling the first occurrence of any type of element within an article.
+
+4. article p:first-of-type:
+Read: p is first-of-its-type within an article
+Target: Styles the first <p> element within an <article> if it’s the very first <p> of its type within that <article>.
+Use Case: Commonly used to style the first paragraph within an article, thereby setting it apart visually.
+
+5. article p:last-of-type:
+Read: p is last-of-its-type within an article
+Target: Styles the last <p> element within an <article>, regardless of what elements come before it.
+Use Case: Useful for giving special styling to the last paragraph within an article, adding visual distinction at the end.
+
+6. article p:last-child:
+Read: p is last-child in article
+Target: Styles the last element within an <article> if it is a <p>, irrespective of the types of elements that precede it.
+Use Case: Used when you want to style the very last element within an article and it must be a paragraph. Useful for adding a final touch to the content.
+
+7. ul li:nth-child(2):
+Read: li is second-child in ul
+Target: Styles the second <li> element within a <ul> (unordered list).
+Use Case: Useful for targeting and styling a specific list item within a list. This helps in scenarios where you need to apply distinct styling to particular positions within lists (e.g., highlighting the second item).
+
+8. ul li:nth-child(odd):
+Read: li is odd-numbered child in ul
+Target: Styles the odd-numbered <li> elements within a <ul> (unordered list).
+Use Case: Useful for alternating row styles in lists, providing better visual distinction and readability by highlighting every other item.
+
+9. a:visited, a:link
+Read: a is visited or a is unvisited link
+Target: Styles all <a> (anchor/link) elements that have either been visited or are unvisited links.
+Use Case: Ensures a consistent color for all links, whether they have been visited or not, maintaining visual uniformity across the webpage.
+
+10. a:hover, a:focus
+Read: a is hovered or a is focused
+Target: Styles all <a> (anchor/link) elements when they are hovered over or focused.
+Use Case: Enhances user experience by providing visual feedback, improving navigation and accessibility for users interacting with links.
+*/
+
+/* article:first-child { */
+/*   background: gold; */
+/* } */
+
+/* article :first-child { */
+/*   background: gold; */
+/* } */
+
+/* article :first-of-type { */
+/*     background: gold; */
+/* } */
+
+/* article p:first-of-type{ */
+/*     background: gold; */
+/* } */
+
+/* article p:last-of-type { */
+/*   background: gold; */
+/* } */
+
+/* article p:last-child{ */
+/*     background: gold; */
+/* } */
+
+/* even, 3n */
+/* ul li:nth-child(odd) { */
+/*   background: gold; */
+/* } */
+
+/* a:visited, */
+/* a:link { */
+/*   color: dodgerblue; */
+/* } */
+
+/* a:hover, */
+/* a:focus { */
+/*   color: deeppink; */
+/* } */

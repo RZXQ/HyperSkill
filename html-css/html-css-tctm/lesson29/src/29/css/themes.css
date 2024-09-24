@@ -1,0 +1,63 @@
+body {
+    background: url(../imgs/bg.jpg);
+}
+
+.man {
+    width: 255px;
+    position: absolute;
+    top: 155px;
+    left: 300px;
+}
+
+.entrust {
+    position: absolute;
+    top: 350px;
+    left: 700px;
+}
+
+.role {
+    position: absolute;
+    top: 612px;
+    left: 120px;
+}
+
+.report {
+    position: absolute;
+    top: 770px;
+    left: 560px;
+}
+
+.site {
+    position: absolute;
+    top: 742px;
+    left: 960px;
+}
+
+.means {
+    position: absolute;
+    top: 640px;
+    left: 1360px;
+}
+
+.pill {
+    position: absolute;
+    top: 200px;
+    left: 900px;
+}
+
+.pill {
+    transform: rotate(10deg);
+    animation: change 3s infinite alternate;
+}
+
+@keyframes change {
+    0% {
+        transform: rotate(0);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(-10deg);
+    }
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>码到成功</title>
+  <meta charset="utf-8" />
+  <style>
+      .notice {
+          width: 298px;
+          border: 1px solid #ddd;
+          height: 98px;
+          overflow: hidden;
+          margin: 10px;
+      }
+
+      .notice-tit {
+          position: relative;
+          height: 28px;
+      }
+
+      .notice-tit ul {
+          position: absolute;
+          width: 280px;
+          left: -20px;
+          height: 27px;
+          background: #f7f7f7;
+          border-bottom: 1px solid #ddd;
+          list-style: none;
+      }
+
+      .notice-tit ul li {
+          float: left;
+          width: 50px;
+          padding: 0 1px;
+          height: 27px;
+          text-align: center;
+          line-height: 27px;
+      }
+
+      .notice-tit ul li.selected {
+          border-left: 1px solid #ddd;
+          border-right: 1px solid #ddd;
+          background: #fff;
+          padding: 0;
+          border-bottom: 1px solid #fff;
+      }
+
+      .notice-con div {
+          height: 90px;
+          padding: 20px;
+          display: none;
+      }
+  </style>
+</head>
+<body>
+<div class="notice">
+  <div class="notice-tit" id="notice-tit">
+    <ul>
+      <li class="selected">
+        公告
+      </li>
+      <li>
+        规则
+      </li>
+      <li>
+        论坛
+      </li>
+      <li>
+        安全
+      </li>
+      <li>
+        教育
+      </li>
+    </ul>
+  </div>
+  <div class="notice-con" id="notice-con">
+    <div style="display:block">
+      test1
+    </div>
+    <div>
+      test2
+    </div>
+    <div>
+      test3
+    </div>
+    <div>
+      test4
+    </div>
+    <div>
+      test5
+    </div>
+  </div>
+</div>
+<script>
+  /*实现如图所示效果*/
+  var notice_tit = document.getElementById('notice-tit');
+  var notice_con = document.getElementById('notice-con');
+  var lis = notice_tit.getElementsByTagName('li');
+  var divs = notice_con.getElementsByTagName('div');
+  for (var i = 0; i < lis.length; i++) {
+    lis[i].id = i;
+    lis[i].onclick = function() {
+      for (var j = 0; j < lis.length; j++) {
+        lis[j].className = '';
+        divs[j].style.display = 'none';
+      }
+      this.className = 'selected';
+      divs[this.id].style.display = 'block';
+    };
+  }
+</script>
+</body>
+</html>

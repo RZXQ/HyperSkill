@@ -1,0 +1,58 @@
+<!-- 请按要求设置网页样式，完成如图所示效果。
+要求：
+1、让class为container的<div>文本居中；
+2、class为hero的<div>实现首行缩进2em,文字字体为微软雅黑；
+3、为<span>添加下划线和字体颜色为红色。-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>一码当先</title>
+  <style type="text/css">
+      .container {
+          width: 500px;
+          height: 350px;
+          border-radius: 5px;
+          box-shadow: 0 0 5px gray;
+          padding: 3px;
+          background-color: pink;
+      }
+
+      img {
+          width: 260px;
+          border-radius: 5px 5px 0 0;
+      }
+
+      .des {
+          padding: 5px;
+      }
+
+      /* 请在下方书写你的代码：为元素设置样式*/
+      .container {
+          text-align: center;
+      }
+
+      .hero {
+          text-indent: 2em;
+          font-family: "微软雅黑";
+      }
+
+      span {
+          text-decoration: underline;
+          color: red;
+      }
+  </style>
+</head>
+<body>
+<div class="container">
+  <img src='images/hero.jpg' />
+  <div class="hero">
+    出自<span>荷马</span>荷马史诗中的奥林匹克神山上的诸神。
+    智慧女神，据说是从大神宙斯的大脑中生出来的，一出生就全副武装，
+    <span>充满智慧</span>。古希腊最著名的城邦<span>雅典</span>，以她的名字命名。
+    爱神帮助特洛伊王子劫走了希腊美女海伦。
+  </div>
+</div>
+</body>
+</html>

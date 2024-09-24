@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #62a1c9;
+    font-family: "Microsoft Yahei";
+}
+
+.container {
+    width: 100%;
+    height: 775px;
+    position: relative;
+    overflow: hidden;
+    background: url(images/bg.jpg) center no-repeat;
+}
+
+.title {
+    width: 442px;
+    height: 98px;
+    background: url(images/title.png) no-repeat center;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.selling-point {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 960px;
+    height: 651px;
+    overflow: hidden;
+    background: url(images/selling-point.png) no-repeat center  /100% 100%;
+}
+
+.swiper {
+    width: 886px;
+    height: 498px;
+    margin: 42px 0 0 40px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.swiper-wrapper {
+    position: absolute;
+    width: 3544px;
+    height: 498px;
+    z-index: 1;
+}
+
+.swiper-wrapper img {
+    display: inline-block;
+    float: left;
+    width: 886px;
+    height: 498px;
+}
+
+.next {
+    width: 46px;
+    height: 85px;
+    background: url(images/next.png) no-repeat center;
+    background-size: 100% 100%;
+    margin-top: -22px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.prev {
+    width: 46px;
+    height: 85px;
+    background: url(images/prev.png) no-repeat center;
+    background-size: 100% 100%;
+    margin-top: -22px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 10;
+    cursor: pointer;
+}
+
+

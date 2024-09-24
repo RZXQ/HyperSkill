@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#structure {
+    width: 1280px;
+    height: 1920px;
+    margin: auto;
+    background: url(../imgs/bg.jpg) no-repeat;
+}
+
+header {
+    height: 590px;
+    border: 2px solid red;
+}
+
+section {
+    height: 1150px;
+    border: 2px solid red;
+}
+
+footer {
+    height: 170px;
+    border: 2px solid red;
+}
+
+#game_info {
+    width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.tank {
+    position: absolute;
+    top: 20px;
+}
+
+.fire {
+    position: absolute;
+    top: 5px;
+}
+
+.battle {
+    position: absolute;
+    right: 260px;
+    top: 0;
+}
+
+.hero {
+    position: absolute;
+    top: 5px;
+}
+
+.board {
+    width: 530px;
+    height: 325px;
+    position: absolute;
+    top: 100px;
+    right: 30px;
+}
+
+ul {
+    width: 440px;
+    height: 325px;
+    position: absolute;
+    top: 175px;
+    right: 80px;
+}
+
+ul li {
+    color: #FAF2FA;
+    text-align: center;
+    font-family: "华文新魏";
+    list-style: none;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+/* 在下方写你的代码：头部样式设置 */
+#title {
+    width: 1280px;
+    height: 587px;
+    background: url(../imgs/title.png) no-repeat;
+    margin: auto;
+    position: relative;
+}
+
+.plane {
+    position: absolute;
+    right: -120px;
+    top: -100px;
+}
+
+.light {
+    position: absolute;
+    left: 300px;
+    top: 220px;
+    transform: rotate(-2deg);
+}
+
+
+

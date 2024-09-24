@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+</head>
+<style>
+    #box {
+        width: 100px;
+        height: 100px;
+        background-color: skyblue;
+    }
+</style>
+<body>
+<div id="box"></div>
+<script>
+  var div = document.getElementById('box');
+  div.onmousedown = function() {
+    div.style.backgroundColor = 'red';
+  };
+  div.onmouseup = function() {
+    div.style.backgroundColor = 'green';
+  };
+</script>
+</body>
+</html>

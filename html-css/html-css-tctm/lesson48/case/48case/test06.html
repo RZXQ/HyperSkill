@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>码到成功</title>
+  <style>
+      #d1 {
+          text-align: center;
+      }
+
+      #d3 {
+          width: 100px;
+          height: 100px;
+          color: white;
+          font-size: 50px;
+          background: green;
+          text-align: center;
+          line-height: 100px;
+          margin: 0 auto;
+      }
+  </style>
+</head>
+<body>
+<div id="d1">
+  <button id="btn">
+    拆弹成功
+  </button>
+  <div id="d2"><img src="images/7.gif" />
+    <div>
+      <div id="d3">
+        10
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  var d3 = document.getElementById('d3');
+  var btn = document.getElementById('btn');
+  var n = 10;
+  var timer = setInterval(function() {
+    n--;
+    d3.innerHTML = n;
+    if (n == 0) {
+      alert('boom boom boom');
+      n = 10;
+    }
+  }, 1000);
+  btn.onclick = function() {
+    clearInterval(timer);
+  };
+</script>
+</body>
+</html>
+
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>码到成功</title>
+  <style>
+      .wrap {
+          width: 450px;
+          height: 480px;
+          margin: 100px auto;
+          position: relative;
+      }
+
+      span {
+          display: inline-block;
+          width: 220px;
+          height: 50px;
+          line-height: 50px;
+          text-align: center;
+          color: black;
+          font-weight: bold;
+      }
+
+      p {
+          position: absolute;
+          top: 80px;
+          left: 25px;
+          display: none;
+          width: 400px;
+          height: 400px;
+      }
+
+      span:hover {
+          border: 2px solid black;
+          border-radius: 20px;
+      }
+
+      .active {
+          display: block;
+      }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <span>李白</span>
+  <span>杜甫</span>
+  <p>
+    李白（701年－762年） ，字太白，号青莲居士，又号“谪仙人”，是唐代伟大的浪漫主义诗人，被后人誉为“诗仙”。代表作有《望庐山瀑布》《行路难》《蜀道难》《将进酒》《梁甫吟》《早发白帝城》等多首。
+  </p>
+  <p>
+    杜甫（712年—770年），字子美，原籍湖北襄阳，后徙河南巩县。唐代伟大的现实主义诗人，与李白合称“李杜”。杜甫在中国古典诗歌中的影响非常深远，被后人称为“诗圣”，他的诗被称为“诗史”。杜甫创作了《登高》《春望》《北征》《三吏》《三别》等名作。
+  </p>
+</div>
+<script>
+  /*完成如图所示效果*/
+  var btn = document.getElementsByTagName('span');
+  var arr = document.getElementsByTagName('p');
+  arr[0].className = 'active';
+  for (var i = 0; i < btn.length; i++) {
+    btn[i].index = i;
+    btn[i].onclick = function() {
+      arr[0].className = arr[1].className = '';
+      arr[this.index].className = 'active';
+    };
+  }
+</script>
+</body>
+</html>

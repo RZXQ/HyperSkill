@@ -1,0 +1,14 @@
+#photosWrap {
+    margin: 40px auto;
+    box-shadow: 0 0 5px lightgray;
+    position: relative;
+    width: 700px;
+    height: 400px;
+    overflow: scroll;
+}
+
+#photosWrap img {
+    width: 700px;
+    height: 400px;
+    float: left;
+}

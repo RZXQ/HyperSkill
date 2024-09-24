@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>码到成功</title>
+  <style>
+      .container {
+          width: 600px;
+          height: 400px;
+          background: url(images/bg8.jpg);
+          margin: 100px auto;
+          position: relative;
+      }
+
+      .field {
+          width: 70px;
+          height: 23px;
+          background: url(images/bg7.png) no-repeat -570px -457px;
+      }
+
+      .wrap {
+          width: 70px;
+          height: 70px;
+          position: absolute;
+          text-align: center;
+      }
+
+      .wrap:nth-child(1) {
+          left: 50px;
+          top: 100px;
+      }
+
+      .wrap:nth-child(2) {
+          left: 200px;
+          top: 230px;
+      }
+
+      .wrap:nth-child(3) {
+          left: 350px;
+          top: 100px;
+      }
+
+      .wrap:nth-child(4) {
+          left: 500px;
+          top: 230px;
+      }
+
+      /*
+       * 为class名为wrap的div设置鼠标悬停时，
+       * 其中的图片旋转360度
+       * 过渡时间设置为2s
+       */
+      .wrap:hover img {
+          transition: transform 2s;
+          transform: rotate(360deg);
+      }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="wrap">
+    <img src="images/role1.png" />
+    <div class="field"></div>
+  </div>
+  <div class="wrap">
+    <img src="images/role2.png" />
+    <div class="field"></div>
+  </div>
+  <div class="wrap">
+    <img src="images/role3.png" />
+    <div class="field"></div>
+  </div>
+  <div class="wrap">
+    <img src="images/role4.png" />
+    <div class="field"></div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+/* 1. pseudo-elements: to style part of an element. Eg. First letter
+      pseudo-classes: to style elements in a particular state. Eg. Hovered anchor */
+
+/* 2. p::first-letter */
+p::first-letter {
+  font-size: 140%;
+  font-weight: bold;
+}
+
+/* 3. p::first-line */
+p::first-line {
+  background-color: gold;
+}
+
+/* 4. selection */
+::selection {
+  background-color: pink;
+}
+
+/* 5. p::before */
+p::before {
+  content: '...';
+  display: block;
+}
+
+/* 6. p::after */
+p::after {
+  content: '...';
+  display: block;
+}

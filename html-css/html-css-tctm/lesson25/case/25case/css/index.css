@@ -1,0 +1,46 @@
+img {
+    width: 170px;
+    height: 130px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.div1 img, .div4 img {
+    float: left;
+}
+
+.div2 img, .div3 img {
+    float: right;
+}
+
+#content {
+    width: 550px;
+    height: 550px;
+    margin: auto;
+    background-color: lightyellow;
+    border: 2px groove lightgray;
+    border-radius: 5px;
+}
+
+#content div {
+    float: left;
+    width: 250px;
+    height: 250px;
+    border: 2px groove lightgray;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 15px;
+    font-family: "微软雅黑";
+}
+
+
+
+
+
+
+
+
+
+
+
+

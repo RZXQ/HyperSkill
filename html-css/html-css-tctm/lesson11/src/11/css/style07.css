@@ -1,0 +1,26 @@
+.wrap {
+    width: 1000px;
+    height: 400px;
+    margin: 50px auto;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 20px black;
+    position: relative;
+}
+
+.content {
+    width: 280px;
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+}
+
+span {
+    margin: 0 90px;
+    color: white;
+}
+
+.footer {
+    position: absolute;
+    bottom: 30px;
+}

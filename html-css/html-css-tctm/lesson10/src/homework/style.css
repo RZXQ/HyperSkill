@@ -1,0 +1,85 @@
+body {
+    margin: 0px;
+}
+
+div, span {
+    font-size: 20px;
+    font-family: "微软雅黑";
+    text-align: center;
+}
+
+#content {
+    width: 1350px;
+    height: 700px;
+    margin: auto;
+    background: url(images/bg1.jpg) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    padding-top: 20px;
+}
+
+.line {
+    width: 1350px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.line div {
+    display: inline-block;
+    width: 150px;
+    height: 300px;
+    border: 2px solid black;
+    box-shadow: 0px 5px 5px black;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+span {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+}
+
+img {
+    width: 150px;
+    height: 260px;
+}
+
+.show {
+    box-shadow: 0px 5px 5px black;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 20px;
+    height: 605px;
+    padding-top: 10px;
+}
+
+#hero_left {
+    width: 60px;
+    left: 190px;
+}
+
+#classify_right {
+    width: 100px;
+    left: 1100px;
+}
+
+#hero_left img {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+#classify_right {
+    line-height: 5;
+    color: lightgray;
+}
+
+/*------------------------------------------------------*/
+/* 在下方写你的代码：为span设置字体颜色为白色 */
+
+
+
+
+
+

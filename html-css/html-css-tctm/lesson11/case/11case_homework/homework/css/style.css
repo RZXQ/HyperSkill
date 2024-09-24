@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    height: 600px;
+    background-size: cover;
+}
+
+.container {
+    width: 640px;
+    height: 340px;
+    background-color: #e6b860;
+    border-radius: 20px;
+    margin: 200px auto;
+    position: relative;
+    padding: 30px 20px 0 20px;
+    font-size: 18px;
+    text-indent: 2em;
+    line-height: 2;
+}
+
+img {
+    width: 400px;
+    position: absolute;
+    top: -200px;
+    left: 150px;
+}
+
+h1 {
+    text-align: center;
+}
+
+span {
+    color: cyan;
+    font-size: 20px;
+    font-weight: bold;
+}

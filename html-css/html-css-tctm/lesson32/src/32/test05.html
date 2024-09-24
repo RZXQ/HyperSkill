@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>码到成功</title>
+  <style>
+      body {
+          background-color: #ddd;
+      }
+
+      .frame {
+          width: 600px;
+          height: 400px;
+          background-image: url(images/img05.jpg);
+          background-repeat: no-repeat;
+          background-position: top left;
+          border: 5px solid rgba(255, 255, 255, 0.7);
+          margin: 100px auto;
+          position: relative;
+          overflow: hidden;
+      }
+
+      .frame:before {
+          content: '';
+          width: 600px;
+          height: 400px;
+          position: absolute;
+          background-color: rgba(255, 255, 255, 0.2);
+      }
+
+      /*为'.frame-bottom'设置宽度为650px，高度为100px
+       背景颜色为rgba(255,255,255,0.8)，
+       绝对定位，下移400px，改变图片逆时针旋转8度*/
+
+  </style>
+</head>
+<body>
+<div class="frame">
+  <div class="frame-bottom"></div>
+</div>
+</body>
+</html>

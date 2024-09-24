@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>码到成功</title>
+  <style>
+      .box {
+          width: 400px;
+          height: 300px;
+          border: 5px solid rgba(0, 0, 0, 0.4);
+          margin: 100px auto;
+          position: relative;
+          overflow: hidden;
+      }
+
+      .ball {
+          width: 100px;
+          height: 100px;
+          background-color: orange;
+          border-radius: 50%;
+          position: absolute;
+          top: 100px;
+          background: url(images/basketball.png) no-repeat top center/100% 100%;
+      }
+  </style>
+</head>
+<body>
+<div class="box">
+  <div class="ball"></div>
+</div>
+<script>
+  var ball = document.getElementsByClassName('ball')[0];
+  /*
+   * 添加定时器，改变篮球的位置，碰壁后反弹回去
+   */
+
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>码上回顾</title>
+</head>
+<body>
+输入用户名：
+<input id="fname" type="text" />
+<script>
+  /*用户名由字母数字下划线组成，5-10位，第一位必须是小写字母*/
+  var ip = document.getElementById('fname');
+  ip.onblur = function() {
+    var userName = ip.value;
+    var reg = /^[a-z]\w{3,11}$/;
+    if (reg.test(userName)) {
+      alert('格式正确');
+    } else {
+      alert('格式错误');
+    }
+  };
+</script>
+</body>
+</html>

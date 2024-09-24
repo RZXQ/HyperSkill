@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+</head>
+<body>
+输入您的昵称：
+<input id="fname" type="text" />
+<script>
+  var ip = document.getElementById('fname');
+  ip.onblur = function() {
+    alert('触发事件');
+  };
+</script>
+</body>
+</html>

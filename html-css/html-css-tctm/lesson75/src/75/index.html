@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>index</title>
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+  <link href="css/setting.css" rel="stylesheet" type="text/css">
+  <link href="css/schoolmate.css" rel="stylesheet" type="text/css">
+  <link href="css/friend.css" rel="stylesheet" type="text/css">
+  <link href="css/album.css" rel="stylesheet" type="text/css">
+  <link href="css/game.css" rel="stylesheet" type="text/css">
+  <link href="css/diary.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<div class="container">
+  <div class="left btnWrap">
+    <img class="signIn" src="images/signin.gif" />
+    <div class="btn friends"></div>
+    <div class="btn class"></div>
+    <div class="btn schoolmate"></div>
+    <div class="btn music"></div>
+    <div class="btn setting"></div>
+  </div>
+  <div class="main">
+    <div class="nav">
+      <img src="images/logo.gif" />
+      <div class="btnWrap">
+        <div class="btn game"></div>
+        <div class="btn plan"></div>
+        <div class="btn diary"></div>
+        <div class="btn photo"></div>
+        <div class="btn friend"></div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="wrap">好友</div>
+      <div class="wrap">班级</div>
+      <div class="wrap" id="schoolmateContent">
+        <div class="userInfoWrap">
+          <img class="profile" src="images/user1.png" />
+          <span class="name">Cindy</span>
+          <span id="businessCard">查看名片</span>
+          <span id="man">只看男生</span>
+          <span id="woman">只看女生</span>
+        </div>
+        <table>
+          <thead>
+          <tr>
+            <th>序号</th>
+            <th>姓名</th>
+            <th>年级</th>
+            <th>班级</th>
+            <th>性别</th>
+            <th>电话号</th>
+            <th>微信号</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr class="gender m">
+            <td>1</td>
+            <td>孙悟空</td>
+            <td>五年级</td>
+            <td>二班</td>
+            <td>男</td>
+            <td>13811118888</td>
+            <td>Trinity12345</td>
+          </tr>
+          <tr class="gender m">
+            <td>2</td>
+            <td>孙悟空</td>
+            <td>五年级</td>
+            <td>二班</td>
+            <td>男</td>
+            <td>13811118888</td>
+            <td>Trinity12345</td>
+          </tr>
+          <tr class="gender m">
+            <td>3</td>
+            <td>孙悟空</td>
+            <td>五年级</td>
+            <td>二班</td>
+            <td>男</td>
+            <td>13811118888</td>
+            <td>Trinity12345</td>
+          </tr>
+          <tr class="gender w">
+            <td>4</td>
+            <td>孙悟空</td>
+            <td>五年级</td>
+            <td>二班</td>
+            <td>女</td>
+            <td>13811118888</td>
+            <td>Trinity12345</td>
+          </tr>
+          <tr class="gender w">
+            <td>5</td>
+            <td>孙悟空</td>
+            <td>五年级</td>
+            <td>二班</td>
+            <td>女</td>
+            <td>13811118888</td>
+            <td>Trinity12345</td>
+          </tr>
+          <tr class="gender m">
+            <td>6</td>
+            <td>孙悟空</td>
+            <td>五年级</td>
+            <td>二班</td>
+            <td>男</td>
+            <td>13811118888</td>
+            <td>Trinity12345</td>
+          </tr>
+          <tr class="gender w">
+            <td>7</td>
+            <td>孙悟空</td>
+            <td>五年级</td>
+            <td>二班</td>
+            <td>女</td>
+            <td>13811118888</td>
+            <td>Trinity12345</td>
+          </tr>
+          </tbody>
+        </table>
+        <img id="cardImage" src="images/flower.png" />
+        <img id="girl" src="images/f1.gif" />
+      </div>
+      <div class="wrap">音乐</div>
+      <div class="wrap" id="settingContent">
+        <div class="settingWrap">
+          <div class="userInfo">
+            <img class="profile" src="images/user1.png" />
+            <span class="name">Cindy</span>
+            <img src="images/star.png" />
+          </div>
+          <div class="details">
+            <form action="" method="get" onsubmit="return check()">
+              <ul class="left">
+                <li>
+                  <input placeholder="用户名为3~10个字符" type="text" />
+                </li>
+                <li>
+                  <input type="date" />
+                </li>
+                <li>
+                  <input type="text" />
+                </li>
+                <li>
+                  <input type="text" />
+                </li>
+                <li>
+                  <input type="password" />
+                </li>
+              </ul>
+              <ul class="right">
+                <li>
+                  <input type="text" />
+                </li>
+                <li>
+                  <input type="text" />
+                </li>
+                <li>
+                  <select>
+                    <option>一年级</option>
+                    <option>二年级</option>
+                  </select>
+                  <select>
+                    <option>一班</option>
+                    <option>二班</option>
+                  </select>
+                </li>
+                <li>
+                  <input class="gender" name="gender" type="radio" /><span>男</span>
+                  <input class="gender" name="gender" type="radio" /><span>女</span>
+                </li>
+                <li>
+                  <input type="password" />
+                </li>
+              </ul>
+            </form>
+          </div>
+          <input class="submit" type="submit" value="" />
+          <img class="flower" src="images/flower.png" />
+        </div>
+      </div>
+      <div class="wrap" id="gameContent">
+        <div class="gamesWrap">
+          <div class="userInfo">
+            <img class="profile" src="images/user1.png" />
+            <span class="name">Cindy</span>
+            <img src="images/star.png" />
+            <div class="gameBtn" id="on">开启绘图板</div>
+            <div class="gameBtn" id="off">关闭绘图板</div>
+          </div>
+          <div class="gameList">
+            <ul class="left">
+              <li>
+                <img src="images/num1.png" />
+                <img class="icon" src="images/game1.png" />
+                <img src="images/gameName1.png" />
+              </li>
+              <li>
+                <img src="images/num3.png" />
+                <img class="icon" src="images/game3.png" />
+                <img src="images/gameName3.png" />
+              </li>
+              <li>
+                <img src="images/num5.png" />
+                <img class="icon" src="images/game5.png" />
+                <img src="images/gameName5.png" />
+              </li>
+            </ul>
+            <ul class="right">
+              <li>
+                <img src="images/num2.png" />
+                <img class="icon" src="images/game2.png" />
+                <img src="images/gameName2.png" />
+              </li>
+              <li>
+                <img src="images/num4.png" />
+                <img class="icon" src="images/game4.png" />
+                <img src="images/gameName4.png" />
+              </li>
+              <li>
+                <img src="images/num6.png" />
+                <img class="icon" src="images/game6.png" />
+                <img src="images/gameName6.png" />
+              </li>
+            </ul>
+            <img id="cute" src="images/game6.png" />
+          </div>
+        </div>
+      </div>
+      <div class="wrap">学习计划</div>
+      <div class="wrap" id="diaryContent">
+        <img src="images/show.jpg" />
+        <img src="images/show.jpg" />
+        <img src="images/show.jpg" />
+        <div class="inputArea">
+          <span id="prompt">还可输入200字</span><br />
+          <textarea id="txt"></textarea>
+          <button id="publish">发布</button>
+        </div>
+        <div id="show">
+
+        </div>
+      </div>
+      <div class="wrap">
+        <div id="photosWrap">
+          <div id="middle">
+            <img src="images/banner_01.jpg" />
+            <img src="images/banner_02.jpg" />
+            <img src="images/banner_03.jpg" />
+            <img src="images/banner_04.jpg" />
+            <img src="images/banner_05.jpg" />
+            <img src="images/banner_01.jpg" />
+          </div>
+        </div>
+      </div>
+      <div class="wrap">
+        <div class="messageWrap">
+          <div class="userInfo">
+            <img class="profile" src="images/user1.png" />
+            <span>Cindy</span>
+            <img src="images/star.png" />
+          </div>
+          <div class="show">
+            <p class="des">
+              番茄你个马铃薯，土豆你个西红柿~
+              <span class="time">今天 23:06</span>
+            </p>
+            <img src="images/show.jpg" />
+            <p class="lick">
+              <img src="images/like.jpg" />
+              <img src="images/profile1.png" />
+              <img src="images/profile2.png" />
+            </p>
+            <p class="comment">
+              <img src="images/comment.jpg" />
+              <textarea></textarea>
+            </p>
+          </div>
+        </div>
+        <div class="messageWrap">
+          <div class="userInfo">
+            <img class="profile" src="images/user1.png" />
+            <span>Cindy</span>
+            <img src="images/star.png" />
+          </div>
+          <div class="show">
+            <p class="des">
+              番茄你个马铃薯，土豆你个西红柿~
+              <span class="time">今天 23:06</span>
+            </p>
+            <img src="images/show.jpg" />
+            <p class="lick">
+              <img src="images/like.jpg" />
+              <img src="images/profile1.png" />
+              <img src="images/profile2.png" />
+            </p>
+            <p class="comment">
+              <img src="images/comment.jpg" />
+              <textarea></textarea>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="right">
+    <div class="friendsOnline">
+      <div class="friendOn" id="friend1"></div>
+      <div class="friendOn" id="friend2"></div>
+      <div class="friendOn" id="friend3"></div>
+      <div class="friendOn" id="friend4"></div>
+      <div class="friendOn" id="friend5"></div>
+      <div class="friendOn" id="friend6"></div>
+      <div class="friendOn" id="friend7"></div>
+    </div>
+    <img id="onlinefriend" src="images/onlinefriend.gif"></img>
+  </div>
+</div>
+</body>
+</html>
+<script src="js/schoolmate.js" type="text/javascript"></script>
+<script src="js/album.js" type="text/javascript"></script>
+<script src="js/tween.js" type="text/javascript"></script>
+<script src="js/main.js" type="text/javascript"></script>
+<script src="js/setting.js" type="text/javascript"></script>
+<script src="js/game.js" type="text/javascript"></script>
+<script src="js/diary.js" type="text/javascript"></script>

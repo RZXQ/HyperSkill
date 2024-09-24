@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>码上回顾</title>
+  <style>
+      div {
+          width: 200px;
+          border: 2px solid yellow;
+      }
+
+      p {
+          color: violet;
+      }
+  </style>
+</head>
+<body>
+<div id="remove">
+  <p>
+    请把老四移出家族！
+  </p>
+  <h2>我是老大</h2>
+  <h3>我是老二</h3>
+  <h4>我是老三</h4>
+  <h5>我是老四</h5>
+  <h6>我是老五</h6>
+</div>
+<script>
+  /*将div中包含内容“我是老四”的子节点删除*/
+  var element = document.getElementById('remove');
+  element.removeChild(element.childNodes[9]);
+</script>
+</body>
+</html>

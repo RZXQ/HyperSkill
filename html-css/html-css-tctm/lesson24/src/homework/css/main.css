@@ -1,0 +1,46 @@
+body {
+    background-image: url(../images/bg2.jpg);
+    background-size: cover;
+}
+
+.container {
+    width: 1270px;
+    background-color: lightgray;
+    margin: 30px auto;
+}
+
+.nav {
+    width: 900px;
+    height: 140px;
+}
+
+.nav img {
+    display: block;
+    margin: 0 auto;
+}
+
+.content {
+    width: 780px;
+    height: 470px;
+    padding: 60px;
+    padding-bottom: 80px;
+    background-image: url(../images/contbg2.png);
+    background-size: contain;
+}
+
+.content .wrap {
+    width: 780px;
+    height: 480px;
+}
+
+/*在下方写你的代码：为class为left、right、main的<div>设置宽高、浮动和背景颜色*/
+
+
+
+
+
+
+
+
+
+

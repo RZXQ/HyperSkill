@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>选择器优先级</title>
+  <style>
+      /* 利用class选择器设置背景颜色为黄色 */
+      .box {
+          background-color: yellow;
+      }
+
+      /* 利用元素选择器设置背景颜色为天蓝色 */
+      div {
+          background-color: skyblue;
+      }
+  </style>
+</head>
+<body>
+<!-- 添加一个div，
+  并设置class属性起名为box，
+  设置id属性起名为box，
+  添加文字“猜猜看是什么效果” -->
+<div class="box" id="box">猜猜看是什么效果</div>
+</body>
+</html>

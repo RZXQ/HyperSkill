@@ -1,0 +1,105 @@
+<!--1、当鼠标悬浮在导航栏上的时候，导航栏中被选中的列表项文字变为黄色，
+	并添加背景(images/index.png)。
+	2、为类名为picture的div设置高为618px,添加背景图url(images/bg.jpg)，
+	不重复平铺，定位在上中。
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>一码当先</title>
+  <style>
+      * {
+          padding: 0;
+          margin: 0;
+      }
+
+      .nav {
+          width: 100%;
+          text-align: center;
+          background-color: rgba(0, 0, 0, 0.8);
+          position: absolute;
+      }
+
+      .logo {
+          width: 200px;
+          height: 54px;
+      }
+
+      .li {
+          display: inline-block;
+          width: 110px;
+          height: 64px;
+          padding: 9px 0;
+          color: white;
+          font-size: 18px;
+          line-height: 30px;
+          cursor: pointer
+      }
+
+      .ename {
+          font-size: 12px;
+      }
+
+      /* 请在下方写你的代码：设置元素样式 */
+      .li:hover {
+          background: url(images/index.png) no-repeat;
+          color: yellow;
+      }
+
+      .picture {
+          background: url(images/bg.jpg) no-repeat center top;
+          height: 618px;
+      }
+  </style>
+</head>
+<body>
+<div class="nav">
+  <img class="logo" src="images/logo.png" />
+  <div class="li">
+    官方首页
+    <div class="ename">
+      HOME
+    </div>
+  </div>
+  <div class="li">
+    游戏资料
+    <div class="ename">
+      DATA
+    </div>
+  </div>
+  <div class="li">
+    内容中心
+    <div class="ename">
+      RAIDERS
+    </div>
+  </div>
+  <div class="li">
+    赛事中心
+    <div class="ename">
+      MATCH
+    </div>
+  </div>
+  <div class="li">
+    商城/合作
+    <div class="ename">
+      STORE
+    </div>
+  </div>
+  <div class="li">
+    社区互动
+    <div class="ename">
+      COMMUNITY
+    </div>
+  </div>
+  <div class="li">
+    玩家支持
+    <div class="ename">
+      PLAYER
+    </div>
+  </div>
+</div>
+<div class="picture"></div>
+</body>
+</html>

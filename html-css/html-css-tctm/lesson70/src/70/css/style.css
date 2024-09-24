@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    min-width: 1300px;
+    height: 84px;
+    z-index: 99;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.nav {
+    width: 1300px;
+    height: 84px;
+    margin: 0 auto;
+    padding-top: 8px;
+}
+
+.logo {
+    width: 200px;
+    height: 54px;
+    float: left;
+    margin-top: 6px;
+}
+
+.main-nav {
+    width: 920px;
+    padding-left: 230px;
+    list-style: none;
+}
+
+.main-nav li {
+    float: left;
+    width: 115px;
+    height: 84px;
+    text-align: center;
+}
+
+.main-nav li a {
+    display: block;
+    width: 110px;
+    height: 64px;
+    padding: 20px 0 0;
+    color: #c9c9dd;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.main-nav li:hover a {
+    background: url(../images/index.png) no-repeat;
+    background-position: 0px -7px;
+    color: yellow;
+}
+
+.picture {
+    background: url(../images/bg1.jpg) no-repeat center top;
+    height: 618px;
+}
+
+.path {
+    width: 100%;
+    height: 20px;
+    margin: auto;
+    line-height: 20px;
+    font-size: 16px;
+    padding: 20px;
+    padding-left: 145px;
+    background: url(../images/bg3.jpg);
+}
+
+#home {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 9px;
+    background: url(../images/sprite.png) no-repeat;
+}
+
+a {
+    color: black;
+}
+
+.title {
+    width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    padding-left: 25px;
+    background: url(../images/icon.png) no-repeat;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/**/
+#heroHead {
+    width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+#heroHead li {
+    padding-top: 83px;
+    width: 83px;
+    float: left;
+    margin-bottom: 34px;
+    margin-right: 30px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 83px;
+}
+
+
+.type {
+    width: 1200px;
+    height: 32px;
+    color: #686869;
+    font-size: 16px;
+    margin: auto;
+    margin-top: 20px;
+    border-bottom: 3px solid #d4d4d4;
+    list-style-type: none;
+}
+
+.type li {
+    width: 30%;
+    line-height: 32px;
+    text-align: center;
+    display: inline-block;
+}
+
+.chose {
+    color: #3589dd;
+    border-bottom: 3px solid #3589dd;
+}
+
+.hero {
+    width: 1200px;
+    margin: auto;
+    font-size: 14px;
+    color: #686869;
+}
+
+.hero span {
+    display: inline-block;
+    height: 52px;
+    width: 80px;
+    background-color: #2c88e2;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 52px;
+}
+
+.hero input {
+    width: 18px;
+    height: 18px;
+    margin: 20px 10px;
+}

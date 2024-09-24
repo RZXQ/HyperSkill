@@ -1,0 +1,134 @@
+.container {
+    width: 1270px;
+    background-color: lightgray;
+    margin: 30px auto;
+}
+
+.left {
+    width: 185px;
+    height: 760px;
+    float: left;
+    /*background-color: pink;*/
+}
+
+.right {
+    width: 185px;
+    height: 760px;
+    float: left;
+}
+
+.main {
+    width: 900px;
+    height: 660px;
+    float: left;
+}
+
+.nav {
+    width: 900px;
+    height: 140px;
+    /*background-color: gold;*/
+}
+
+.content {
+    width: 780px;
+    height: 470px;
+    /*background-color: skyblue;*/
+    padding: 60px;
+    padding-bottom: 80px;
+    background-image: url(../images/contbg.png);
+    background-size: contain;
+}
+
+body {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+}
+
+.nav img {
+    display: block;
+    margin: 0 auto;
+}
+
+.content .wrap {
+    width: 780px;
+    height: 480px;
+}
+
+.nav .wrap {
+    position: relative;
+    right: 20px;
+    top: 25px;
+}
+
+.nav .btn {
+    width: 100px;
+    height: 42px;
+    float: right;
+    background-size: contain;
+    position: relative;
+}
+
+.friend {
+    background: url(../images/nav5.png) no-repeat;
+    left: 80px;
+}
+
+.photo {
+    background: url(../images/nav4.png) no-repeat;
+    left: 50px;
+}
+
+.diary {
+    background: url(../images/nav3.png) no-repeat;
+    left: 20px;
+}
+
+.plan {
+    background: url(../images/nav2.png) no-repeat;
+    left: 0;
+}
+
+.game {
+    background: url(../images/nav1.png) no-repeat;
+    left: -20px;
+}
+
+.friendsOnline {
+    width: 185px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+}
+
+.friendsOnline div {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+#friend1 {
+    left: 10px;
+    top: 10px;
+}
+
+#friend2 {
+    left: 20px;
+    top: 140px;
+}
+
+/*设置透明度和边框半径*/
+
+/*设置左边栏样式添加图片并定位*/
+
+/*添加头像并设置定位，为在线好友设置定位*/
+
+
+
+
+
+
+
+
+

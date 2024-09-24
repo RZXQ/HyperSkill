@@ -1,0 +1,7 @@
+# 请使用print()以及变量的知识，在控制台输出一个5行5列“*”的图案效果
+symbol = '*****'
+print(symbol)
+print(symbol)
+print(symbol)
+print(symbol)
+print(symbol)

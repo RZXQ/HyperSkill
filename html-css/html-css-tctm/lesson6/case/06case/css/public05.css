@@ -1,0 +1,20 @@
+/*
+ 在下方添加代码
+ 分别为四个吊灯设置背景颜色
+ （'lighter1','lighter2','lighter3','lighter4'）
+ */
+.lighter1 {
+    background-color: red;
+}
+
+.lighter2 {
+    background-color: green;
+}
+
+.lighter3 {
+    background-color: blue;
+}
+
+.lighter4 {
+    background-color: pink;
+}

@@ -1,0 +1,47 @@
+body {
+    background-color: lightyellow;
+}
+
+#content {
+    width: 1350px;
+    height: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    width: 350px;
+    height: 250px;
+}
+
+span {
+    margin-right: 10px;
+}
+
+/*设置span，#g，p样式*/
+span {
+    color: brown;
+    font-size: 18px;
+}
+
+#g {
+    font-size: 42px;
+}
+
+p {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

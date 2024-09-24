@@ -1,0 +1,60 @@
+body {
+    background: url(../imgs/bg.jpg);
+    background-size: cover;
+}
+
+.p1 {
+    position: absolute;
+    top: 380px;
+    left: 750px;
+}
+
+.p2 {
+    position: absolute;
+    top: 612px;
+    left: 120px;
+}
+
+.p3 {
+    position: absolute;
+    top: 770px;
+    left: 550px;
+}
+
+.p4 {
+    position: absolute;
+    top: 742px;
+    left: 960px;
+}
+
+.p5 {
+    position: absolute;
+    top: 640px;
+    left: 1370px;
+}
+
+.p6 {
+    position: absolute;
+    top: 250px;
+    left: 1200px;
+}
+
+.flower {
+    position: absolute;
+    top: 200px;
+    left: 900px;
+}
+
+/* 在下方书写代码：设置红线图片样式 */
+.red_line {
+    position: absolute;
+    top: 110px;
+    left: 150px;
+    z-index: 9;
+}
+
+
+
+
+
+

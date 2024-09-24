@@ -1,0 +1,61 @@
+#schoolmateContent {
+    position: relative;
+}
+
+.userInfoWrap {
+    position: absolute;
+    top: -20px;
+    left: 50px;
+}
+
+/*.userInfoWrap .userInfo {position: relative; top: -70px;}*/
+.userInfoWrap .profile {
+    width: 80px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.userInfoWrap .name {
+    font-size: 20px;
+    color: skyblue;
+    font-weight: bold;
+}
+
+#businessCard {
+    font-weight: bold;
+    color: orange;
+    padding: 0 20px;
+}
+
+table {
+    border-collapse: collapse;
+    position: relative;
+    left: 40px;
+    top: 100px;
+}
+
+th, td {
+    border: 3px solid #999;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+#cardImage {
+    width: 400px;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    display: none;
+}
+
+#man, #woman {
+    font-weight: bold;
+    color: green;
+    margin-right: 10px;
+}
+
+#girl {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}

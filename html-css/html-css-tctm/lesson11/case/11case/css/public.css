@@ -1,0 +1,56 @@
+div {
+    background-color: skyblue;
+}
+
+.big {
+    width: 800px;
+}
+
+.middle {
+    width: 400px;
+}
+
+.small {
+    width: 200px;
+}
+
+#game {
+    background-color: lightgreen;
+}
+
+h1 {
+    color: green;
+}
+
+p {
+    line-height: 2;
+}
+
+.role {
+    font-weight: bold;
+    color: green;
+}
+
+span {
+    text-decoration: underline;
+    font-weight: bold;
+    size: 18px;
+    color: hotpink;
+}
+
+/*为html设置样式背景bg.png,width:1000px*/
+html {
+    width: 1000px;
+    background-image: url(../images/bg.png);
+}
+
+
+
+
+
+
+
+
+
+
+

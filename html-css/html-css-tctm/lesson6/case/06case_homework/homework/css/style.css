@@ -1,0 +1,38 @@
+.wrap {
+    width: 400px;
+    margin: 100px auto;
+    background-color: black;
+    height: 300px;
+    padding: 50px;
+    box-shadow: 0 0 20px black;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.des {
+    margin-top: 20px;
+    text-indent: 2em;
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+.des {
+    color: white;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.title {
+    color: white;
+}
+
+span {
+    color: black;
+    background-color: red;
+}

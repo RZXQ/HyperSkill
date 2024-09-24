@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>码上回顾</title>
+  <style>
+      #box {
+          width: 1000px;
+          height: 800px;
+          position: relative;
+          border: 1px solid red;
+          margin: 50px auto 0;
+      }
+
+      #boll {
+          width: 50px;
+          height: 50px;
+          border-radius: 25px;
+          border: 1px solid green;
+          position: absolute;
+          top: 66px;
+          left: 88px;
+      }
+  </style>
+</head>
+<body>
+<div id="box">
+  <div id="boll"></div>
+</div>
+<script>
+  /*完成碰壁反弹效果*/
+  var box = document.getElementById('box');
+  var boll = document.getElementById('boll');
+  var maxWidth = 950;
+  var maxHeight = 750;
+  var l = boll.offsetLeft;
+  var t = boll.offsetTop;
+  var speedX = 5;
+  var speedY = 5;
+  setInterval(function() {
+    l += speedX;
+    t += speedY;
+    if (l >= maxWidth) {
+      speedX *= -1;
+    } else if (l <= 0) {
+      speedX *= -1;
+    }
+    if (t >= maxHeight) {
+      speedY *= -1;
+    } else if (t <= 0) {
+      speedY *= -1;
+    }
+    boll.style.left = l + 'px';
+    boll.style.top = t + 'px';
+  }, 30);
+</script>
+</body>
+</html>

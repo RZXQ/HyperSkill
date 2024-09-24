@@ -1,0 +1,27 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background: dodgerblue;
+
+  /* 1. Border settings */
+  border: 10px dashed royalblue; /* Alternatives: solid, dotted */
+
+  /* 2. Individual border sides */
+  border-top: 20px dashed royalblue;
+
+  /* 3. Border width: top, right, bottom, left */
+  border-width: 10px 20px 10px 20px;
+  border-width: 10px 20px 10px;
+  border-width: 10px 20px;
+  border-width: 10px;
+
+  /* 4. Border style */
+  border-style: dashed;
+
+  /* 5. Border color */
+  border-color: red;
+
+  /* 6. Border radius: use 100% for circles */
+  border-radius: 200px;
+  border-radius: 100%;
+}

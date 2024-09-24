@@ -1,0 +1,25 @@
+一、在class为right的<div>中添加一个class为top的<div>,    
+       在新添加的<div>中添加一个<span>,<span>里为文字
+       内容"发给：小贡";
+       
+二、在class为right的<div>中再添加一个class为chat的<div>,
+        在新添加的<div>中添加6个<div>,<div>里为文字内容；
+        提示：  给6个<div>添加类名，分别为 time-line、you、you、me、me、you;
+        
+三、在class为right的<div>中再添加一个class为write的<div>,
+        在新添加的<div>中添加一个超链接(<a>)、一个文本输入框(<input>)  、两个超链接(<a>);
+        提示：三个<a>标签链接地址都为当前页面("#")；为三个<a>
+        标签分别添加类名为 "voice"、"smiley"、"plus"; 
+        
+四、为class为write的<div>里的<input>设置样式：
+       字体为"微软雅黑"；文本的粗细为400；字体大小为16px；
+       字体颜色为 #1a1a1a；宽度为347px；高度为40px；
+       背景颜色为 #eceff1；内边距上下为0，左右为10px；
+       左浮动;
+       
+五、1、为class为smiley的<a>设置样式：
+              当鼠标放到<a>上时，添加背景图片("../img/smiley1.png") ; 
+              绑定关键帧动画 revolve，动画持续时间2s，匀速，无限循环；  
+       ( animation: revolve 2s linear infinite; )
+   2、自定义关键帧动画 revolve，开始的时候旋转角度为0度，结束
+             的时候旋转角度为 360度；( transform:rotate( 0deg ) ; )

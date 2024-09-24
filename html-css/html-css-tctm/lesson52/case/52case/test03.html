@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>码到成功</title>
+  <meta charset="utf-8" />
+  <style>
+      #box {
+          width: 100px;
+          height: 100px;
+          background-color: green;
+          position: relative;
+      }
+  </style>
+</head>
+<body>
+<div id="box"></div>
+<script>
+  /*通过连续更改offsetTop属性实现让div向下运动*/
+  var box = document.getElementById('box');
+  var speed = 5;
+  var timer = setInterval(function() {
+    var l = box.offsetTop;
+    box.innerHTML = l;
+    box.style.top = l + speed + 'px';
+  }, 100);
+</script>
+</body>
+</html>

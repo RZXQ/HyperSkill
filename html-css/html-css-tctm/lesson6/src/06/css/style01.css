@@ -1,0 +1,21 @@
+.container {
+    margin: 50px auto;
+    width: 700px;
+}
+
+.container > div {
+    height: 120px;
+    border-bottom: 1px dotted gray;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.container > div:nth-child(1) {
+    border-top: 1px dotted gray;
+}
+
+img {
+    float: left;
+    height: 120px;
+    margin-right: 20px;
+}

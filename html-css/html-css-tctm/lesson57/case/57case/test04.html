@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>亲自出码</title>
+  <style>
+      #photosWrap {
+          width: 250px;
+          height: 200px;
+          margin: 40px auto;
+          box-shadow: 0 0 5px lightgray;
+          overflow: hidden;
+          position: relative;
+      }
+
+      #middle {
+          width: 9999px;
+          height: 200px;
+          position: absolute;
+          left: 0;
+      }
+
+      #photosWrap img {
+          width: 250px;
+          height: 200px;
+          float: left;
+      }
+  </style>
+</head>
+<body>
+<div id="photosWrap">
+  <div id="middle">
+    <img src="images/image2.jpg">
+    <img src="images/image5.jpg">
+    <img src="images/image4.jpg">
+    <img src="images/image2.jpg">
+  </div>
+</div>
+<script>
+  var middle = document.getElementById('middle');
+  var album_maxWidth = 750;
+  var album_l = middle.offsetLeft;
+  setInterval(function() {
+    album_l -= 2;
+    if (album_l <= -album_maxWidth) {
+      album_l = 0;
+    }
+    middle.style.left = album_l + 'px';
+  }, 30);
+</script>
+</body>
+</html>
+

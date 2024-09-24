@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta ; charset="utf-8" content="text/html" http-equiv="Content-Type" />
+  <title>亲自出码</title>
+  <style>
+      div {
+          width: 150px;
+          height: 200px;
+          border: 2px solid pink;
+          border-radius: 20%;
+          padding-left: 30px;
+          position: relative;
+      }
+  </style>
+</head>
+<body>
+<div id="game">
+  <ul>
+    <p>
+      王者荣耀
+    </p>
+    <p>
+      刺激战场
+    </p>
+    <p>
+      阴阳师
+    </p>
+  </ul>
+  <button id="button">
+    添加
+  </button>
+</div>
+<script>
+  //点击按钮，在ul标记子节点的第一位插入包含内容“我的世界”，文字颜色为红色的h4节点
+  var btn = document.getElementById('button');
+  var game = document.getElementById('game');
+  btn.onclick = function() {
+    var newGame = document.createElement('h4');
+    newGame.innerHTML = '我的世界';
+    newGame.style.color = 'red';
+    newGame.style.paddingLeft = '40px';
+    game.insertBefore(newGame, game.firstChild);
+  };
+</script>
+</body>
+</html>

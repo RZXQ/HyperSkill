@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>码到成功</title>
+  <style>
+      #ball {
+          background-color: rgb(106, 245, 245);
+          font-size: 20px;
+          color: palevioletred;
+          width: 150px;
+      }
+  </style>
+</head>
+<body>
+<div id="ball">
+  <p>football</p>
+  <h3>basketball</h3>
+  <h4>baseball</h4>
+  <span>table tennis</span>
+</div>
+<script>
+  var myPE = document.getElementById('ball');
+  myPE.removeChild(myPE.childNodes[5]);
+</script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!-- 请按要求设置网页样式，完成如图所示效果。
+要求：1、在 header标签里添加id为title的div。
+     2、在game.css文件中设置它的宽高各为300px，并添加背景图片(../imgs/title.png)
+                  不平铺；相对定位；居中显示；
+-->
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link href="css/game.css" rel="stylesheet">
+</head>
+<body>
+<div id="structure">
+  <header>
+    <!-- 在下方写你的代码：添加div-->
+
+  </header>
+  <section>
+    <div id="game_info">
+      <img id="p2" src="imgs/p2.jpg">
+      <img id="p1" src="imgs/p1.jpg">
+      <img id="p3" src="imgs/p3.jpg">
+      <ul id="invite">
+        <li class="invite-text">
+          ♥♥♥♥♥♥♥♥♥♥
+        </li>
+        <li class="invite-text">
+          ♥♥♥♥♥♥♥
+        </li>
+        <li class="invite-text">
+          ♥♥♥♥
+        </li>
+        <li class="invite-text">
+          ♥
+        </li>
+      </ul>
+    </div>
+  </section>
+  <footer>
+    <div id="last_info">
+      <p>
+        地址：北京市海淀区大钟寺中鼎大厦
+      </p>
+      <p>
+        TEL：400-888-0521 CopyRight @ 2006-2019 一念相馆
+      </p>
+    </div>
+  </footer>
+</div>
+<script>
+  var texts = document.getElementsByClassName('invite-text');
+  var index = 0;
+  setInterval(function() {
+    for (var i = 0; i < 4; i++) {
+      if (index % 3 == 0) {
+        texts[i].style.color = '#95F5E0';
+      } else if (index % 3 == 1) {
+        texts[i].style.color = '#F7F5F5';
+      } else {
+        texts[i].style.color = '#F7F7A5';
+      }
+    }
+    index++;
+  }, 700);
+</script>
+</body>
+</html>

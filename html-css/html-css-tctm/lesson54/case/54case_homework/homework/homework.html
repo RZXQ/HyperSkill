@@ -1,0 +1,68 @@
+<!-- 请完成网页效果：当点击上方选项时，下方出现对应的颜色矩形 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>一码当先</title>
+  <style>
+      * {
+          text-align: center;
+      }
+
+      ul {
+          height: 50px;
+          width: 586px;
+          margin: 0 auto;
+      }
+
+      li {
+          padding: 15px;
+          float: left;
+          list-style-type: none;
+          margin-left: 90px;
+      }
+
+      li:hover {
+          background-color: lightblue;
+      }
+
+      div {
+          height: 300px;
+          width: 600px;
+          margin: 0 auto;
+          display: none;
+      }
+
+      .arc {
+          display: block;
+      }
+  </style>
+</head>
+<body>
+<ul>
+  <li>橙色</li>
+  <li>青色</li>
+  <li>金色</li>
+</ul>
+<div style="background-color: orange"></div>
+<div style="background-color: cyan"></div>
+<div style="background-color: gold"></div>
+
+<script>
+  //在下方写你的代码：完成选项卡效果
+  var oli = document.getElementsByTagName('li');
+  var oDiv = document.getElementsByTagName('div');
+  oDiv[0].className = 'arc';
+  for (var i = 0; i < oli.length; i++) {
+    oli[i].index = i;
+    oli[i].onclick = function() {
+      oDiv[0].className = oDiv[1].className = oDiv[2].className = '';
+      oDiv[this.index].className = 'arc';
+    };
+  }
+
+
+</script>
+</body>
+</html>

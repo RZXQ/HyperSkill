@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+      body {
+          margin: 0;
+          padding: 0;
+          background-color: #222222;
+      }
+
+      .header {
+          height: 310px;
+          background: url(images/header.png) no-repeat top center;
+      }
+
+      .d-love {
+          height: 216px;
+          border: 2px solid silver;
+          box-sizing: border-box;
+          width: 980px;
+          margin: 0 auto;
+      }
+
+      .d-love p {
+          width: 20px;
+          color: #426f00;
+          line-height: 21px;
+          font-size: 16px;
+          margin-left: 15px;
+      }
+
+      .pre {
+          width: 21px;
+          height: 90px;
+          background: url(images/pre.gif);
+          margin: 60px 0 0 20px;
+      }
+
+      .list {
+          height: 200px;
+          margin-left: 20px;
+          margin-top: 5px;
+          box-sizing: border-box;
+          padding-top: 20px;
+      }
+
+      img {
+          margin-left: 10px;
+      }
+
+      .next {
+          width: 21px;
+          height: 90px;
+          background: url(images/next.gif);
+          margin: 60px 0 0 20px;
+      }
+
+      .content {
+          width: 1350px;
+          height: 4310px;
+          border: 1px solid red;
+          margin: 0 auto;
+          background: url(images/content.png) no-repeat;
+      }
+
+      /*为id为like的<p>添加左浮动,
+       * 为class为pre，class为list，
+       * class为next的<div>元素设置左浮动，
+       * 使这些内容在一行内显示*/
+
+  </style>
+</head>
+<body>
+<div class="header"></div>
+<div class="d-love">
+  <p id="like">
+    您可能喜欢的动漫
+  </p>
+  <div class="pre"></div>
+  <div class="list">
+    <img src="images/haizeiwang.jpg" />
+    <img src="images/HuoYingRenZheBoRenChuan.jpg" />
+    <img src="images/EMoZhanXian.jpg" />
+    <img src="images/NvShenYiWenLu5.jpg" />
+    <img src="images/mingzhentankenan.jpg" />
+    <img src="images/JiaMianQiShiBuild.jpg" />
+  </div>
+  <div class="next"></div>
+</div>
+<div class="content"></div>
+</body>
+</html>

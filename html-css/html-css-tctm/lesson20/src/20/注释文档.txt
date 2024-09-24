@@ -1,0 +1,19 @@
+一、 在<section>中添加一个id为circle的<div>;
+         在其中添加四个<div>：
+    id分别为 "circle-outer"、"circle-center" 、"circle-inner"、"tit" ;
+    
+二、1、为id为circle的div设置宽度300px，高度300px，文本居中对齐；
+   2、为id为circle-outer的div设置宽度300px，高度300px，
+            并添加背景图片(../imgs/imgd/circle_outer.png)，不重复平铺;
+            
+三、3、为id为circle-center的div设置宽度250px，高度250px，
+             并添加背景图片(../imgs/imgd/circle_center.png)，不重复平铺;
+             
+四、4、为id为circle-inner的div设置宽度230px，高度230px，
+             并添加背景图片(../imgs/imgd/circle_inner.png)，不重复平铺;
+             
+五、5、为id为tit的div设置宽度150px，高度150px，
+             并添加背景图片(../imgs/imgd/tit.png)，不重复平铺;
+             
+
+

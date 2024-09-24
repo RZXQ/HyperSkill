@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>码到成功</title>
+  <style>
+      #today {
+          width: 180px;
+          height: 180px;
+          background-color: pink;
+      }
+
+      #node {
+          width: 180px;
+          height: 100px;
+          border: 1px solid yellow;
+          margin-top: 10px;
+      }
+  </style>
+</head>
+<body>
+<div id="today">
+  <a>今天你开心吗？</a>
+  <p>今天你难过吗？</p>
+  <h5>今天你做作业了吗？</h5>
+  <div>今天你做了什么？</div>
+</div>
+<div id="node">
+  nodeName:
+  <br />
+  <br />
+</div>
+<script>
+  var myToday = document.getElementById('today');
+  var myNode = document.getElementById('node');
+  for (var i = 0; i < myToday.childNodes.length; i++) {
+    myNode.append(myToday.childNodes[i].nodeName + '\n');
+  }
+</script>
+</body>
+</html>

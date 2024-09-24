@@ -1,0 +1,376 @@
+/*css RESET*/
+html, body {
+    height: 100%;
+    cursor: url("../imgs/cz.gif"), default;
+
+
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+}
+
+html {
+    overflow: hidden;
+}
+
+html, body, ul, li, table, td, tr, p, h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../imgs/bg.jpg) no-repeat;
+    background-size: 100% 100%;
+    overflow: auto;
+}
+
+/*顶部标题和导航栏*/
+header {
+    height: 20%;
+    /*border:1px solid red;*/
+    position: relative;
+}
+
+header #banner {
+    width: 36%;
+    height: 60%;
+    margin: 0 auto;
+
+}
+
+header #banner img {
+    width: 100%;
+    height: 100%;
+}
+
+/*顶部导航栏部分*/
+header nav {
+    width: 45%;
+    height: 30%;
+    position: absolute;
+    bottom: -5%;
+    right: 21%;
+}
+
+nav .navct {
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+nav #friendzone01:hover, nav #photo02:hover, nav #plane04:hover, nav #dairy03:hover {
+    z-index: 500;
+    width: 23%;
+    height: 100%;
+}
+
+nav #mgame05:hover {
+    z-index: 500;
+    width: 22%;
+    height: 100%;
+    left: 75%;
+    background-image: url(../imgs/mygame.gif);
+}
+
+nav #photo02:hover {
+    background-image: url(../imgs/photo2.gif);
+}
+
+nav #plane04:hover {
+    background-image: url(../imgs/planew.gif);
+}
+
+nav #dairy03:hover {
+    background-image: url(../imgs/dairy.gif);
+}
+
+nav #friendzone01:hover {
+    background-image: url(../imgs/friendzone.gif);
+    bottom: -5%;
+}
+
+nav #friendzone01 {
+    background-image: url(../imgs/a.png);
+    left: 12%;
+    z-index: 4;
+    bottom: -4%;
+}
+
+#photo02 {
+    background-image: url(../imgs/b.png);
+    left: 29%;
+    z-index: 3;
+    bottom: -4%;
+}
+
+#dairy03 {
+    background-image: url(../imgs/c.png);
+    left: 45%;
+    z-index: 0;
+    bottom: -4%;
+}
+
+#plane04 {
+    background-image: url(../imgs/d.png);
+    left: 61%;
+    z-index: 1;
+    bottom: -2%;
+}
+
+#mgame05 {
+    background-image: url(../imgs/e.png);
+    left: 77%;
+    z-index: 2;
+    bottom: -2%;
+}
+
+header .navct {
+    width: 19%;
+    height: 100%;
+    /*border:1px solid red;*/
+    float: left;
+
+}
+
+/*主体内容部分*/
+#contentView {
+    width: 60%;
+    height: 78%;
+    /* border: 1px solid red; */
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 700;
+}
+
+#content {
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/content.png);
+    background-position: left top;
+    background-size: 100% 100%;
+}
+
+/*左边栏（导航和签到）*/
+#left-side {
+    width: 18%;
+    height: 98%;
+    /*border:1px solid red;*/
+    position: absolute;
+    top: 0px;
+    left: 5%;
+    background: url(../imgs/gan.gif) no-repeat;
+    background-position: 64% bottom;
+    background-size: 13% 65%;
+}
+
+#signIn {
+    height: 18%;
+    width: 86%;
+    background: url(../imgs/signin.gif) no-repeat;
+    background-size: 100% 100%;
+    margin-top: 20%;
+    margin-left: 5%;
+
+}
+
+#lnav {
+    height: 80%;
+
+}
+
+.lnavc {
+    width: 83%;
+    height: 14%;
+    /*border:1px solid red;*/
+    background-position: -3%;
+    background-size: 100% 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+#friends06 {
+    background-image: url(../imgs/friend.gif);
+    right: 0;
+    top: 33%;
+    z-index: 705;
+    transition: transform 0.2s;
+    -moz-transition: transform 0.2s; /* Firefox 4 */
+    -webkit-transition: transform 0.2s; /* Safari 和 Chrome */
+    -o-transition: transform 0.2s; /* Opera */
+}
+
+#friends06:hover {
+    -moz-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    z-index: 706;
+}
+
+#classname07 {
+    background-image: url(../imgs/b.gif);
+    right: 0;
+    top: 41%;
+    z-index: 704;
+    transition: transform 0.2s;
+    -moz-transition: transform 0.2s; /* Firefox 4 */
+    -webkit-transition: transform 0.2s; /* Safari 和 Chrome */
+    -o-transition: transform 0.2s; /* Opera */
+}
+
+#classname07:hover {
+    -moz-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    z-index: 706;
+}
+
+#schoolfellow08 {
+    background-image: url(../imgs/f.gif);
+    right: 0;
+    top: 52%;
+    z-index: 703;
+    transition: transform 0.2s;
+    -moz-transition: transform 0.2s; /* Firefox 4 */
+    -webkit-transition: transform 0.2s; /* Safari 和 Chrome */
+    -o-transition: transform 0.2s; /* Opera */
+}
+
+#schoolfellow08:hover {
+    -moz-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    z-index: 706;
+
+}
+
+#music09 {
+    background-image: url(../imgs/m.gif);
+    right: 0;
+    top: 61%;
+    z-index: 702;
+    transition: transform 0.2s;
+    -moz-transition: transform 0.2s; /* Firefox 4 */
+    -webkit-transition: transform 0.2s; /* Safari 和 Chrome */
+    -o-transition: transform 0.2s; /* Opera */
+}
+
+#music09:hover {
+    -moz-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    z-index: 706;
+
+}
+
+#setting10 {
+    background-image: url(../imgs/s.gif);
+    right: 0;
+    top: 71%;
+    z-index: 701;
+    transition: transform 0.2s;
+    -moz-transition: transform 0.2s; /* Firefox 4 */
+    -webkit-transition: transform 0.2s; /* Safari 和 Chrome */
+    -o-transition: transform 0.2s; /* Opera */
+}
+
+#setting10:hover {
+    -moz-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    z-index: 706;
+
+}
+
+/*右边好友栏*/
+#right-side {
+    width: 23%;
+    height: 100%;
+    /*border:1px solid red;*/
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    right: 0;
+}
+
+#right-side #friendsOnline {
+    height: 70%;
+    width: 78%;
+    /*border:1px solid red;*/
+    position: relative;
+    top: 5%;
+    left: -5%;
+
+}
+
+.friendOn {
+    width: 35%;
+    height: 20%;
+    border-radius: 50%;
+    border: 1px solid #eaf6ff;
+    position: absolute;
+    /*margin:auto;*/
+    left: 0;
+    right: 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: 800;
+    left: 50%;
+
+
+}
+
+#friend1 {
+    background-image: url(../imgs/f1.gif), url(../imgs/pop.jpg);
+    left: 10%;
+    top: 0;
+}
+
+#friend2 {
+    background-image: url(../imgs/f2.gif), url(../imgs/pop.jpg);
+    left: 45%;
+    top: 15%;
+}
+
+#friend3 {
+    background-image: url(../imgs/friend6.png), url(../imgs/pop.jpg);
+    left: 13%;
+    top: 32%;
+}
+
+#friend4 {
+    background-image: url(../imgs/f4.gif), url(../imgs/pop.jpg);
+    left: 45%;
+    top: 45%;
+}
+
+#friend5 {
+    background-image: url(../imgs/f5.gif), url(../imgs/pop.jpg);
+    left: 10%;
+    top: 60%;
+}
+
+#friend6 {
+    background-image: url(../imgs/f3.gif), url(../imgs/pop.jpg);
+    left: 58%;
+    top: 70%;
+}
+
+#friend7 {
+    background-image: url(../imgs/friend7.png), url(../imgs/pop.jpg);
+    left: 20%;
+    top: 78%;
+}
+
+#right-side .friendsOnimg {
+    width: 60%;
+    height: 25%;
+    background-image: url(../imgs/onlinefriend.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    z-index: 600;
+    /*border:1px solid red;*/
+
+}
+

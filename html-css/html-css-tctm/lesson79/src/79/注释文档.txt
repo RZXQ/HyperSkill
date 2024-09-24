@@ -1,0 +1,51 @@
+一、
+在网页中添加一个类名为header的<div>，在里面添加一个类名为top-bar的<div>,
+在这个<div>里添加一个类名为logo的<div>和一个无序列表<ul>,无序列表中有4个列表项<li>，
+每个列表项都包含一个超链接<a>，链接地址分别为index.html、story.html、product.html、about.html。
+
+二、
+1、在t_b.css中为类名为header的<div>设置样式：
+宽度：100%；高度87px；背景颜色为#fdeddc；固定定位；top为0；
+堆叠顺序为99；
+2、为类名为top-bar的<div>设置样式：外边距为auto；
+3、为类名为top-bar的<div>里的类名为logo的<div>设置样式：
+宽度104px；高度52px；添加背景图片(url(../images/logo1.png));
+背景图片大小设置为cover；左浮动；上外边距为18px；
+
+三、
+1、为类名为top-bar的<div>里的<ul>设置样式：
+宽度为80%；高度为60px；右浮动；右外边距为40px；上外边距为15px；
+2、为<ul>下的<li>设置样式：
+高度为60px；左浮动；行高为60px；左外边距为150px；
+
+四、
+1、在网页中提示位置添加一个类名为foot的<div>，在里面添加一个类名为footcon的<div>,
+在这个<div>里添加一个类名为logo的<div>和类名为fmap的<div>；
+2、在类名为logo的<div>中添加一张图片(images/logo2.png) ;
+3、在类名为fmap的<div>中添加文本内容,并换行显示( 咨询热线：021-59898888 地址：上海市青浦区沪青平公路2277-2299号上好佳公司<br>沪ICP备09016536号上好佳（中国）有限公司版权所有) ；
+
+五、
+1、为类名为footcon的<div>里的类名为logo的<div>设置样式：
+左浮动；宽度为157px；
+2、为类名为logo的<div>里的图片设置样式：转化为块元素；
+3、为类名为footcon的<div>里的类名为fmap的<div>设置样式：
+左浮动；左外边距为40px；上外边距为12px；左内边距为50px；
+左边框设置为1px  solid  #fff；字体大小为13px；行高2.1em；
+透明度(opacity)为0.6；
+
+六、
+1、在刚才完成的代码下方继续添加三个<a>，和一个类名为dsanf的<div>；三个<a>类名分别为 yybiaos、pdfwd、fhtop；
+2、类名为yybiaos的<a>中添加一张图片(images/gstb2.png);
+3、类名为pdfwd的<a>中有文本内容"标准公示"；
+4、类名为fhtop的<a>中有文本"TOP"和一张图片(images/top1.png)
+5、类名为dsanf的<div>中有五张图片，并且五张图片都是超链接；
+(images/icon01.png、images/icon02.png、images/icon03.png、images/icon04.png、images/icon05.png) ；  
+提示：所有<a>链接地址都为 "#"；
+
+七、
+1、为类名为footcon的<div>里的类名为fhtop的<a>设置样式：
+右浮动；左内边距为40px；上外边距为20px；字体大小24px；
+字体颜色为白色；
+2、为类名为footcon的<div>里的类名为dsanf的<div>设置样式：
+右浮动；左边框和右边框都设置为 1px solid rgba(250,250,250,0.6)；
+上下内边距为10px，左右内边距为20px；上外边距为10px；

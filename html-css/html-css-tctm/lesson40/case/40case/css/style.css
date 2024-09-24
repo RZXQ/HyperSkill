@@ -1,0 +1,32 @@
+li img {
+    border-radius: 50%;
+}
+
+/* 在下方写你的代码：设置输入框样式  */
+.write input {
+    font-family: '微软雅黑';
+    font-weight: 400;
+    font-size: 16px;
+    float: left;
+    width: 347px;
+    height: 40px;
+    padding: 0 10px;
+    color: #1a1a1a;
+    background-color: #eceff1;
+}
+
+/* 在下方写你的代码：动画效果实现 */
+.smiley:hover {
+    background-image: url("../img/smiley1.png");
+    animation: revolve 2s linear infinite;
+}
+
+@keyframes revolve {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <style>
+      .wrap {
+          width: 450px;
+          height: 480px;
+          margin: 100px auto;
+          position: relative;
+      }
+
+      span {
+          display: inline-block;
+          width: 220px;
+          height: 50px;
+          line-height: 50px;
+          text-align: center;
+          color: blue;
+      }
+
+      img {
+          position: absolute;
+          bottom: 20px;
+          left: 25px;
+          display: none;
+          width: 400px;
+          height: 400px;
+      }
+
+      span:hover {
+          border: 2px solid blue;
+          border-radius: 20px;
+      }
+
+      .active {
+          display: block;
+      }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <span>开心</span>
+  <span>难过</span>
+  <img src="images/p1.png" />
+  <img src="images/p2.png" />
+</div>
+<script>
+  var btn = document.getElementsByTagName('span');
+  var arr = document.getElementsByTagName('img');
+  arr[0].className = 'active';
+  for (var i = 0; i < btn.length; i++) {
+    btn[i].index = i;
+    btn[i].onclick = function() {
+      arr[0].className = arr[1].className = '';
+      arr[this.index].className = 'active';
+    };
+  }
+</script>
+</body>
+</html>

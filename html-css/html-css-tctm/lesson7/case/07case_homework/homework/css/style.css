@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    height: 600px;
+    background: url("../images/bg1.jpg");
+    background-size: cover;
+}
+
+.container {
+    width: 640px;
+    height: 340px;
+    background-color: #e6b860;
+    border-radius: 20px;
+    margin: 200px auto;
+    position: relative;
+    padding: 30px 20px 0 20px;
+    font-size: 18px;
+    text-indent: 2em;
+    line-height: 2;
+}
+
+img {
+    width: 400px;
+    position: absolute;
+    top: -200px;
+    left: 150px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* 比如可以为文字设置背景颜色。调整文字区背景颜色等等。也可以写入自己感兴趣的内容 */
+
+/*  样式代码给学员预留出来。每一份样式代码分别存储在不同的样式表里。学员引入不同的样式表，展示出不同的样式。学员还可以自主设置一些样式  */

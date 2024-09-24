@@ -1,0 +1,22 @@
+一、
+1、给"收缩"(back)绑定点击事件;
+2、获取大容器(sidebar)的left值；提示：getComputedStyle(sidebar)；
+3、判断left值，如果为"0px"，将容器(sidebar)的left值设置为"-150px"；
+否则，将容器(sidebar)的left值设置为"0px"；
+
+二、
+1、获取类名为list的元素和类名为frame的元素分别用变量list和frames保存；；
+2、for循环遍历list；
+3、通过for循环实现控制台里打印list中的所有元素；
+
+三、
+function clickHandle(i, obj) {
+      obj.单击事件 = function() {
+            设置frames[i]的animaition动画 = "introduce1 0.5s forwards";
+      }
+      获取frames[i]中类名为close的元素，保存在变量close中；
+      close.onclick = function() {
+            设置frames[i]的animaition动画 = "introduce2 0.5s forwards";
+      }
+}
+for循环中调用函数 clickHandle(i,list[i]);

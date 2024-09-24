@@ -1,0 +1,135 @@
+#schoolfellows8 {
+    width: 60%;
+    height: 85%;
+    /*border:1px solid red;*/
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 9%;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    overflow-x: visible;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    background-image: url(../imgs/schoolfellow.png);
+    background-repeat: no-repeat;
+    background-position: 40% 3%;
+    background-size: 88% 7%;
+
+}
+
+#schoolfellows8 .classmask {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 50px solid rgba(255, 255, 255, 0.7);
+    border-bottom: 50px solid transparent;
+    position: absolute;
+    right: -50px;
+    top: 20%;
+}
+
+#schoolfellows8 .schoolbgdecoration {
+    width: 37%;
+    height: 70%;
+    /*border:1px solid red;*/
+    position: absolute;
+    right: -30%;
+    bottom: -3.5%;
+    background: url(../imgs/tree.png) no-repeat;
+    background-size: 100% 100%;
+
+}
+
+#schoolfellows8 .schoolfellowcontent {
+    width: 90%;
+    height: 94%;
+    /*border:1px solid red;*/
+    margin: 5% auto;
+    overflow: auto;
+
+}
+
+#schoolfellows8 .schoolfellowcontent .schoolfee {
+    width: 92%;
+    height: 19%;
+    /*border:1px solid red;*/
+    float: right;
+    margin-bottom: 0.3%;
+}
+
+#schoolfellows8 .schoolfellowcontent .schoolfee div {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Microsoft YaHei";
+    /*border:1px solid red;*/
+    float: left;
+    margin-right: 6.8%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#schoolfellows8 .schoolfellowcontent .schoolfee .schoolephoto {
+    height: 100%;
+    width: 18%;
+}
+
+#schoolfellows8 .schoolfellowcontent .schoolfee .schoolename {
+    height: 40%;
+    width: 30%;
+    position: relative;
+    top: 25%;
+    text-align: center;
+    background: url(../imgs/tou1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #5b98d1;
+    line-height: 140%;
+    font-size: 1.5vw;
+
+}
+
+#schoolfellows8 .schoolfellowcontent .schoolfee .schoolenclass {
+    height: 40%;
+    width: 30%;
+    position: relative;
+    top: 25%;
+    text-align: center;
+    background: url(../imgs/tou1.png);
+    color: #4ebc81;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    line-height: 140%;
+    font-size: 1.5vw;
+}
+
+#schoolfellows8 .schoolfellowcontent #schoolfee1 .schoolephoto {
+    background-image: url(../imgs/head1.png);
+}
+
+#schoolfellows8 .schoolfellowcontent #schoolfee2 .schoolephoto {
+    background-image: url(../imgs/head2.png);
+}
+
+#schoolfellows8 .schoolfellowcontent #schoolfee3 .schoolephoto {
+    background-image: url(../imgs/head3.jpg);
+}
+
+#schoolfellows8 .schoolfellowcontent #schoolfee4 .schoolephoto {
+    background-image: url(../imgs/head4.jpg);
+}
+
+#schoolfellows8 .schoolfellowcontent #schoolfee5 .schoolephoto {
+    background-image: url(../imgs/f5.gif);
+}
+
+#schoolfellows8 .schoolfellowcontent #schoolfee1 .schoolename {
+    color: #ec7c8a;
+}
+
+#schoolfellows8 .schoolfellowcontent #schoolfee3 .schoolename {
+    color: #ec7c8a;
+}

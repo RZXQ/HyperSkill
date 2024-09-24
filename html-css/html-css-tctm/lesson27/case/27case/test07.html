@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>亲自出码</title>
+  <style>
+      .top-wrapper {
+          height: 87px;
+          width: 1900px;
+          background: url(images/navbg.png) repeat-x;
+      }
+
+      .header {
+          height: 332px;
+          width: 1900px;
+          background: url(images/index_r2_c1.jpg) no-repeat top center;
+
+      }
+
+      .content {
+          height: 1322px;
+          width: 1900px;
+          background: url(images/content1.png) no-repeat top center;
+      }
+
+      /*
+       * 为class为 top-left和 top-right的div
+       * 设置宽高：
+       * 两个div宽度为242px，高度为147px
+       * 添加背景图片，图片路径为：
+       * 	top-left:  imgs/index_top_left.png
+       *  top-right: imgs/index_top_right.png
+       * 通过绝对定位，分别定位到左上角和右上角
+       */
+      .top-left {
+          width: 242px;
+          height: 147px;
+          background: url(images/index_top_left.png);
+          position: absolute;
+          top: 0;
+          left: 0;
+      }
+
+      .top-right {
+          width: 242px;
+          height: 147px;
+          background: url(images/index_top_right.png);
+          position: absolute;
+          top: 0;
+          right: 0;
+      }
+
+      /*为class为top-wrapper的div添加相对定位*/
+      .top-wrapper {
+          position: relative;
+      }
+  </style>
+</head>
+<body>
+<div class="top-wrapper">
+  <div class="top-left"></div>
+  <div class="top-right"></div>
+</div>
+<div class="header"></div>
+<div class="content"></div>
+</body>
+</html>

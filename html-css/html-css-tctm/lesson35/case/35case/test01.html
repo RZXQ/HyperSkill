@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style>
+      div {
+          width: 300px;
+          height: 400px;
+          position: relative;
+      }
+
+      div > img {
+          width: 120px;
+          height: 100px;
+          position: absolute;
+          left: 130px;
+          animation: mymove 5s infinite;
+          -webkit-animation: mymove 5s infinite; /*Safari and Chrome*/
+      }
+
+      /* 写一个让太阳上升的动画效果，从距离底部为0px的位置，上升到距离底部为300px的位置 */
+      @keyframes mymove {
+          from {
+              bottom: 0px;
+          }
+          to {
+              bottom: 300px;
+          }
+      }
+
+      @-webkit-keyframes mymove /*Safari and Chrome*/
+      {
+          from {
+              bottom: 0px;
+          }
+          to {
+              bottom: 200px;
+          }
+      }
+  </style>
+</head>
+<body>
+<div>
+  <img alt="" src="images/test01/timg.png">
+</div>
+</body>
+</html>

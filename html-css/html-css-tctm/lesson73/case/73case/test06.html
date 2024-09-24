@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>码到成功</title>
+  <style>
+      li {
+          background-color: pink;
+          width: 100px;
+      }
+  </style>
+</head>
+<body>
+<ol id="china">
+  <li>中秋节</li>
+  <li>国庆节</li>
+  <li>除夕</li>
+</ol>
+<script>
+  //为列表添加内容为“元宵节”的li节点
+  var element = document.getElementById('china');
+  var newLi = document.createElement('li');
+  newLi.innerHTML = '元宵节';
+  element.appendChild(newLi);
+</script>
+</body>
+</html>

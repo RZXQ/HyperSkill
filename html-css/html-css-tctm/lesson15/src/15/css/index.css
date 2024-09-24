@@ -1,0 +1,25 @@
+body {
+    background: url(../images/marginbg.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.container {
+    width: 400px;
+    margin: auto;
+}
+
+h3 {
+    font-size: 22px;
+    color: gold;
+}
+
+.wrap {
+    text-align: left;
+}
+
+/*为class为container的div设置上外边距为100px，
+ 为class为wrap的div设置上外边距为50px，下外边距为50px，
+ 为class为wrap的div里的<span>设置字体颜色为gold，
+ 为class为imgWrap的div里的<img>设置外边距为10px*/
+

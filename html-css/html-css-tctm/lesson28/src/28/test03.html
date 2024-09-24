@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+      body {
+          margin: 0;
+          padding: 0;
+      }
+
+      .base {
+          height: 1080px;
+          background: url(images/bg2.jpg) no-repeat top center;
+          position: relative;
+      }
+
+      .eye-box {
+          float: left;
+          margin-left: 10px;
+      }
+
+      .eye-list {
+          width: 1200px;
+      }
+
+      .eye-box-top {
+          width: 290px;
+          position: relative;
+          border: 2px solid #3f2a22;
+          border-bottom: none;
+          box-sizing: border-box;
+      }
+
+      h3 {
+          font-size: 18px;
+          font-weight: 700;
+          color: #f8b700;
+          background: #211510;
+          text-align: center;
+          height: 50px;
+          line-height: 50px;
+          margin: 0;
+      }
+
+      .eye-box:hover {
+          position: relative;
+          top: -150px;
+      }
+
+      /**
+       * 为class名为eye-list的div设置固定位置定位：
+       * bottom设置为-150px将内容隐藏
+       * left设置为50% ，左外边距设为负的宽度的一半 -600 ，实现固定边栏左右居中
+       */
+
+  </style>
+</head>
+<body>
+<div class="base"></div>
+<div class="eye-list">
+  <div class="eye-box">
+    <div class="eye-box-top">
+      <h3>全新同盟种族</h3>
+    </div>
+    <div class="eye-box-body">
+      <img src="images/list1.jpg" />
+    </div>
+  </div>
+  <div class="eye-box">
+    <div class="eye-box-top">
+      <h3>110级开启</h3>
+    </div>
+    <div class="eye-box-body">
+      <img src="images/list2.jpg" />
+    </div>
+  </div>
+  <div class="eye-box">
+    <div class="eye-box-top">
+      <h3>新版本上线</h3>
+    </div>
+    <div class="eye-box-body">
+      <img src="images/list3.jpg" />
+    </div>
+  </div>
+  <div class="eye-box">
+    <div class="eye-box-top">
+      <h3>新版本在线修正</h3>
+    </div>
+    <div class="eye-box-body">
+      <img src="images/list4.jpg" />
+    </div>
+  </div>
+</div>
+</body>
+</html>

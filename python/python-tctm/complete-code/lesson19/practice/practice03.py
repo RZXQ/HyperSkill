@@ -1,0 +1,7 @@
+# 课堂练习三
+# 已知text03.txt文件中是一首古诗《登鹳雀楼》，古诗缺少最后一句"更上一层楼"。
+# 编写代码，在控制台输入最后一句古诗内容并将内容使用with open()追加在text03.txt文件中，最后查看text03.txt文件
+# 提示：追加的打开模式为"a"
+content = input('请输入最后一句古诗：')
+with open('files/text03.txt', 'a', encoding='utf-8') as f:
+    f.write(content)

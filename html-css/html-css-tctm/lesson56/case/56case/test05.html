@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+      #photosWrap {
+          width: 250px;
+          height: 200px;
+          overflow: scroll;
+      }
+
+      img {
+          width: 250px;
+          height: 200px;
+          vertical-align: top;
+      }
+  </style>
+</head>
+<body>
+<div id="photosWrap">
+  <img src="images/image_2.jpg">
+  <img src="images/image4.jpg">
+  <img src="images/image5.jpg">
+</div>
+<script>
+  var pw = document.getElementById('photosWrap');
+  setInterval(function() {
+    pw.scrollTop = pw.scrollTop + 1;
+  }, 10);
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+

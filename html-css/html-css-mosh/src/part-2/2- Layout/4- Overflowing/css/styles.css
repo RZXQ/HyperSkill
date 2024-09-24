@@ -1,0 +1,10 @@
+.box {
+  border: 3px solid gold;
+  width: 150px;
+  height: 150px;
+
+  /* 1. Overflow options: visible (default), hidden, scroll (always shows scrollbars), auto (shows scrollbars if needed) */
+  overflow: auto;
+
+  /* 2. Overflow is a shorthand for overflow-x and overflow-y */
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>test</title>
+  <style>
+      div {
+          width: 100px;
+          border: 2px solid yellow;
+          border-radius: 20%;
+          padding-left: 10px;
+      }
+  </style>
+</head>
+<body>
+<div id="computer">
+  <p>电脑</p><h5>鼠标</h5><a>键盘</a>
+</div>
+<script>
+  var computer = document.getElementById('computer');
+  var newComponent = document.createElement('a');
+  newComponent.innerHTML = '摄像头';
+  newComponent.style.color = 'red';
+  computer.insertBefore(newComponent, computer.firstChild);
+</script>
+</body>
+</html>

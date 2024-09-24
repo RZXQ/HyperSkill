@@ -1,0 +1,50 @@
+/* Specificity Notes:
+1. Selector specificity hierarchy: ID selectors > class & attribute selectors & pseudo-class selectors > type selectors & pseudo-elements
+2. Specificity format: (a, b, c)
+   a: Number of ID selectors
+   b: Number of class/attribute selectors and pseudo-classes
+   c: Number of type selectors and pseudo-elements
+3. Example: A specificity of (1, 1, 2) translates to a numeric value of 112.
+*/
+
+/*
+1. Specificity: (0, 0, 1)!
+   Applying style with !important (avoid using this as it overrides all other specificity)
+*/
+h1 {
+  color: dodgerblue !important;
+}
+
+/*
+2. Specificity: (0, 1, 0)
+   Class selector: .highlight
+*/
+.highlight {
+  color: deeppink;
+}
+
+/*
+3. Specificity: (1, 0, 0)
+   ID selector: #products
+*/
+#products {
+  color: green;
+}
+
+/*
+4. Specificity: (1, 0, 1)
+   ID selector: #products
+   Element selector: h1
+*/
+h1#products {
+  color: coral;
+}
+
+/*
+5. Specificity: (1, 1, 0)
+   Class selector: .featured
+   ID selector: #products
+*/
+.featured #products {
+  color: purple;
+}

@@ -1,0 +1,25 @@
+/* 1. Color representation in CSS:
+      a. Named colors: Easy to remember and use for basic colors.
+      b. RGB: Great for precise color control, especially in digital design.
+      c. HSL: User-friendly for adjusting and understanding colors.
+      d. Hexadecimal: Compact and widely used in web design.
+*/
+.box {
+  width: 200px;
+  height: 200px;
+
+  /* 2. RGB: Great for precise color control, especially in digital design. */
+  background-color: rgb(230, 205, 16);
+
+  /* 3. RGBA (including transparency): Ideal for creating semi-transparent colors. */
+  background-color: rgba(230, 205, 16, 0.5);
+
+  /* 4. Hexadecimal: Compact and widely used in web design. */
+  background-color: #e6cd10;
+
+  /* 5. HSL: User-friendly for adjusting and understanding colors. */
+  background-color: hsl(53, 65%, 77%);
+
+  /* 6. HSLA (including transparency): Ideal for creating semi-transparent colors. */
+  background-color: hsla(53, 65%, 77%, 0.5);
+}

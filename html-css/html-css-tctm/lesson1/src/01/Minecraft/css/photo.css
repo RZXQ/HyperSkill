@@ -1,0 +1,88 @@
+#photoshow2 {
+    width: 85%;
+    height: 85%;
+    /*border:1px solid red;*/
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    overflow-y: auto;
+    padding-top: 2%;
+    box-sizing: border-box;
+    padding-bottom: 3%;
+}
+
+#slider_box {
+    width: 97%;
+    height: 95%;
+    margin-left: 1.5%;
+    float: left;
+}
+
+#slider {
+    width: 100%;
+    height: 100%;
+    margin-top: 1%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10%;
+
+}
+
+#slider #imgs {
+    width: 700%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 86%;
+
+
+}
+
+#slider #imgs li {
+    float: left;
+    z-index: 0;
+    height: 108%;
+    width: 20%;
+
+
+}
+
+#slider #imgs li img {
+    width: 75%;
+    height: 100%;
+
+}
+
+#slider #indexs {
+    position: absolute;
+    bottom: 1%;
+    right: 5%;
+    width: 35%;
+    height: 5%;
+
+}
+
+#slider #indexs li {
+    width: 10%;
+    height: 100%;
+    line-height: 100%;
+    display: inline-block;
+    background: #3e3e3e;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 7%;
+    line-height: 140%;
+    font-size: 1vw;
+
+}
+
+#slider #indexs li.hover {
+    background: #b61b1f;
+}

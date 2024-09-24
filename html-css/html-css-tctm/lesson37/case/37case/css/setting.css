@@ -1,0 +1,135 @@
+#settingContent {
+    overflow: visible;
+}
+
+.settingWrap {
+    padding: 40px;
+    position: absolute;
+}
+
+.settingWrap .userInfo {
+    position: relative;
+    top: -70px;
+}
+
+.settingWrap .profile {
+    width: 80px;
+    border-radius: 10px;
+}
+
+.settingWrap .name {
+    font-size: 20px;
+    color: skyblue;
+    font-weight: bold;
+}
+
+.settingWrap ul {
+    padding-left: 0;
+    list-style-type: none;
+    width: 350px;
+    height: 310px;
+    float: left;
+    margin-top: -30px;
+}
+
+.settingWrap .left li, .settingWrap .right li {
+    height: 40px;
+    padding-left: 80px;
+    margin: 20px;
+}
+
+.settingWrap .left li:nth-child(1) {
+    background: url(../images/settingList.png) no-repeat 0 10px;
+}
+
+.settingWrap .left li:nth-child(2) {
+    background: url(../images/settingList.png) no-repeat 0 -55px;
+}
+
+.settingWrap .left li:nth-child(3) {
+    background: url(../images/settingList.png) no-repeat 0 -220px;
+}
+
+.settingWrap .left li:nth-child(4) {
+    background: url(../images/settingList.png) no-repeat 0 -190px;
+}
+
+.settingWrap .left li:nth-child(5) {
+    background: url(../images/settingList.png) no-repeat 0 -290px;
+}
+
+.settingWrap .right li:nth-child(1) {
+    background: url(../images/settingList.png) no-repeat 0 -25px;
+}
+
+.settingWrap .right li:nth-child(2) {
+    background: url(../images/settingList.png) no-repeat 0 -120px;
+}
+
+.settingWrap .right li:nth-child(3) {
+    background: url(../images/settingList.png) no-repeat 0 -90px;
+}
+
+.settingWrap .right li:nth-child(4) {
+    background: url(../images/settingList.png) no-repeat 0 -160px;
+}
+
+.settingWrap .right li:nth-child(5) {
+    background: url(../images/settingList.png) no-repeat 0 -255px;
+}
+
+.settingWrap .flower {
+    width: 150px;
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+}
+
+.settingWrap input {
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+/*设置样式*/
+.settingWrap select {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.settingWrap .gender {
+    width: 20px;
+}
+
+.settingWrap span {
+    margin-left: 10px;
+    margin-right: 30px;
+    position: relative;
+    top: -15px;
+}
+
+.settingWrap .submit {
+    width: 170px;
+    display: block;
+    margin: auto;
+    background: url(../images/submit.png) no-repeat 0 0;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

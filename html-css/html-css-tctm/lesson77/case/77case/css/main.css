@@ -1,0 +1,228 @@
+.container {
+    width: 1270px;
+    margin: 30px auto;
+}
+
+.left {
+    width: 185px;
+    height: 760px;
+    float: left;
+}
+
+.right {
+    width: 185px;
+    height: 760px;
+    float: left;
+}
+
+.main {
+    width: 900px;
+    height: 660px;
+    float: left;
+}
+
+.nav {
+    width: 900px;
+    height: 140px; /*background-color: gold;*/
+}
+
+.content {
+    width: 780px;
+    height: 470px; /*background-color: skyblue;*/
+    padding: 60px;
+    padding-bottom: 80px;
+    background-image: url(../images/contbg.png);
+    background-size: contain;
+}
+
+body {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+}
+
+.nav img {
+    display: block;
+    margin: 0 auto;
+}
+
+.content .wrap {
+    width: 780px;
+    height: 480px;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    display: none;
+    position: absolute;
+}
+
+.nav .btnWrap {
+    position: relative;
+    right: 20px;
+    top: 25px;
+}
+
+.nav .btn {
+    width: 100px;
+    height: 42px;
+    float: right;
+    background-size: contain;
+    position: relative;
+}
+
+.nav .btn:hover {
+    transform: scale(1.1);
+}
+
+.friend {
+    background-image: url(../images/nav5.png);
+    background-repeat: no-repeat;
+    left: 80px;
+}
+
+.photo {
+    background-image: url(../images/nav4.png);
+    background-repeat: no-repeat;
+    left: 50px;
+}
+
+.diary {
+    background-image: url(../images/nav3.png);
+    background-repeat: no-repeat;
+    left: 20px;
+}
+
+.plan {
+    background-image: url(../images/nav2.png);
+    background-repeat: no-repeat;
+    left: 0;
+}
+
+.game {
+    background-image: url(../images/nav1.png);
+    background-repeat: no-repeat;
+    left: -20px;
+}
+
+.friendsOnline {
+    width: 185px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+}
+
+.friendsOnline div {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+#friend1 {
+    left: 10px;
+    top: 10px;
+    background-image: url(../images/f1.gif), url(../images/pop.jpg);
+}
+
+#friend2 {
+    left: 20px;
+    top: 140px;
+    background-image: url(../images/f2.gif), url(../images/pop.jpg);
+}
+
+#friend3 {
+    left: 10px;
+    top: 320px;
+    background-image: url(../images/f3.gif), url(../images/pop.jpg);
+}
+
+#friend4 {
+    right: 10px;
+    top: 330px;
+    background-image: url(../images/f4.gif), url(../images/pop.jpg);
+}
+
+#friend5 {
+    right: 20px;
+    top: 60px;
+    background-image: url(../images/f5.gif), url(../images/pop.jpg);
+}
+
+#friend6 {
+    right: 10px;
+    top: 160px;
+    background-image: url(../images/f6.gif), url(../images/pop.jpg);
+}
+
+#friend7 {
+    right: 40px;
+    top: 240px;
+    background-image: url(../images/f7.gif), url(../images/pop.jpg);
+}
+
+#onlinefriend {
+    width: 175px;
+    position: relative;
+    top: 130px;
+}
+
+.left div {
+    width: 220px;
+    height: 90px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.friends {
+    background-image: url(../images/nav6.png);
+    left: 0;
+    top: 50px;
+}
+
+.class {
+    background-image: url(../images/nav7.gif);
+    left: 0;
+    top: 20px;
+}
+
+.schoolmate {
+    background-image: url(../images/nav8.gif);
+}
+
+.music {
+    background-image: url(../images/nav9.gif);
+    left: 0;
+    top: -30px;
+}
+
+.setting {
+    background-image: url(../images/nav10.gif);
+    left: 0;
+    top: -50px;
+}
+
+
+.left .btn:hover {
+    transition: transform 1s;
+    transform: rotate(10deg);
+}
+
+.signIn {
+    animation: zoom 2s infinite;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.content .wrap.active {
+    display: block;
+}

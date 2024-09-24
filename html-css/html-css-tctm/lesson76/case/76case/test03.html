@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+      img {
+          width: 81px;
+          height: 172px;
+      }
+
+      #rabbite {
+          width: 81px;
+          height: 172px;
+          position: absolute;
+      }
+  </style>
+</head>
+<body>
+<div id="rabbite">
+  <img src="images/rabbite.png" />
+</div>
+<script>
+  window.onload = function() {
+    var rabbite = document.getElementById('rabbite');
+    var date1 = new Date().getTime();
+    //alert("起始时间："+date1+"毫秒");
+    var i = 0;
+    setInterval(function() {
+      rabbite.style.left = i + 'px';
+      if (i == 300) {
+        var date2 = new Date().getTime();
+        //alert("终点时间："+date2+"毫秒");
+        var date = (date2 - date1) / 1000;
+        alert('比赛历时：' + date + '秒');
+      }
+      i++;
+    }, 10);
+  };
+</script>
+</body>
+</html>

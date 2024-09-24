@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <style>
+      div {
+          width: 100px;
+          height: 100px;
+          margin-top: 2px;
+          background-color: red;
+      }
+  </style>
+</head>
+<body>
+<div class="box1"></div>
+<div class="box1"></div>
+<div class="box1"></div>
+<script>
+  var box = document.getElementsByClassName('box1');
+  for (var i = 0; i < box.length; i++) {
+    box[i].style.backgroundColor = 'blue';
+  }
+</script>
+</body>
+</html>
+
+
+
+
+
+

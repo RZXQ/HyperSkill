@@ -1,0 +1,111 @@
+/*这里需要在结构代码里添加一个id=settingContent*/
+#settingContent {
+    overflow: visible;
+}
+
+.settingWrap {
+    padding: 40px;
+    position: absolute;
+}
+
+.settingWrap .userInfo {
+    position: relative;
+    top: -70px;
+}
+
+.settingWrap .profile {
+    width: 80px;
+    border-radius: 10px;
+}
+
+.settingWrap .name {
+    font-size: 20px;
+    color: skyblue;
+    font-weight: bold;
+}
+
+.settingWrap .flower {
+    width: 150px;
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+}
+
+/* 设置无序列表样式 */
+.settingWrap ul {
+    padding-left: 0;
+    list-style-type: none;
+    width: 350px;
+    height: 310px;
+    float: left;
+    margin-top: -30px;
+}
+
+/* 设置无序列表的列表项样式 */
+.settingWrap .left li {
+    height: 40px;
+    padding-left: 80px;
+    margin: 20px;
+}
+
+.settingWrap .right li {
+    height: 40px;
+    padding-left: 80px;
+    margin: 20px;
+}
+
+/* 设置左侧列表项内容 */
+.settingWrap .left li:nth-child(1) {
+    background: url(../images/settingList.png) no-repeat 0 10px;
+}
+
+.settingWrap .left li:nth-child(2) {
+    background: url(../images/settingList.png) no-repeat 0 -55px;
+}
+
+.settingWrap .left li:nth-child(3) {
+    background: url(../images/settingList.png) no-repeat 0 -220px;
+}
+
+.settingWrap .left li:nth-child(4) {
+    background: url(../images/settingList.png) no-repeat 0 -190px;
+}
+
+.settingWrap .left li:nth-child(5) {
+    background: url(../images/settingList.png) no-repeat 0 -290px;
+}
+
+/* 设置右侧列表项内容 */
+.settingWrap .right li:nth-child(1) {
+    background: url(../images/settingList.png) no-repeat 0 -25px;
+}
+
+.settingWrap .right li:nth-child(2) {
+    background: url(../images/settingList.png) no-repeat 0 -120px;
+}
+
+.settingWrap .right li:nth-child(3) {
+    background: url(../images/settingList.png) no-repeat 0 -90px;
+}
+
+.settingWrap .right li:nth-child(4) {
+    background: url(../images/settingList.png) no-repeat 0 -160px;
+}
+
+.settingWrap .right li:nth-child(5) {
+    background: url(../images/settingList.png) no-repeat 0 -255px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

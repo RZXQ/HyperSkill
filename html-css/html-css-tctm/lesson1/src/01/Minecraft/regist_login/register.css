@@ -1,0 +1,211 @@
+* {
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    height: 96%;
+    overflow: hidden;
+}
+
+body {
+    height: 100%;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover, a:link, a:visited {
+    color: #999;
+}
+
+ul, li {
+    list-style: none;
+}
+
+header {
+    width: 90%;
+    margin: 0 auto;
+    height: 12%;
+    padding-top: 16px;
+    box-sizing: border-box;
+
+
+}
+
+hr {
+    width: 100%;
+    border-top: 2px solid #adadad;
+
+}
+
+hr.fohr {
+    border-top: 1px solid rgba(210, 210, 210, 0.31);
+}
+
+header:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.left {
+    float: left;
+}
+
+.logo {
+    width: 260px;
+    height: 45px;
+}
+
+.logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.welcome {
+    width: 200px;
+    height: 47px;
+    /*border-left:1px solid #ccc;*/
+    margin-top: 10px;
+    margin-left: 8px;
+    line-height: 27px;
+    font-size: 23px;
+    padding-left: 15px;
+    color: #333;
+    font-family: microsoft YaHei;
+}
+
+section {
+    height: 80%;
+    width: 100%;
+    background-image: url(../imgs/regbg.jpg);
+    background-position: 700px -10px;
+    position: relative;
+    background-repeat: no-repeat;
+    position: relative;
+
+
+}
+
+.tb {
+    position: absolute;
+    width: 25%;
+    height: 93%;
+    top: 20px;
+    left: 16%;
+    /*border:1px solid red;*/
+    font-size: 14px;
+    color: #999;
+    margin-right: 20px;
+    background-color: #fff;
+    border-spacing: 0px 10px;
+}
+
+.t1 {
+    vertical-align: top;
+    height: 10px;
+    /*border:1px solid red;*/
+    width: 95%;
+    height: 46px;
+    position: relative;
+
+}
+
+.t1 div {
+    position: absolute;
+    height: 95%;
+    width: 25%;
+    top: 2%;
+    left: 0;
+    line-height: 290%;
+    text-align: center;
+    color: #474747;
+    font-family: "microsoft YaHei";
+}
+
+.t1 input {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding-left: 25%;
+    box-sizing: border-box;
+}
+
+#vertify input, #pverify input {
+    padding-right: 110px;
+}
+
+.t1 div.vertifycode, div.pvertifycode {
+    width: 100px;
+    /*border:1px solid red;*/
+    height: 83%;
+    left: 70%;
+    top: 2px;
+    position: absolute;
+    background-image: url(../imgs/vertigycode.jpg);
+    background-size: 100% 100%;
+
+    background-repeat: no-repeat;
+}
+
+div.pvertifycode {
+    background-image: url(../imgs/getcode.png);
+}
+
+.t2 a {
+    color: #83c5ff;
+}
+
+.t3 button {
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/registnow.png);
+    background-size: 100% 100%;
+    outline: none;
+    border: none;
+}
+
+#rnow {
+    height: 50px;
+}
+
+.t3 button:hover {
+    cursor: pointer;
+}
+
+footer {
+    padding-top: 10px;
+    height: 10%;
+}
+
+footer div:first-child {
+    width: 55%;
+    /*border:1px solid red;*/
+    margin: 0 auto;
+}
+
+footer div:first-child a {
+    padding: 0 8px;
+    border-right: 1px solid #999;
+}
+
+footer div:first-child a:last-child {
+    border-right: none;
+}
+
+footer div:last-child {
+    width: 40%;
+    margin: 5px auto;
+    color: #999;
+    margin-top: 10px;
+}

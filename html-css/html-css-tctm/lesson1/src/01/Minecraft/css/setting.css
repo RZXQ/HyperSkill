@@ -1,0 +1,201 @@
+﻿/*大白框*/
+#set10 {
+    width: 75%;
+    height: 85%;
+    /*border:1px solid red;*/
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    overflow-y: auto;
+    padding-top: 3%;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    overflow: visible;
+}
+
+/*头部图片等级信息*/
+#set10 header {
+    width: 85%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    height: 22%;
+    /*border:1px solid red;*/
+    position: absolute;
+    top: -7%;
+}
+
+#set10 header div {
+    float: left;
+    /*border:1px solid red;*/
+    width: 15%;
+    height: 100%;
+    margin-right: 2%;
+}
+
+#set10 header div.headphoto {
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    top: 10px;
+    /*background-image:url(../imgs/head1.png);*/
+    background-size: 100% 100%;
+    border-radius: 20%;
+    background-image: url(../imgs/head3.jpg);
+    background-repeat: no-repeat;
+    border: 2px solid #dbdede;
+}
+
+#set10 header div.headname {
+    height: 33%;
+    position: relative;
+    top: 50%;
+    left: 20%;
+    font-size: 27px;
+    font-weight: bold;
+    color: #30b0ef;
+}
+
+#set10 header div.headclass {
+    height: 25%;
+    width: 13%;
+    position: relative;
+    top: 55%;
+    left: 25%;
+    background: url(../imgs/star.png) no-repeat;
+    background-position: 0 0;
+    background-size: 100% 100%;
+}
+
+/*编辑区大块总体*/
+#set10 #edit {
+    width: 86%;
+    height: 70%;
+    position: absolute;
+    top: 25%;
+    left: 7%;
+}
+
+#set10 #edit div {
+    width: 45%;
+    height: 15%;
+    float: left;
+    margin: 1% 2% 0 2%;
+}
+
+#set10 #edit div span {
+    float: left;
+    width: 25%;
+    height: 90%;
+    background-image: url(../imgs/setbiaodan.png);
+    background-size: 150% 800%;
+}
+
+#set10 #edit div input {
+    width: 70%;
+    height: 80%;
+    float: left;
+    margin-left: 1%;
+    font-size: 18px;
+    color: #434343;
+    font-family: "Microsoft YaHei";
+    border-radius: 5px;
+}
+
+/*分别设置*/
+#set10 #edit div select {
+    width: 30%;
+    height: 100%;
+    margin-left: 3%;
+    border-radius: 5px;
+}
+
+#set10 #edit div#sex input {
+    width: 10%;
+    height: 30%;
+    float: none;
+    margin-top: 5%;
+    padding: 0;
+}
+
+#set10 #edit {
+    /*底部提交栏*/
+}
+
+#set10 #edit #ename span {
+    background-position: 0 -3%;
+}
+
+#set10 #edit #eage span {
+    background-position: 0 9%;
+}
+
+#set10 #edit #birthday span {
+    background-position: 0 20%;
+}
+
+#set10 #edit #birthday input {
+    font-size: 14px;
+}
+
+#set10 #edit #constellation span {
+    background-position: 0 42%;
+}
+
+#set10 #edit #class span {
+    background-position: 0 30%;
+}
+
+#set10 #edit #sex span {
+    background-position: 0 54%;
+}
+
+#set10 #edit #phone span {
+    background-position: 0 65%;
+}
+
+#set10 #edit #mail span {
+    background-position: 0 76%;
+}
+
+#set10 #edit #opass span {
+    background-position: 0 99%;
+    background-size: 110% 800%;
+}
+
+#set10 #edit #npass span {
+    background-position: 0 87%;
+    background-size: 110% 800%;
+}
+
+#set10 #edit #ebottom {
+    width: 95%;
+    font-family: "Microsoft YaHei";
+}
+
+#set10 #edit #ebottom input {
+    width: 10%;
+    height: 60%;
+    float: none;
+}
+
+#set10 #edit #ebottom input[type="submit"] {
+    width: 20%;
+    height: 70%;
+}
+
+/*添加背景*/
+.flower {
+    width: 20%;
+    height: 25%;
+    position: absolute;
+    bottom: -2%;
+    right: -10%;
+    background-image: url(../imgs/xiaohua.png);
+    background-size: 100% 100%;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>码上回顾</title>
+  <style>
+      #myInput {
+          width: 200px;
+          height: 30px;
+          border: 4px solid pink;
+          border-radius: 18px;
+      }
+  </style>
+</head>
+<body>
+
+<h5>请输入数字1，2，3</h5>
+<br />
+<input id="myInput" type="text" />
+
+<script>
+  window.onload = function() {
+    var myInput = document.getElementById('myInput');
+    myInput.onkeyup = function(e) {
+      var keyCode = e.keyCode;
+      /*完成如图所示效果*/
+      if (keyCode == 49) {
+        myInput.style.background = 'red';
+      } else if (keyCode == 50) {
+        myInput.style.background = 'skyblue';
+      } else if (keyCode == 51) {
+        myInput.style.background = 'purple';
+      }
+    };
+  };
+</script>
+</body>
+</html>

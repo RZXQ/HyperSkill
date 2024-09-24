@@ -1,0 +1,265 @@
+.planwrite, .choicedate {
+    width: 40%;
+    height: 85%;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.planwrite {
+    left: 10%;
+    top: 7%;
+    padding-top: 4%;
+    padding-left: 2%;
+}
+
+.planwrite .writechoice {
+    height: 9%;
+    width: 80%;
+    border: 1px solid #aebecc;
+    /*margin:0 auto;*/
+    border-radius: 10px;
+    padding: 6px 0px 14px 19px;
+    box-sizing: border-box;
+}
+
+.planwrite .writechoice span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    /*border:1px solid red;*/
+    float: left;
+    background-size: 100% 100%;
+    margin-right: 3px;
+}
+
+.planwrite .writechoice span:hover {
+    border: 1px solid #7095c2;
+    border-shadow: 2px 2px;
+}
+
+.planwrite .writechoice span.writechoice1 {
+    background-image: url(../imgs/cb.jpg);
+}
+
+.planwrite .writechoice span.writechoice2 {
+    background-image: url(../imgs/ci.jpg);
+}
+
+.planwrite .writechoice span.writechoice3 {
+    background-image: url(../imgs/cu.jpg);
+}
+
+.planwrite .writechoice span.writechoice4 {
+    background-image: url(../imgs/ca.jpg);
+}
+
+.planwrite .writechoice span.writechoice5 {
+    background-image: url(../imgs/cp.jpg);
+}
+
+.planwrite .writechoice span.writechoice6 {
+    background-image: url(../imgs/cl.jpg);
+}
+
+.planwrite .writechoice span.writechoice7 {
+    background-image: url(../imgs/cc.jpg);
+}
+
+.planwrite .writechoice span.writechoice8 {
+    background-image: url(../imgs/cr.jpg);
+}
+
+.planwrite hr {
+    width: 85%;
+    float: left;
+    border-top: 2px solid #626861;
+
+}
+
+.planwrite .writearea {
+    height: 75%;
+}
+
+.planwrite .writearea textarea {
+    background-color: transparent;
+    resize: none;
+    width: 85%;
+    height: 100%;
+    font-size: 20px;
+    font-family: "Microsoft YaHei";
+}
+
+.choicedate {
+    right: 10%;
+    top: 7%;
+    padding: 4% 15px 4% 15px;
+}
+
+.choicedate .monthp {
+    width: 85px;
+    height: 40px;
+    /*border:1px solid red;*/
+    margin-bottom: 20px;
+    margin-left: 150px;
+    background-image: url(../imgs/june.jpg);
+    background-size: 100% 100%;
+}
+
+.choicedate .thism {
+    width: 260px;
+    height: 200px;
+    /*border:1px solid red;*/
+    background-image: url(../imgs/date6.png);
+    background-size: 100% 100%;
+
+}
+
+.choicedate .thism .table {
+    cellspacing: 20px;
+    mso-cellspacing: 10px;
+    border-collapse: separate;
+    border-spacing: 5px 3px;
+    position: relative;
+    left: -10px;
+    /*border:1px solid black;*/
+}
+
+.choicedate .thism .table .tr {
+    width: 280px;
+}
+
+.choicedate .thism .table .tr div {
+    border: 1px solid transparent;
+    width: 30px;
+    height: 30px;
+    padding-bottom: 2px;
+    float: left;
+
+
+}
+
+.choicedate .thism .table .tr:nth-child(1) {
+    /*border:1px solid black;*/
+    height: 12px;
+
+}
+
+.choicedate .thism .table .tr div {
+    width: 30px;
+    margin-right: 5px;
+    position: relative;
+    left: 5px;
+}
+
+.choicedate .thism .table .tr div:nth-child(2) {
+    margin-right: 8px;
+}
+
+.choicedate .thism .table .tr div:nth-child(3) {
+    margin-right: 9px;
+}
+
+.choicedate .thism .table .tr div:nth-child(4) {
+    margin-right: 9px;
+}
+
+.choicedate .thism .table .tr:nth-child(5) div {
+    margin-top: 6px;
+}
+
+.choicedate .thism .table .tr:last-child div {
+    margin-top: 6px;
+}
+
+.choicedate .thism .table .tr:nth-child(1) div {
+    width: 25px;
+    height: 15px;
+    padding-left: 10px;
+    margin-right: 2px;
+    left: 0;
+}
+
+.choicedate .thism .table .tr div:hover {
+    border: 2px solid #abc6e5;
+}
+
+.choicedate .thism .table .tr:first-child div:hover {
+    border: 1px solid transparent;
+}
+
+.choicebutton {
+    width: 20%;
+    height: 40%;
+    /*border:1px solid red;*/
+    position: absolute;
+    right: -20%;
+    top: 25%;
+
+}
+
+/*.choicebutton .lastm:hover,.choicebutton .returnm:hover,.choicebutton .nextm:hover{*/
+/*z-index:1002;*/
+/*}*/
+.choicedate .choicebutton .lastm {
+    width: 70%;
+    height: 60%;
+    background: url(../imgs/lastm.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: -20%;
+    left: -10%;
+    z-index: 1001;
+}
+
+.choicedate .choicebutton .returnm {
+    width: 85%;
+    height: 95%;
+    background: url(../imgs/returnm.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 13%;
+    left: 2%;
+    z-index: 1000;
+}
+
+.choicedate .choicebutton .nextm {
+    width: 70%;
+    height: 60%;
+    background: url(../imgs/nextm.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 80%;
+    left: -5%;
+    z-index: 1001;
+}
+
+.choicedate .submitbutton {
+    width: 200px;
+    height: 30px;
+    /*border:1px solid red;*/
+    position: absolute;
+    margin: auto;
+    top: 85%;
+    left: 0;
+    right: 0;
+
+}
+
+.choicedate .submitbutton .cancel, .choicedate .submitbutton .save {
+    width: 45%;
+    height: 100%;
+    /*border:1px solid red;*/
+    float: left;
+    background-size: 100% 100%;
+}
+
+.choicedate .submitbutton .save {
+    background-image: url(../imgs/save.png);
+}
+
+.choicedate .submitbutton .cancel {
+    background-image: url(../imgs/cancel.png);
+}
+

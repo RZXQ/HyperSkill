@@ -1,0 +1,21 @@
+body {
+    background-color: lightyellow;
+}
+
+#content {
+    width: 1350px;
+    height: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    width: 350px;
+    height: 250px;
+}
+
+span {
+    margin-right: 10px;
+}
+
+/*设置span，#g，p样式*/

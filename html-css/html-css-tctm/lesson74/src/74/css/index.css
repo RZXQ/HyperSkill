@@ -1,0 +1,42 @@
+.wrap {
+    width: 260px;
+    background-color: #0783c6;
+    margin: 100px auto;
+    text-align: center;
+    padding: 30px 10px;
+    border-radius: 10px;
+}
+
+input {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 0;
+    margin: auto;
+    width: 200px;
+}
+
+li {
+    background-color: #c8306a;
+    margin: 5px 0;
+    border-radius: 5px;
+    list-style: none;
+    height: 40px;
+    width: 200px;
+    line-height: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+button {
+    width: 140px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: olive;
+}

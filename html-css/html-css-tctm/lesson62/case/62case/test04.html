@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>码到成功</title>
+</head>
+<body>
+输入您的昵称：
+<input id="fname" type="text" />
+<script>
+  /*添加JS代码，完成效果*/
+  var ip = document.getElementById('fname');
+  ip.onblur = function() {
+    var userName = ip.value;
+    if (userName == '') {
+      alert('昵称为空，请填写昵称');
+    }
+  };
+</script>
+</body>
+</html>

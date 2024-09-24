@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>码上回顾</title>
+  <style>
+      .wrap {
+          width: 500px;
+          height: 480px;
+          margin: 100px auto;
+          position: relative;
+      }
+
+      span {
+          display: inline-block;
+          width: 220px;
+          height: 50px;
+          line-height: 50px;
+          text-align: center;
+          color: rgba(45, 199, 15, 0.466);
+          font-size: 20px;
+      }
+
+      img {
+          position: absolute;
+          bottom: 20px;
+          left: 25px;
+          display: none;
+          width: 420px;
+          height: 400px;
+      }
+
+      span:hover {
+          border-bottom: 2px solid rgb(33, 168, 6);
+          border-radius: 20px;
+      }
+
+      .active {
+          display: block;
+      }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <span>boy</span>
+  <span>girl</span>
+  <img src="images/boy.jpg" />
+  <img src="images/girl.jpg" />
+</div>
+<script>
+  /*完成如图所示效果*/
+  var btn = document.getElementsByTagName('span');
+  var arr = document.getElementsByTagName('img');
+  arr[0].className = 'active';
+  for (var i = 0; i < btn.length; i++) {
+    btn[i].index = i;
+    btn[i].onclick = function() {
+      arr[0].className = arr[1].className = '';
+      arr[this.index].className = 'active';
+    };
+  }
+</script>
+</body>
+</html>

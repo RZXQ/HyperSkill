@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>码上回顾</title>
+  <style>
+      body {
+          height: 100%;
+          padding: 0;
+          margin: 0;
+          background: #f8fafe url(images/bg1.jpg) repeat top left;
+      }
+
+      .base {
+          height: 600px;
+          width: 800px;
+          position: relative;
+          margin: 0 auto;
+      }
+
+      .nav {
+          width: 500px;
+          height: 70px;
+          margin: 300px auto;
+      }
+
+      a {
+          display: inline-block;
+          width: 68px;
+          height: 70px;
+          margin-left: 10px;
+          background-image: url(images/icons.png);
+      }
+
+      .item-2 {
+          background-position: -68px 0px;
+      }
+
+      .item-3 {
+          background-position: -136px 0px;
+      }
+
+      .item-4 {
+          background-position: -204px 0px;
+      }
+
+      .item-5 {
+          background-position: -272px 0px;
+      }
+
+      .item-6 {
+          background-position: -340px 0px;
+      }
+
+      /**
+       * 添加nav-item元素的过渡动画效果
+       * 	指定添加动画的属性为 transform
+       * 	过渡时间为 1 秒
+       * 当鼠标悬停时，将nav-item顺时针旋转360度，放大1.2倍
+       */
+      .nav-item {
+          transition: transform 1s;
+      }
+
+      .nav-item:hover {
+          transform: rotate(360deg) scale(1.2);
+      }
+
+  </style>
+</head>
+<body>
+<div class="base">
+  <div class="nav">
+    <a class="nav-item item-1" href="#"></a>
+    <a class="nav-item item-2" href="#"></a>
+    <a class="nav-item item-3" href="#"></a>
+    <a class="nav-item item-4" href="#"></a>
+    <a class="nav-item item-5" href="#"></a>
+    <a class="nav-item item-6" href="#"></a>
+  </div>
+</div>
+</body>
+</html>

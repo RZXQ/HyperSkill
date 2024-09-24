@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>码上回顾</title>
+  <meta charset="utf-8" />
+  <style>
+      * {
+          margin: 0;
+          padding: 0;
+      }
+
+      .wrap {
+          width: 200px;
+          height: 306px;
+          padding: 0 15px;
+          background: gray;
+          margin: 100px auto;
+      }
+
+      .photo {
+          width: 130px;
+          height: 130px;
+          padding: 7px;
+          background: url(images/img62.png);
+      }
+
+      .photo img {
+          width: 130px;
+          height: 125px;
+      }
+
+      h3 {
+          color: white;
+      }
+
+      p {
+          color: gray;
+          font-size: 14px;
+          line-height: 2;
+      }
+
+      /*
+       * 使用相对定位移动图片的位置
+       * 向上移动30px
+       * 向右移动30px
+       * 鼠标悬停照片下移2px
+       */
+      .photo {
+          position: relative;
+          left: 30px;
+          top: -30px;
+      }
+
+      .photo:hover {
+          top: 2px;
+      }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <div class="photo">
+    <img src="images/timg1.jpg" />
+  </div>
+  <h3>
+    孙悟空是中国著名的神话人物之一,
+    孙悟空生性聪明、活泼、忠诚、嫉恶如仇，
+    在民间文化中代表了机智、勇敢。
+  </h3>
+</div>
+</body>
+</html>

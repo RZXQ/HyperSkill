@@ -1,0 +1,86 @@
+<!-- 请实现小球碰壁反弹的效果(如图所示)。
+已知：外层容器宽度为800px，高度为500px；小球图片宽高各为50px；
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>一码当先</title>
+  <style>
+      #content {
+          width: 800px;
+          height: 500px;
+          background: #DDDDDD;
+          position: relative;
+      }
+
+      div {
+          font-size: 40px;
+          float: left;
+      }
+
+      #left {
+          width: 200px;
+          height: 400px;
+          background: url(imgs/hu.jpg);
+          background-size: 100% 100%;
+      }
+
+      div {
+          width: 200px;
+          height: 400px;
+      }
+
+      #ball {
+          width: 50px;
+          height: 50px;
+          background: url(imgs/ball.png);
+          background-size: 100% 100%;
+          position: absolute;
+      }
+  </style>
+
+</head>
+
+<body>
+<div id="content">
+  <div id="left">
+
+  </div>
+  <div style="width:300px;">
+    去吧！皮卡丘!
+  </div>
+
+  <div id="ball">
+
+  </div>
+</div>
+</body>
+<script>
+  var ball = document.getElementById('ball');
+  // 在下方写你的代码：设定水平和垂直方向的最大距离
+
+  // 预留代码：小球碰壁反弹
+  var l = ball.offsetLeft;
+  var t = ball.offsetTop;
+  var speedX = 5;
+  var speedY = 5;
+  setInterval(function() {
+    l += speedX;
+    t += speedY;
+    if (l >= maxWidth) {
+      speedX *= -1;
+    } else if (l <= 0) {
+      speedX *= -1;
+    }
+    if (t >= maxHeight) {
+      speedY *= -1;
+    } else if (t <= 0) {
+      speedY *= -1;
+    }
+    ball.style.left = l + 'px';
+    ball.style.top = t + 'px';
+  }, 10);
+</script>
+</html>

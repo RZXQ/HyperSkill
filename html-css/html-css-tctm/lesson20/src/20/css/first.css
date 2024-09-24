@@ -1,0 +1,185 @@
+*, a {
+    font-family: "微软雅黑";
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    color: #333;
+}
+
+#adv {
+    width: 1350px;
+    height: 450px;
+    background: url(../imgs/imga/show.jpg);
+    background-size: 110% 100%;
+    position: relative;
+}
+
+marquee {
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    width: 950px;
+    height: 20px;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 5px;
+    font-family: "微软雅黑";
+}
+
+#container {
+    width: 1350px;
+    margin: auto;
+}
+
+#phone li img {
+    border-radius: 10px;
+}
+
+header {
+    width: 1350px;
+    height: 100px;
+    position: relative;
+}
+
+#logo {
+    float: left;
+    width: 300px;
+    height: 100px;
+}
+
+#nav {
+    float: right;
+    width: 1000px;
+    height: 100px;
+    text-align: center;
+}
+
+#nav a {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    margin: 30px 10px;
+    font-size: 16px;
+    line-height: 2;
+    color: #333;
+}
+
+#nav a:hover {
+    color: skyblue;
+}
+
+#nav a:last-child {
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    height: 30px;
+    width: 80px;
+}
+
+#pc > div {
+    float: left;
+}
+
+#pc > div h2 {
+    box-shadow: 0px 0px 10px black;
+    float: left;
+}
+
+#pc > div h2 span {
+    display: inline-block;
+    width: 270px;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#phone p {
+    display: inline-block;
+    border-left: 5px skyblue solid;
+    padding-left: 20px;
+    margin-top: 40px;
+    width: 1200px;
+    height: 30px;
+    font-size: 20px;
+    text-align: left;
+}
+
+#phone {
+    position: relative;
+    width: 1350px;
+    height: 350px;
+    background-color: white;
+    text-align: center;
+}
+
+#phone ul {
+    width: 1350px;
+    height: 380px;
+}
+
+#phone li span {
+    padding: 5px;
+    color: #333;
+}
+
+section {
+    position: relative;
+    width: 1350px;
+    height: 1900px;
+    background-color: lightgray;
+}
+
+footer {
+    background-size: 100% 100%;
+}
+
+#phone li {
+    display: inline-block;
+}
+
+
+#pc {
+    background: url(../imgs/imga/bgm.png) no-repeat;
+    background-position: 70px 50px;
+    background-size: 89%;
+    width: 1350px;
+    height: 1100px;
+}
+
+
+#phone li {
+    width: 110px;
+    height: 160px;
+    margin: 20px 50px;
+}
+
+#logo img {
+    width: 120px;
+    height: 100px;
+    margin: 0px 40px;
+}
+
+
+#content {
+    padding: 50px 70px;
+    width: 1200px;
+}
+
+h2 {
+    width: 270px;
+    height: 470px;
+    margin: 15px;
+}
+
+.game {
+    padding-top: 10px;
+    margin: 140px 0px;
+    text-align: center;
+}
+
+
+footer {
+    height: 100px;
+    background: url(../imgs/imga/footbg.png);
+}

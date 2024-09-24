@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>码到成功</title>
+  <style>
+      #body {
+          width: 1350px;
+          height: 650px;
+          position: relative;
+          background: url(images/f.png);
+          background-size: 100% 100%;
+      }
+
+      #ant {
+          width: 150px;
+          height: 150px;
+          background: url(images/rob.png) no-repeat;
+          background-size: 100% 100%;
+          position: absolute;
+      }
+  </style>
+
+</head>
+
+<body id="body">
+<div id="ant"></div>
+<script>
+  /*完成效果*/
+  var box = document.getElementById('body');
+  var ant = document.getElementById('ant');
+  var maxWidth = 1200;
+  var maxHeight = 500;
+  var l = ant.offsetLeft;
+  var t = ant.offsetTop;
+  var speedX = 5;
+  var speedY = 5;
+  setInterval(function() {
+    l += speedX;
+    t += speedY;
+    if (l >= maxWidth) {
+      speedX *= -1;
+    } else if (l <= 0) {
+      speedX *= -1;
+    }
+    if (t >= maxHeight) {
+      speedY *= -1;
+    } else if (t <= 0) {
+      speedY *= -1;
+    }
+    ant.style.left = l + 'px';
+    ant.style.top = t + 'px';
+  }, 30);
+</script>
+</body>
+</html>

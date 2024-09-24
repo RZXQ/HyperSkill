@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>马上回顾</title>
+  <style>
+      div {
+          width: 250px;
+          height: 150px;
+          background-color: rgb(70, 166, 255);
+      }
+  </style>
+</head>
+<body>
+<div id="nowTime"></div>
+<script>
+  //获取当前时间，显示到div中
+  var newDate = document.getElementById('nowTime');
+  var myDate = new Date();
+  newDate.innerHTML = myDate;
+</script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+#slider {
+    overflow: hidden;
+    margin-top: 70px;
+}
+
+#images {
+    padding: 0;
+    margin: 0;
+    height: 340px;
+    position: relative;
+    left: 0px;
+}
+
+#images li {
+    list-style: none;
+    float: left;
+}
+
+#images li img {
+    width: 100%;
+    height: 320px;
+    border-radius: 50px;
+}
+
+#index {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+#index li {
+    display: inline-block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+    background-color: #3e3e3e;
+    color: white;
+    margin: 0 10px;
+}

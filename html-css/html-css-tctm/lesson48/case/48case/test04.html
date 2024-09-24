@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>码到成功</title>
+  <style>
+      #d1 {
+          width: 500px;
+          height: 400px;
+      }
+  </style>
+</head>
+<body>
+<img id="d1" src="images/npc1_359-1.png" />
+<script>
+  var d1 = document.getElementById('d1');
+  var n = 1;
+  setInterval(function() {
+    n++;
+    if (n > 8) {
+      n = 1;
+    }
+    d1.src = 'images/npc1_359-' + n + '.png';
+  }, 200);
+</script>
+</body>
+</html>
+
+
+
+
+
+

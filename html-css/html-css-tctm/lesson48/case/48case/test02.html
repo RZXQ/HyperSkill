@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <style>
+      #d1 {
+          width: 200px;
+          height: 200px;
+          color: white;
+          font-size: 100px;
+          background: green;
+          text-align: center;
+          line-height: 200px;
+      }
+  </style>
+</head>
+<body>
+<div id="d1">0</div>
+<script>
+  var d1 = document.getElementById('d1');
+  var n = 0;
+  setInterval(function() {
+    n++;
+    d1.innerHTML = n;
+  }, 1000);
+</script>
+</body>
+</html>
+
+
+
+
+
+
