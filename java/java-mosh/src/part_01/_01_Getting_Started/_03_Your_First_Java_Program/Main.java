@@ -1,4 +1,4 @@
-package part1._01_Getting_Started._03_Your_First_Java_Program;
+package part_01._01_Getting_Started._03_Your_First_Java_Program;
 
 public class Main {
 
