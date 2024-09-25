@@ -13,6 +13,7 @@ cards = ['card1.gif', 'card2.gif', 'card3.gif']
 def choose(x, y):
     pass
 
+
 # 请在下方完成选择君主的代码
 
 
