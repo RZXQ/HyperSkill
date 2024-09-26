@@ -27,7 +27,7 @@ Sample Output 1
 
 Hint
 数据规模与约定
-对于 100% 的数据，有 1≤n≤105，1≤k≤108，1≤Li≤10^8(i∈[1,n])。
+对于 100% 的数据，有 1≤n≤10^5，1≤k≤10^8，1≤Li≤10^8(i∈[1,n])。
 */
 using namespace std;
 #include <iostream>
