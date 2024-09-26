@@ -2,7 +2,7 @@ package part_01._02_Types._16_Reading_Input;
 
 import java.util.Scanner;
 
-public class Main {
+public class _16_Reading_Input {
 
 	public static void main(String[] args) {
 		// Read input from the terminal (System.in)

@@ -1,6 +1,6 @@
 package part_01._02_Types._10_Constants;
 
-public class Main {
+public class _10_Constants {
 
 	public static void main(String[] args) {
 		// Define a constant

@@ -2,7 +2,7 @@ package part_01._02_Types._08_Arrays;
 
 import java.util.Arrays;
 
-public class Main {
+public class _08_Arrays {
 
 	public static void main(String[] args) {
 		// Initialize and modify the first array

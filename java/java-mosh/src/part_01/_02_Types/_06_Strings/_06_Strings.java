@@ -1,6 +1,6 @@
 package part_01._02_Types._06_Strings;
 
-public class Main {
+public class _06_Strings {
 
 	public static void main(String[] args) {
 		// Initialize string

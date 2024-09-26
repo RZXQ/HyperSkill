@@ -1,6 +1,6 @@
 package part_01._02_Types._12_Order_of_Operations;
 
-public class Main {
+public class _12_Order_of_Operations {
 
 	public static void main(String[] args) {
 		// () > */ > + -

@@ -1,6 +1,6 @@
 package part_01._02_Types._02_Variables;
 
-public class Main {
+public class _02_Variables {
 
 	public static void main(String[] args) {
 		int age = 30;

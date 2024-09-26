@@ -2,7 +2,7 @@ package part_01._02_Types._09_Multi_dimensional_Arrays;
 
 import java.util.Arrays;
 
-public class Main {
+public class _09_Multi_dimensional_Arrays {
 
 	public static void main(String[] args) {
 		// Initialize and modify a 2D array

@@ -2,7 +2,7 @@ package part_01._02_Types._05_Primitive_vs_Reference_Types;
 
 import java.awt.*;
 
-public class Main {
+public class _05_Primitive_vs_Reference_Types {
 
 	public static void main(String[] args) {
 		// 1. primitive type:

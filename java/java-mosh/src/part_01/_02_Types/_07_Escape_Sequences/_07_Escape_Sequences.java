@@ -1,6 +1,6 @@
 package part_01._02_Types._07_Escape_Sequences;
 
-public class Main {
+public class _07_Escape_Sequences {
 
 	public static void main(String[] args) {
 		// Demonstrate escape sequences
