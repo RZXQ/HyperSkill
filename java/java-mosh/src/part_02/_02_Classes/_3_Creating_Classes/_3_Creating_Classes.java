@@ -1,6 +1,6 @@
 package part_02._02_Classes._3_Creating_Classes;
 
-public class _3_Creating_Classes {
+class TextBox {
 
 	public String text; // Field
 
