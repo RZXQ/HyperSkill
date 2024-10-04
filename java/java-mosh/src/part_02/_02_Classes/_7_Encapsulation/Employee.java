@@ -2,9 +2,9 @@ package part_02._02_Classes._7_Encapsulation;
 
 public class Employee {
 
-	public int baseSalary;
+	private int baseSalary;
 
-	public int hourlyRate;
+	private int hourlyRate;
 
 	public void setBaseSalary(int salary) {
 		if (baseSalary <= 0 ) {
