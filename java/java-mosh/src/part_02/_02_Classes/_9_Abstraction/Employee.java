@@ -1,4 +1,4 @@
-package part_02._02_Classes._7_Encapsulation;
+package part_02._02_Classes._9_Abstraction;
 
 public class Employee {
 
@@ -13,11 +13,13 @@ public class Employee {
 		this.baseSalary = baseSalary;
 	}
 
-	public int getBaseSalary() {
+	// abstraction principal: changing from public modifier to private
+	private int getBaseSalary() {
 		return this.baseSalary;
 	}
-
-	public int getHourlyRate() {
+	
+	// abstraction principal: changing from public modifier to private
+	private int getHourlyRate() {
 		return hourlyRate;
 	}
 
