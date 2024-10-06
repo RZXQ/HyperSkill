@@ -2,7 +2,7 @@ package part_02._03_Refactoring_Towards_an_Object_oriented_Design._4_Extracting_
 
 import java.text.NumberFormat;
 
-public class MortgageCalculator {
+public class Main {
 
 	static final byte MONTHS_IN_YEAR = 12;
 	static final byte PERCENT = 100;
