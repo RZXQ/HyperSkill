@@ -1,11 +1,11 @@
 package part_02._02_Classes._15_Static_Members;
 
-/// 1. A class can have two types of members: instance members and static members.
-/// 2. Instance members belong to individual instances (objects) of the class.
-/// 3. Static members belong to the class itself and are shared across all instances of the class.
-///    - Static fields are shared among all objects of the class.
-///    - Static methods can be called on the class itself and can access other static fields and methods directly.
-/// 4. The "main" method is declared as static because the JVM calls it without needing to instantiate an object of the class.
+/// | **Type**        | **Static (Class-Level)**                                | **Non-Static (Instance-Level)**                                        |
+/// |-----------------|--------------------------------------------------------|------------------------------------------------------------------------|
+/// | **Fields**      | One copy shared across all instances.                  | Unique copy for each instance (each instance has its own data).        |
+/// | **Methods**     | One copy, shared and associated with the class. Operates on static data only. | One copy of the code, shared across instances, but operates on instance-specific data, giving unique behavior based on the instance. |
+/// | **Access**      | Accessed via class name directly.                      | Requires an instance of the class to access.                           |
+/// | **Association** | Class itself (not tied to any instance).               | Specific instance (tied to the instance calling it).                   |
 
 public class _15_Static_Members {
 
