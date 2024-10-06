@@ -2,17 +2,12 @@ package part_02._03_Refactoring_Towards_an_Object_oriented_Design._7_Extracting_
 
 import java.text.NumberFormat;
 
-// find usage: option + f7
 public class MortgageReport {
-
-	// highlight usage: command + f7
-	private MortgageCalculator calculator; // Introduce field: option + command + f
-    
-    public MortgageReport(MortgageCalculator calculator) {
-        this.calculator = calculator;
-    }
-    
-    public void printMortgage() {
+	
+	private static MortgageCalculator calculator; // Introduce field: option + command + f
+	
+	public static void printMortgage(int principal, float annualInterest, byte years) {
+		calculator = new MortgageCalculator(principal, annualInterest, years);
 		double mortgage = calculator.calculateMortgage();
 		String mortgageFormatted = NumberFormat.getCurrencyInstance().format(mortgage);
 		System.out.println();
@@ -22,11 +17,11 @@ public class MortgageReport {
 	}
 
 	// change signature: command + f6
-	public void printPaymentSchedule() {
+	public static void printPaymentSchedule(int principal, float annualInterest, byte years) {
 		System.out.println();
 		System.out.println("PAYMENT SCHEDULE");
 		System.out.println("----------------");
-		for (short month = 0; month < calculator.getYears() * Main.MONTHS_IN_YEAR; month++) {
+		for (short month = 0; month < years * Main.MONTHS_IN_YEAR; month++) {
 			double balance = calculator.calculateBalance(month);
 			System.out.println(NumberFormat.getCurrencyInstance().format(balance));
 		}
