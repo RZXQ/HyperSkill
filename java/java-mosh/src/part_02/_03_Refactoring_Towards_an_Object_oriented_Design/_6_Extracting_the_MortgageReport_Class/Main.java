@@ -1,6 +1,6 @@
 package part_02._03_Refactoring_Towards_an_Object_oriented_Design._6_Extracting_the_MortgageReport_Class;
 
-public class MortgageCalculator {
+public class Main {
 
 	static final byte MONTHS_IN_YEAR = 12;
 	static final byte PERCENT = 100;
