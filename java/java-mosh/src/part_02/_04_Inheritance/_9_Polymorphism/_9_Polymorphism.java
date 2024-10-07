@@ -23,7 +23,7 @@ public class _9_Polymorphism {
 	public static void main(String[] args) {
 		// Creating an array of UIControl references, but the actual objects are of
 		// TextBox and Checkbox
-		UIControl[] controls = { new TextBox(), new Checkbox() };
+		UIControl[] controls = { new TextBox(), new CheckBox() };
 
 		for (UIControl control : controls) {
 			// 1. For fields:

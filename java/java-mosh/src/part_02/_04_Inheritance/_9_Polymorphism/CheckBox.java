@@ -1,6 +1,6 @@
 package part_02._04_Inheritance._9_Polymorphism;
 
-public class Checkbox extends UIControl {
+public class CheckBox extends UIControl {
 
 	String label = "Checkbox Label";
 
