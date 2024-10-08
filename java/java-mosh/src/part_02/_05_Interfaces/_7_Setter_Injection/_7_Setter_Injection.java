@@ -9,7 +9,7 @@ public class _7_Setter_Injection {
 		report.show();
 
 		// set another implementation of TaxCalculator
-		report.setCalculator(new TaxCalculator2025());
+		report.setCalculator(new TaxCalculator2025(10_000));
 		report.show();
 	}
 
