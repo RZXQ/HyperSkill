@@ -8,11 +8,8 @@ public class Main {
 		video.setTitle("Jennifer's birthday");
 		video.setUser(new User("john@domain.com"));
 
-		var encoder = new VideoEncoder();
-		var database = new VideoDatabase();
-		var service = new EmailService();
-
-		var processor = new VideoProcessor(encoder, database, service);
+		// pass concreate implementation details as parameters
+		var processor = new VideoProcessor(new XVideoEncoder(), new SqlVideoDatabase(), new EmailService());
 		processor.process(video);
 	}
 

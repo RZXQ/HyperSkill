@@ -2,22 +2,23 @@ package part_02._05_Interfaces._11_Solution;
 
 public class VideoProcessor {
 
-	private Encoder encoder;
+	private VideoEncoder encoder;
 
-	private Database database;
+	private VideoDatabase database;
 
-	private Service service;
+	private NotificationService notificationService;
 
-	public VideoProcessor(Encoder encoder, Database database, Service service) {
+	// constructor dependency injection
+	public VideoProcessor(VideoEncoder encoder, VideoDatabase database, NotificationService notificationService) {
 		this.encoder = encoder;
 		this.database = database;
-		this.service = service;
+		this.notificationService = notificationService;
 	}
 
 	public void process(Video video) {
 		encoder.encode(video);
 		database.store(video);
-		service.sendEmail(video.getUser());
+		notificationService.notify(video.getUser());
 	}
 
 }
