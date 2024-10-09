@@ -21,7 +21,6 @@ package part_02._05_Interfaces._13_Static_Methods;
 ///
 /// 6. **Complicates Unit Testing**: Static methods in interfaces can be difficult to mock or replace during unit testing.
 /// Unlike instance methods, which can be overridden by mocking frameworks, static methods are harder to isolate and can lead to more complex testing scenarios.
-
 public interface TaxCalculator {
 
 	// static double getTaxableIncome(double income, double expenses) {
