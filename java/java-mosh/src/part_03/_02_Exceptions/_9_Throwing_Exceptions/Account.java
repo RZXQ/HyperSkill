@@ -1,8 +1,10 @@
 package part_03._02_Exceptions._9_Throwing_Exceptions;
 
+import java.io.IOException;
+
 public class Account {
 
-	public void deposit(float value) {
+	public void deposit(float value) throws IOException {
 		// This method demonstrates defensive programming by validating input.
 		// Key points:
 		// - Defensive programming involves anticipating and handling potential errors
@@ -14,7 +16,7 @@ public class Account {
 			// Throw an IllegalArgumentException if the deposit amount is zero or
 			// negative.
 			// This is an unchecked exception.
-			throw new IllegalArgumentException("Deposit amount must be positive.");
+			throw new IOException();
 		}
 
 		// Proceed with deposit operation...
