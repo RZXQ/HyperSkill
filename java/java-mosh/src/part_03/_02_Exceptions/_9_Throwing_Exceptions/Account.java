@@ -15,7 +15,6 @@ public class Account {
 		if (value <= 0) {
 			// Throw an IllegalArgumentException if the deposit amount is zero or
 			// negative.
-			// This is an unchecked exception.
 			throw new IOException();
 		}
 
