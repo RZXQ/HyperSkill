@@ -6,4 +6,12 @@ public class User {
 
 	private int count;
 
+	public void add(User item) {
+		items[count++] = item;
+	}
+
+	public User get(int index) {
+		return items[index];
+	}
+
 }
