@@ -1,7 +1,7 @@
 package part_03._03_Generics._4_Generic_Classes;
 
 // T represents Type
-public class GenericsList<T> {
+public class GenericList<T> {
 
 	private T[] list = (T[]) new Object[10];
 
