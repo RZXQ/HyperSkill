@@ -8,6 +8,10 @@ package part_03._03_Generics._12_Wildcards;
 ///    - For example, you might want a method that works with both a list of `User` objects and a list of `Instructor` objects (which are subclasses of `User`). Instead of writing a separate method for each type, you can use a wildcard.
 ///    - **In short**: Wildcards make your code more **general** and **reusable** by allowing it to accept different types while keeping type safety in place.
 ///
+/// 	Wildcards are used when you need to work with a list (or collection) of some related type, like a list of User objects or a list of its subclasses.
+/// 	- ? extends T is for when you need to read from the list.
+/// 	- ? super T is for when you need to add to the list.
+///
 /// 2. **Upper Bounded Wildcard (`? extends T`)**:
 ///    - When we write `? extends User`, it means the list can contain **`User`** objects or **any subclass** of `User`, such as `Instructor`.
 ///    - This is called an **upper bound** because the type is restricted to `User` and anything **below** `User` in the inheritance tree.
