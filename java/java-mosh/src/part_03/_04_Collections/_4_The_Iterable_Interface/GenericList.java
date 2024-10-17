@@ -2,7 +2,7 @@ package part_03._04_Collections._4_The_Iterable_Interface;
 
 import java.util.Iterator;
 
-public class GenericList<T> implements Iterable {
+public class GenericList<T> implements Iterable<T> {
 
 	private T[] list = (T[]) new Object[10];
 
