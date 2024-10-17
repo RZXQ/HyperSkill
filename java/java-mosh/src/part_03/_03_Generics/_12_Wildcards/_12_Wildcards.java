@@ -1,20 +1,20 @@
 package part_03._03_Generics._12_Wildcards;
 
-/// 泛型的上界通配符（upper bounded wildcard）和下界通配符（lower bounded wildcard）
-/// 的确是为了解决泛型在多态方面的限制而存在的。
+/// Upper bounded wildcard (`? extends T`) and lower bounded wildcard (`? super T`)
+/// exist to solve the limitations of polymorphism in generics.
 ///
-/// ## 1. Java 泛型和多态的基本问题
+/// ## 1. Java Generics and Polymorphism
 ///
-/// - 在普通的类层次结构中，Java 支持多态，通过父类引用指向子类对象来处理多种不同的子类类型。
-/// - 但在泛型系统中，由于类型不变性（invariance），这种多态关系无法直接应用到泛型中。
-/// - 因此引入了通配符（Wildcard）来解决这个问题，提供类似于多态的灵活性。
+/// - In regular class hierarchies, Java supports polymorphism, allowing a parent class reference to point to child class objects.
+/// - However, in the generics system, due to type invariance, this polymorphism cannot be directly applied.
+/// - Thus, wildcards (`? extends T` and `? super T`) are introduced to provide flexibility similar to polymorphism.
 ///
-/// ## 2. 上界通配符（`? extends T`）：解决子类的多态问题
+/// ## 2. Upper Bounded Wildcard (`? extends T`): Solving the Polymorphism Problem for Subtypes
 ///
-/// - **作用**：允许使用 `T` 的子类进行泛型传递，提供了泛型中的协变性，即可以读取子类的对象。
-/// - **场景**：当你只需要从泛型集合中读取元素时，使用 `? extends T` 可以让方法接受 `T` 或者 `T` 的子类的集合。
+/// - **Purpose**: Allows using subtypes of `T` in generic types, providing covariance, meaning you can read elements of type `T` or its subtypes.
+/// - **Use case**: When you only need to read elements from a generic collection, using `? extends T` lets the method accept a collection of `T` or its subtypes.
 ///
-/// ### 示例：
+/// ### Example:
 /// ```java
 /// public static void printNumbers(List<? extends Number> list) {
 ///     for (Number num : list) {
@@ -24,46 +24,45 @@ package part_03._03_Generics._12_Wildcards;
 ///
 /// List<Integer> intList = new ArrayList<>();
 /// List<Double> doubleList = new ArrayList<>();
-/// printNumbers(intList);  // 允许传入 List<Integer>
-/// printNumbers(doubleList);  // 允许传入 List<Double>
+/// printNumbers(intList);  // Allowed: List<Integer>
+/// printNumbers(doubleList);  // Allowed: List<Double>
 /// ```
 ///
-/// - **限制**：你不能往 `List<? extends Number>` 中添加元素，因为编译器无法确定具体的类型，它只知道这个元素是 `Number` 或者其子类，但不知道具体是哪一个。
+/// - **Limitation**: You cannot add elements to a `List<? extends Number>` because the compiler cannot determine the exact subtype. It only knows the element is a `Number` or a subtype, but not specifically which one.
 ///
-/// ## 3. 下界通配符（`? super T`）：解决父类的多态问题
+/// ## 3. Lower Bounded Wildcard (`? super T`): Solving the Polymorphism Problem for Supertypes
 ///
-/// - **作用**：允许使用 `T` 的父类进行泛型传递，提供了泛型中的逆变性，即可以向集合中写入 `T` 类型的对象。
-/// - **场景**：当你只需要向泛型集合中添加元素时，使用 `? super T` 可以让方法接受 `T` 或 `T` 的父类的集合。
+/// - **Purpose**: Allows using a parent class of `T` in generics, providing contravariance, meaning you can safely write elements of type `T`.
+/// - **Use case**: When you only need to write elements into a collection, using `? super T` lets the method accept a collection of `T` or any parent class of `T`.
 ///
-/// ### 示例：
+/// ### Example:
 /// ```java
 /// public static void addNumbers(List<? super Integer> list) {
-///     list.add(1);  // 可以添加 Integer 类型
+///     list.add(1);  // Can add Integer types
 /// }
 ///
 /// List<Number> numList = new ArrayList<>();
-/// addNumbers(numList);  // 允许传入 List<Number>
+/// addNumbers(numList);  // Allowed: List<Number>
 /// ```
 ///
-/// - **限制**：你只能安全地向 `List<? super Integer>` 中添加 `Integer` 或其子类，读取时则只能得到 `Object` 类型，因为泛型可以是 `Integer` 的任意父类，
-///   编译器不能确定确切类型。
+/// - **Limitation**: You can only safely add `Integer` or its subtypes to `List<? super Integer>`. When reading elements, they will be treated as `Object` because the compiler cannot determine the exact subtype or supertype.
 ///
-/// ## 4. 泛型列表 vs 简单泛型类
+/// ## 4. Comparing Generic Lists vs Simple Generic Classes
 ///
-/// - **泛型列表**：由于 Java 的泛型列表是不变的，你不能将 `List<Integer>` 赋给 `List<Number>`，因此需要使用通配符来解决多态性问题。使用 `? extends` 可以让方法接收 `T` 的子类。
-/// - **简单泛型类**：泛型类（如 `Box<T>`）的多态性已经通过 Java 的原生多态机制解决了。即使 `T` 是 `Integer` 或 `Double`，也可以通过多态与 `Number` 兼容，无需使用通配符。
+/// - **Generic Lists**: Due to type invariance in Java, you cannot pass `List<Integer>` to a method expecting `List<Number>`. Thus, wildcards are needed to handle polymorphism in these cases. Using `? extends` allows the method to accept `T` and its subtypes.
+/// - **Simple Generic Classes**: Polymorphism in generic classes (such as `Box<T>`) is already solved using Java’s inherent polymorphism. Even if `T` is `Integer` or `Double`, polymorphism with `Number` works without needing wildcards.
 ///
-/// ## 5. 代码对比：泛型列表和简单泛型类
+/// ## 5. Code Comparison: Generic Lists vs Simple Generic Classes
 ///
-/// ### 泛型列表：
+/// ### Generic Lists:
 /// ```java
-/// // 泛型列表中的多态问题：
-/// // 需要通配符来处理子类泛型。
+/// // Polymorphism in generic lists:
+/// // Requires wildcards to handle subtypes.
 ///
 /// List<Integer> intList = new ArrayList<>();
 /// List<Double> doubleList = new ArrayList<>();
-/// printNumbers(intList);  // 允许传入 List<Integer>
-/// printNumbers(doubleList);  // 允许传入 List<Double>
+/// printNumbers(intList);  // Allowed: List<Integer>
+/// printNumbers(doubleList);  // Allowed: List<Double>
 ///
 /// public static void printNumbers(List<? extends Number> list) {
 ///     for (Number num : list) {
@@ -72,15 +71,15 @@ package part_03._03_Generics._12_Wildcards;
 /// }
 /// ```
 ///
-/// ### 泛型类：
+/// ### Generic Classes:
 /// ```java
-/// // 泛型类中的多态问题：
-/// // 无需通配符，直接使用多态机制处理泛型类。
+/// // Polymorphism in generic classes:
+/// // No need for wildcards, handled by standard polymorphism.
 ///
 /// Box<Integer> intBox = new Box<>(42);
 /// Box<Double> doubleBox = new Box<>(3.14);
-/// printBox(intBox);  // 允许传入 Box<Integer>
-/// printBox(doubleBox);  // 允许传入 Box<Double>
+/// printBox(intBox);  // Allowed: Box<Integer>
+/// printBox(doubleBox);  // Allowed: Box<Double>
 ///
 /// public static void printBox(Box<Number> box) {
 ///     System.out.println(box.getValue());
@@ -97,10 +96,10 @@ package part_03._03_Generics._12_Wildcards;
 /// }
 /// ```
 ///
-/// ## 6. 对比总结
+/// ## 6. Summary
 ///
-/// - **泛型列表**：由于**不变性**的限制，必须使用通配符来处理子类类型。
-/// - **简单泛型类**：Java 的原生多态机制已经足够，通配符在这种情况下没有必要。
+/// - **Generic Lists**: Due to type invariance, wildcards are required to handle subtypes.
+/// - **Simple Generic Classes**: Java’s standard polymorphism is sufficient, and wildcards are not necessary in this context.
 public class _12_Wildcards {
 
 	public static void main(String[] args) {
