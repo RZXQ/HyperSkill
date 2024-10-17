@@ -1,6 +1,6 @@
-package part_03._04_Collections._5_The_Iterator_Interface;
+package part_03._04_Collections._4_The_Iterable_Interface;
 
-public class _5_The_Iterator_Interface {
+public class _4_The_Iterable_Interface {
 
 	///
 	/// **Iterators in Java**
@@ -19,11 +19,13 @@ public class _5_The_Iterator_Interface {
 		var list = new GenericList<String>();
 		var iterator = list.iterator();
 
+		// iterator.hasNext()
 		while (iterator.hasNext()) {
 			var current = iterator.next();
 			System.out.println(current);
 		}
 
+		// enhanced for loop
 		for (var item : list) {
 			System.out.println(item);
 		}
