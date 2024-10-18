@@ -100,6 +100,7 @@ of interest to the screen. The text is printed without double quotes.
 
 
 > It is important that **"Hello, World!"** is not a keyword or an identifier; it is just some text to be printed.
+> {style="note"}
 
 ## Keywords
 
