@@ -18,7 +18,6 @@ class Program {
     }
 }
 ```
-
 In the example above the text after `//` is ignored by the compiler.
 
 ## Multi-line comments
