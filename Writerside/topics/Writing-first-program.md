@@ -53,7 +53,7 @@ Now that you have seen the result, let's learn some basic terminology and then t
 The **Hello World** program illustrates the basic elements of Java programs. For now, we will discuss only the most
 important elements.
 
-1. **The** **public class****.** It is the basic unit of a program. Every Java program must have at least one class. The
+1. **The** **public class**. It is the basic unit of a program. Every Java program must have at least one class. The
    definition of a class consists of the `class` keyword followed by the class name. A class can have any name, such as
    `App`, `Main`, or `Program`, but it must not start with a digit. A set of braces `{...}` encloses the body of a
    class.
@@ -67,7 +67,7 @@ public class Main {
 The text after `//` is just a comment, not a part of the program. We will learn about comments in detail in later
 topics.
 
-**2. The** **main method****.** To make the program runnable, we put a method named `main` inside a class, otherwise, it
+**2. The** **main method**. To make the program runnable, we put a method named `main` inside a class, otherwise, it
 will not run. It is the entry point for a Java program. Again, the braces `{...}` enclose the body of the method, which
 contains programming statements.
 
