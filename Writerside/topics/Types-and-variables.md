@@ -12,8 +12,8 @@ DataType variableName = initialization;
 
 The left part of this [statement](https://hyperskill.org/learn/step/3518) describes the variable, and the right part describes something that is assigned to it.
 
-- The **type (**or **data type)** of a variable determines what possible operations can be performed on the variable and which values can be stored in it. Here we use a non-existent data type (**DataType**) to demonstrate the general form of declaration.
-- The **name (**or **identifier)** distinguishes the variable from others. The name of a variable cannot start with a digit; it usually starts with a letter. Always try to choose meaningful and readable names for variables to make your code easy to understand.
+- The **type** (or **data type)** of a variable determines what possible operations can be performed on the variable and which values can be stored in it. Here we use a non-existent data type (**DataType**) to demonstrate the general form of declaration.
+- The **name** (or **identifier)** distinguishes the variable from others. The name of a variable cannot start with a digit; it usually starts with a letter. Always try to choose meaningful and readable names for variables to make your code easy to understand.
 - The **assignment** **operator** denoted as `=` is used to assign a single value or a result of an [expression](https://hyperskill.org/learn/step/3518) to a variable.
 - The **[initialization](https://hyperskill.org/learn/step/3518)** is a value or a result of an expression that is assigned to the variable.
 
@@ -63,7 +63,7 @@ String dayOfWeek = "Monday";
 System.out.println(dayOfWeek); // Monday
 
 dayOfWeek = "Tuesday";
-System.out.println(dayOfWeek); // Tuesday
+        System.out.println(dayOfWeek); // Tuesday
 ```
 
 There is one restriction for variables: you can only assign a value of the same type as the type of the initial variable. So, the following code is not correct:
