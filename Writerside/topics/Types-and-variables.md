@@ -63,7 +63,7 @@ String dayOfWeek = "Monday";
 System.out.println(dayOfWeek); // Monday
 
 dayOfWeek = "Tuesday";
-        System.out.println(dayOfWeek); // Tuesday
+System.out.println(dayOfWeek); // Tuesday
 ```
 
 There is one restriction for variables: you can only assign a value of the same type as the type of the initial variable. So, the following code is not correct:
