@@ -1,4 +1,4 @@
-package part_03._06_Streams._2_Imperative_vs_Functional_Programming;
+package part_03._05_Lambda_Expressions_and_Functional_Interfaces._2_Functional_Interfaces;
 
 public class LambdasDemo {
 
