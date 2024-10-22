@@ -15,7 +15,8 @@ public class LambdasDemo {
 		greet(message -> System.out.println(prefix1 + message));
 
 		greet(message -> System.out.println(prefix2 + message));
-		// this represents the LambdasDemo instance
+		
+		// this keyword represents the current instance of LambdasDemo class
 		greet(message -> System.out.println(this.prefix2));
 
 		greet(message -> System.out.println(prefix3 + message));
