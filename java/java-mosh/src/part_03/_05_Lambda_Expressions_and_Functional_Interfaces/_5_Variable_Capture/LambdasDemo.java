@@ -11,14 +11,14 @@ public class LambdasDemo {
 	}
 
 	public void show() {
-		String prefix3 = "-";
 		greet(message -> System.out.println(prefix1 + message));
 
 		greet(message -> System.out.println(prefix2 + message));
-		
+
 		// this keyword represents the current instance of LambdasDemo class
 		greet(message -> System.out.println(this.prefix2));
 
+		String prefix3 = "-";
 		greet(message -> System.out.println(prefix3 + message));
 	}
 
