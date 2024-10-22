@@ -1,34 +1,33 @@
 package part_03._05_Lambda_Expressions_and_Functional_Interfaces._4_Lambda_Expressions;
 
+/// Lambda expressions are a way to implement functional interfaces in a concise and readable way.
+/// They allow us to define behavior (a method implementation) inline and pass it as an argument.
 public class LambdasDemo {
 
 	public static void show() {
 		// #1. Full version of a lambda expression:
-		// This lambda expression explicitly defines the parameter type (String) and uses
-		// a block body.
+		// In this lambda expression, the parameter type (String) is explicitly declared.
+		// The body of the lambda uses curly braces and contains one or more statements.
 		greet((String message) -> {
 			System.out.println(message);
 		});
 
 		// #2. Simplified version of a lambda expression:
-		// Here, the parameter type is inferred and a single-line expression is used,
-		// removing the need for curly braces.
+		// Here, the parameter type is inferred from the context, so there's no need to
+		// explicitly declare it.
+		// Additionally, since there is only a single expression, curly braces and return
+		// statements are not needed.
 		greet(message -> System.out.println(message));
 
-		// #3. Method reference:
-		// Instead of using a lambda expression, we use a method reference to achieve the
-		// same result.
-		// This is a shorthand that refers to an existing method by name and type.
-		greet(System.out::println);
-
-		// #4. Assign anonymous inner class (as a lambda):
-		// Demonstrating that lambda expressions are objects, we can assign a lambda to a
-		// variable.
+		// #4. Storing a lambda expression in a variable:
+		// A lambda expression can be assigned to a variable that is compatible with the
+		// functional interface type.
+		// Here, the lambda is stored in a variable of type Printer, which matches the
+		// functional interface.
 		Printer printer = message -> System.out.println(message);
 	}
 
 	public static void greet(Printer printer) {
-		// This method accepts a Printer interface and calls its print method.
 		printer.print("Hello World");
 	}
 
