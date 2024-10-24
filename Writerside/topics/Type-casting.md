@@ -4,7 +4,7 @@ Suppose you need to assign a value of one type to a variable of another type. To
 
 ## Implicit casting
 
-The compiler automatically performs **[implicit casting](https://hyperskill.org/learn/step/3510)**when the target type is wider than the source type. The picture below illustrates the direction of this casting. Any value of a given type can be assigned to the one on the right implicitly or below in the case of `char`.
+The compiler automatically performs **[implicit casting](https://hyperskill.org/learn/step/3510)** when the target type is wider than the source type. The picture below illustrates the direction of this casting. Any value of a given type can be assigned to the one on the right implicitly or below in the case of `char`.
 
 ![implicit casting](https://ucarecdn.com/c00fb67e-ba08-44a2-ad8b-0ffbdfe8d642/)
 
